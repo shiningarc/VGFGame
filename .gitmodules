@@ -1,0 +1,6 @@
+[submodule "Assets/Visual_Game_Framework_Core"]
+	path = Assets/Visual_Game_Framework_Core
+	url = https://github.com/eastLaugh/Visual_Game_Framework_Core.git
+[submodule "Assets/Autumn-Unity-Framework"]
+	path = Assets/Autumn-Unity-Framework
+	url = https://github.com/eastLaugh/Autumn-Unity-Framework.git
