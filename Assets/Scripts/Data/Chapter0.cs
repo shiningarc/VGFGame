@@ -10,7 +10,7 @@ namespace VGF.Plot
         {
             BindSceneEvent("Sample Scene", (msg) =>
             {
-                VGF_Player.Instance.transform.position = new Vector3(77, 7, 175);
+                VGF_Player.Instance.transform.position =  GameObject.Find("Æðµã").transform.position;
                 Caption("ÐòÕÂ");
 
             });
