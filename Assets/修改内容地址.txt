@@ -1,0 +1,2 @@
+D:\DeskTop_FromDiskC\VGF\VGFGame\VGFGame\VGFGame\Assets\Visual_Game_Framework_Core\Scripts
+D:\DeskTop_FromDiskC\VGF\VGFGame\VGFGame\VGFGame\Assets\Scripts
