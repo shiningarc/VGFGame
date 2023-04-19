@@ -67,8 +67,8 @@ public class VGF_Player : Singleton<VGF_Player>
         localscale.x = Mathf.Sign(InputX);
         transform.localScale = localscale;
 
-        
-        if(Mathf.Abs(InputX)>0.01f|| Mathf.Abs(InputY)>0.01f)
+
+        if (Mathf.Abs(InputX)>0.01f|| Mathf.Abs(InputY)>0.01f)
         {
             animator.SetFloat("InputX", InputX);
             animator.SetFloat("InputY", InputY);
