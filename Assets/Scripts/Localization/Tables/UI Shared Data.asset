@@ -14,7 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: UI
   m_TableCollectionNameGuidString: 7a55641502ed18b4cb744da4d3a9e419
-  m_Entries: []
+  m_Entries:
+  - m_Id: 44524958666752
+    m_Key: Menu_New_Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50386834051072
+    m_Key: Reading_Files
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50850875068416
+    m_Key: Game_Information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51275787423744
+    m_Key: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51509686980608
+    m_Key: Quit
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

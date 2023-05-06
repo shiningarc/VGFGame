@@ -46,6 +46,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 7ff1c4d9346a4c1459f57a25e0a126c7, type: 2}
   - {fileID: 11400000, guid: 9d33abe99e730f04689f05ea0429ee59, type: 2}
   - {fileID: 11400000, guid: 648099fd68fc55a4fa65a8f8125775e1, type: 2}
+  - {fileID: 11400000, guid: db599c8059c29db468db869e0fb132c1, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -90,6 +91,7 @@ MonoBehaviour:
     - Locale
     - Locale-zh-Hans
     - Preload
+    - Locale-en
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 8189b0849a3687142ae453c58f154d15, type: 2}
