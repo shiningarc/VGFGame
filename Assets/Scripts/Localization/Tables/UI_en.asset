@@ -40,6 +40,43 @@ MonoBehaviour:
     m_Localized: Quit
     m_Metadata:
       m_Items: []
+  - m_Id: 1150315379838976
+    m_Localized: This Demo is made by Zhang Muqing, Wu Zhehao, Zhang Wangyang, Huo
+      Ran, Gu Haowen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1150653574959104
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1150845464367104
+    m_Localized: Return
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1151057868115968
+    m_Localized: Full screen or not
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1151182132760576
+    m_Localized: Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1151396331671552
+    m_Localized: Volume size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1151593002586112
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1152021387825152
+    m_Localized: YES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1152212148965376
+    m_Localized: NO
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds:
