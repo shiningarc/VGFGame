@@ -45,5 +45,10 @@ namespace VGF.NPC
             HintLoader.Instance.HintOff();
             canSay = false;
         }
+
+        public void OnInteract()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
