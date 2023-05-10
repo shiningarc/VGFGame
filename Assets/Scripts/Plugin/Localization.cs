@@ -14,7 +14,7 @@ public class Localization : MonoBehaviour
 
     void Start()
     {
-        // SelectedLocaleAsync will ensure that the locales have been initialized and a locale has been selected.
+        // SelectedLocaleAsync将确保区域设置已经初始化，并且已经选择了一个区域设置。
         m_InitializeOperation = LocalizationSettings.SelectedLocaleAsync;
         if (m_InitializeOperation.IsDone)
         {
