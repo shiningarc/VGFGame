@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Area
   - Point
+  - Car
   layers:
   - Default
   - TransparentFX
@@ -45,4 +46,7 @@ TagManager:
     locked: 0
   - name: Instance
     uniqueID: 3147307111
+    locked: 0
+  - name: Words
+    uniqueID: 892847399
     locked: 0

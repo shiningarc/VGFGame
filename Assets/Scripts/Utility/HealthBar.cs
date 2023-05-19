@@ -12,6 +12,7 @@ public class HealthBar : MonoBehaviour
     public int MaxHP = 100;
     public Image healthBarUI;
     public UnityEvent OnDie;
+    
     void Start()
     {
         healthBarUI.fillAmount = 1;
@@ -33,7 +34,7 @@ public class HealthBar : MonoBehaviour
         }
         else if(Damage < 0)
         {
-            if(HP-Damage >= MaxHP)
+            if(HP-Damage <= MaxHP)
             {
                 TargetHP = HP - Damage;
             }

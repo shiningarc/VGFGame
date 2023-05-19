@@ -23,11 +23,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 461404393472
-    m_Localized: Reading files
+    m_Localized: Load
     m_Metadata:
       m_Items: []
   - m_Id: 557831442432
-    m_Localized: Information
+    m_Localized: INFO
     m_Metadata:
       m_Items: []
   - m_Id: 719874183168
@@ -44,7 +44,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1243512066048
-    m_Localized: Settings
+    m_Localized: Back
     m_Metadata:
       m_Items: []
   - m_Id: 1309731737600

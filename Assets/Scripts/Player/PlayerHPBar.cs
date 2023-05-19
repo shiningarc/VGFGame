@@ -2,9 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class PlayerHPBar : HealthBar
 {
+    public Text healthBarText;
+   
     private void Awake()
     {
         EventHandler.NewGame += Init;
@@ -24,7 +26,10 @@ public class PlayerHPBar : HealthBar
         EventHandler.PlayerDie += TurnToDeadScene;
         EventHandler.DoDamage2Player += DoDamage;
     }
-    
+    private void Update()
+    {
+        healthBarText.text = $"{HP}/{MaxHP}";
+    }
     public void OnPlayerDie()
     {
         EventHandler.CallPlayerDie();

@@ -2796,7 +2796,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u65B0\u7684\u6545\u4E8B"
+  m_Text: "\u65B0\u7684\u6E38\u620F"
 --- !u!222 &721487256
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5666,7 +5666,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0

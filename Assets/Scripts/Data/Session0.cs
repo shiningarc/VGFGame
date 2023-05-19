@@ -12,15 +12,39 @@ namespace VGF.Plot
             {
                 VGF_Player_2D.Instance.transform.position =  GameObject.Find("Origin_City").transform.position;
                 //Caption("序章");
-                Word("[v 3]唔~~[Halt 2]多么美好的一天啊");
-                Word("[v 1]啊不对");
-                Word("[v 1]得快到银行去");
+                Word("[v 5]唔~~[Halt 2][v 10]多么美好的一天啊");
+                Word("[v 10]啊不对");
+                Word("[v 10]得快到<color=red>银行</color>去");
                 at("Alex").Interactive(() =>
                 {
                     Debug.Log("Say");
-                    at("Alex").Say("你好");
-                });
+                    at("Alex").Say("别打扰我");
 
+                })
+                .Interactive(() =>
+                {
+                    at("Alex").Say("我要生气咯");
+                })
+                .Interactive(() =>
+                {
+                    at("Alex").Say("我真的要生气咯");
+                })
+                .Interactive(() =>
+                {
+                    Word("[v 10]<size=60><color=red>扣你10点血</color></size>");
+                    EventHandler.CallDoDamage2Player(10);
+                },true);
+
+                at("Blake").Interactive(() =>
+                {
+                    Word("你好");
+                },true);
+                Arrival("人行道前", (msg) =>
+                {
+                    Debug.Log("2333");
+                    Word("咻————[halt 1 v 10]一辆辆汽车疾驰而过。让你感到有些紧张");
+                });
+                AutoSave();
             });
             BindSceneEvent("The Bank", (msg) =>
             {
@@ -30,6 +54,7 @@ namespace VGF.Plot
 
             });
             SceneMove("The Modern City");
+            
         }
     }
 }
