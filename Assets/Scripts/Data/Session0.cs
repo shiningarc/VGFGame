@@ -10,11 +10,31 @@ namespace VGF.Plot
     {
         public override void Run()
         {
+
+
             BindSceneEvent("The Modern City", (msg) =>
             {
+<<<<<<< Updated upstream
                 SetSkillAvaliable("Dash",true);
                 SetSkillAvaliable("Heal", true);
                 VGF_Player_2D.Instance.transform.position =  GameObject.Find("Origin_City").transform.position;
+=======
+
+
+
+                WaitThen(1f, () =>
+                {
+                    OptZone.Show(at("Player").gameObject.transform, new string[] { "你叫什么名字？", "你是谁？", "无视他" }, (i) =>
+                                    {
+                                        OptZone.Show(at("Player").gameObject.transform, new string[] { "你多大了", "你在哪里出生", "你要干嘛" }, (i) =>
+                                            {
+
+                                            });
+                                    });
+                });
+
+                VGF_Player_2D.Instance.transform.position = GameObject.Find("Origin_City").transform.position;
+>>>>>>> Stashed changes
                 //Caption("序章");
                 Word("[v 5]唔~~[Halt 2][v 10]多么美好的一天啊");
                 Word("[v 10]啊不对");
@@ -37,11 +57,12 @@ namespace VGF.Plot
                 {
                     Word("[v 10]<size=60><color=red>扣你10点血</color></size>");
                     EventHandler.CallDoDamage2Player(10);
-                },true);
+                }, true);
 
                 at("Blake").Interactive(() =>
                 {
                     Word("你好");
+<<<<<<< Updated upstream
                     Word("你有银行卡吗");
                     Word("能借我一下吗~~~~");
                     
@@ -57,6 +78,9 @@ namespace VGF.Plot
                     });
                 });
                 
+=======
+                }, true);
+>>>>>>> Stashed changes
                 Arrival("人行道前", (msg) =>
                 {
                     Debug.Log("2333");
@@ -73,7 +97,7 @@ namespace VGF.Plot
                 
             });
             SceneMove("The Modern City");
-            
+
         }
     }
 }
