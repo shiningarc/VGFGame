@@ -121,8 +121,9 @@ public class OptZone : MonoBehaviour
                     allsequence.OnRewind(() =>
                     {
                         allsequence.Kill();
+                        int tmp = OptionList.IndexOf(obj);
                         Clear();
-                        Callback?.Invoke(OptionList.IndexOf(obj));
+                        Callback?.Invoke(tmp);
                     });
                 });
             }

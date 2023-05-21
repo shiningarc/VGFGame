@@ -14,11 +14,24 @@ namespace VGF.Plot
 
             BindSceneEvent("The Modern City", (msg) =>
             {
-<<<<<<< Updated upstream
-                SetSkillAvaliable("Dash",true);
+
+                at("Fire Hydrant ").Interactive(() =>
+                {
+                    OptZone.Show(at("Fire Hydrant ").gameObject.transform, new string[] { "打开", "关闭", "直接破坏", "踢一脚" }, (i) =>
+                    {
+                        if (true)
+                        {
+                            OptZone.Show(at("Fire Hydrant ").gameObject.transform, new string[] { i.ToString(), "2", "3", "4" }, null);
+                        }
+
+                    });
+
+                });
+
+
+                SetSkillAvaliable("Dash", true);
                 SetSkillAvaliable("Heal", true);
-                VGF_Player_2D.Instance.transform.position =  GameObject.Find("Origin_City").transform.position;
-=======
+                VGF_Player_2D.Instance.transform.position = GameObject.Find("Origin_City").transform.position;
 
 
 
@@ -34,7 +47,6 @@ namespace VGF.Plot
                 });
 
                 VGF_Player_2D.Instance.transform.position = GameObject.Find("Origin_City").transform.position;
->>>>>>> Stashed changes
                 //Caption("序章");
                 Word("[v 5]唔~~[Halt 2][v 10]多么美好的一天啊");
                 Word("[v 10]啊不对");
@@ -62,11 +74,10 @@ namespace VGF.Plot
                 at("Blake").Interactive(() =>
                 {
                     Word("你好");
-<<<<<<< Updated upstream
                     Word("你有银行卡吗");
                     Word("能借我一下吗~~~~");
-                    
-                }).Interactive(()=>
+
+                }).Interactive(() =>
                 {
                     AssignItem(1002, 1, true, (msg) =>
                     {
@@ -77,10 +88,7 @@ namespace VGF.Plot
                         }, true);
                     });
                 });
-                
-=======
-                }, true);
->>>>>>> Stashed changes
+
                 Arrival("人行道前", (msg) =>
                 {
                     Debug.Log("2333");
@@ -94,7 +102,7 @@ namespace VGF.Plot
                 SetSkillAvaliable("Dash", false);
                 //Caption("序章");
                 Word("得快去取钱");
-                
+
             });
             SceneMove("The Modern City");
 
