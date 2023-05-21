@@ -1,4 +1,5 @@
 using DG.Tweening;
+
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,17 +7,23 @@ using System.Threading;
 using UnityEngine;
 
 public class Car : MonoBehaviour
-{
-    public Transform LeftBorder;
-    public Transform RightBorder;
-    public Transform Warning_Sign;
+{ 
+    public Transform Warning_Sign_LR;
+    public Transform Warning_Sign_U;
+    public Transform Warning_Sign_B;
     public CarDirection carDirection;
+    public CarDirection InitDirection;
+    public Transform InitPoint;
     public List<Sprite> sprites;
     public int speed;
     private float timer;
     private float setTimer;
     private Rigidbody2D rb;
     private SpriteRenderer sr;
+    private Transform CurrentWarning;
+    private Transform CurrentTarget;
+    private int CurrentTargetIndex;
+    private BoxCollider2D coll;
     public bool warning;
     
     public enum CarDirection
@@ -26,7 +33,7 @@ public class Car : MonoBehaviour
 
     public enum CarStates
     {
-        Starting,Running,Stoping,Restarting,Ending,Waiting
+        Starting,Running,Stoping,Restarting,Ending,Waiting,Turning
     }
     public FSM<CarStates> fsm = new FSM<CarStates>();
     /*private void OnGUI()
@@ -44,41 +51,36 @@ public class Car : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponent<SpriteRenderer>();
+        coll = GetComponent<BoxCollider2D>();  
         FSMInit();
         //FSMInit();
         fsm.ChangeState(CarStates.Starting); 
+        
     }
     public void FSMInit()
     {
 
         fsm.State(CarStates.Starting).OnEnter(() =>
         {
-            sr.sprite = sprites[Random.Range(0, sprites.Count)];
-            gameObject.SetActive(true);
+            //sr.sprite = sprites[Random.Range(0, sprites.Count)];
             speed = Random.Range(10, 16);
             //int rand = Random.Range(0, 2);
-            if (carDirection == CarDirection.Right)
-            {
-                transform.position = LeftBorder.position;
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
-                rb.velocity = new Vector2(speed, 0);
-            }
-            else if (carDirection == CarDirection.Left)
-            {
-                transform.position = RightBorder.position;
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
-                rb.velocity = new Vector2(-speed, 0);
-            }           //gameObject.SetActive(true);
+            carDirection = InitDirection;
+            transform.position = InitPoint.transform.position;
+            ChangeCarDirection();
+
             fsm.ChangeState(CarStates.Running);
         });
+        fsm.State(CarStates.Turning).OnEnter(() =>
+        {
+            ChangeCarDirection();
+            fsm.ChangeState(CarStates.Running);
+        });
+        
         fsm.State(CarStates.Running)
         .OnFixedUpdate(() =>
         {
-            if (transform.position.x < LeftBorder.position.x || transform.position.x > RightBorder.position.x)
-            {
-                fsm.ChangeState(CarStates.Ending);
-            }
-            else if (warning)
+            if (warning)
             {
                 fsm.ChangeState(CarStates.Stoping);
             }
@@ -88,7 +90,10 @@ public class Car : MonoBehaviour
 
         fsm.State(CarStates.Stoping).OnEnter(() =>
         {
-            StartCoroutine(SpeedDownX(rb));
+            if (carDirection == CarDirection.Left || carDirection == CarDirection.Right)
+                StartCoroutine(SpeedDownX(rb));
+            else
+                StartCoroutine(SpeedDownY(rb));
         })
         .OnFixedUpdate(() =>
         {
@@ -97,13 +102,16 @@ public class Car : MonoBehaviour
 
         fsm.State(CarStates.Waiting).OnEnter(() =>
         {
-            setTimer = Random.Range(0, 10) / 10.0f;
+            setTimer = Random.Range(7, 15) / 15.0f;
             timer = 0;
         }).OnFixedUpdate(() =>
         {
             timer = timer + Time.deltaTime;
             if (warning)
+            {
                 fsm.ChangeState(CarStates.Stoping);
+
+            }                
             else if (timer > setTimer)
                 fsm.ChangeState(CarStates.Restarting);
 
@@ -111,9 +119,18 @@ public class Car : MonoBehaviour
 
         fsm.State(CarStates.Restarting).OnEnter(() =>
         {
-
-            int direction = carDirection == CarDirection.Right ? 1 : -1;
-            StartCoroutine(SpeedUpX(rb, speed * direction));
+            if(carDirection == CarDirection.Left|| carDirection == CarDirection.Right)
+            {
+                int direction = carDirection == CarDirection.Right ? 1 : -1;
+                StartCoroutine(SpeedUpX(rb, speed * direction));
+            }
+            else
+            {
+                int direction = carDirection == CarDirection.Up ? 1 : -1;
+                StartCoroutine(SpeedUpY(rb, speed * direction));
+            }
+            
+           
         })
         .OnFixedUpdate(() =>
         {
@@ -121,13 +138,9 @@ public class Car : MonoBehaviour
             {
                 fsm.ChangeState(CarStates.Stoping);
             }
-            else if (Mathf.Abs(rb.velocity.x) > speed - 0.5f)
+            else if (rb.velocity.magnitude > speed - 0.5f)
             {
                 fsm.ChangeState(CarStates.Running);
-            }
-            else if (transform.position.x < LeftBorder.position.x || transform.position.x > RightBorder.position.x)
-            {
-                fsm.ChangeState(CarStates.Ending);
             }
         });
         fsm.State(CarStates.Ending).OnEnter(() =>
@@ -137,51 +150,127 @@ public class Car : MonoBehaviour
 
 
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("TurningPoint"))
+        {
+            TurningPoint turningPoint = other.GetComponent<TurningPoint>();
+            if (turningPoint.rightDirection == carDirection)
+            {
+                var carDirectionList = other.GetComponent<TurningPoint>().GetDirections();
+                carDirection = carDirectionList[Random.Range(0, carDirectionList.Count)];
+                fsm.ChangeState(CarStates.Turning);
+                //transform.position = other.transform.position;
+            }
+        }
+        else if(other.CompareTag("Edge"))
+        {
+            fsm.ChangeState(CarStates.Ending);
+        }
+    }
+
+
+    public void ChangeCarDirection()
+    {
+        if (carDirection == CarDirection.Right)
+        {
+            sr.sprite = sprites[0];
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
+            rb.velocity = new Vector2(speed, 0);
+            coll.size = new Vector2(3f, 0.93f);
+            CurrentWarning = Warning_Sign_LR;
+        }
+        else if (carDirection == CarDirection.Left)
+        {
+            sr.sprite = sprites[0];
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
+            rb.velocity = new Vector2(-speed, 0);
+            coll.size = new Vector2(3f, 0.93f);
+            CurrentWarning = Warning_Sign_LR;
+        }           //gameObject.SetActive(true);
+        else if (carDirection == CarDirection.Up)
+        {
+            sr.sprite = sprites[1];
+            //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
+            rb.velocity = new Vector2(0, speed);
+            coll.size = new Vector2(1.15f, 2f);
+            CurrentWarning = Warning_Sign_U;
+        }
+        else if (carDirection == CarDirection.Down)
+        {
+            sr.sprite = sprites[2];
+            //transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
+            rb.velocity = new Vector2(0, -speed);
+            coll.size = new Vector2(1.15f, 2f);
+            CurrentWarning = Warning_Sign_B;
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.CompareTag("Player") && Mathf.Abs(rb.velocity.x) > 3f)
+        if (collision.collider.gameObject.CompareTag("Player") && rb.velocity.magnitude > 5f)
         {
             var rb_player= collision.collider.GetComponent<Rigidbody2D>();
             var vgf_player = collision.collider.GetComponent<VGF_Player_2D>();
             vgf_player.enabled = false;
-            rb_player.velocity = new Vector2(rb.velocity.x * 4, 0f);
+            rb_player.velocity = rb.velocity * 4f;
             rb.velocity = Vector2.zero;
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
            
-            StartCoroutine(SpeedDownPlayerX(rb_player));  
+            StartCoroutine(SpeedDownPlayer(rb_player));  
             
             collision.collider.enabled = false;
 
             EventHandler.CallDoDamage2Player(1000);
         }
     }
-
+    #region ¼Ó¼õËÙ
     IEnumerator SpeedDownX(Rigidbody2D rb)
     {
         while(fsm.CurrentState == CarStates.Stoping)
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.5f),rb.velocity.y); 
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.6f),rb.velocity.y); 
             yield return new WaitForSeconds(0.2f);
         }
         yield break;
     }
-    IEnumerator SpeedDownPlayerX(Rigidbody2D rb)
-    {
-        while (Mathf.Abs(rb.velocity.x) > 0)
-        {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.5f), rb.velocity.y);
-            yield return new WaitForSeconds(0.2f);
-        }
-        yield break;
-    }
-    IEnumerator SpeedUpX(Rigidbody2D rb,float targetV)
+    IEnumerator SpeedUpX(Rigidbody2D rb, float targetV)
     {
         while (fsm.CurrentState == CarStates.Restarting)
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, targetV, 0.5f), rb.velocity.y);
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, targetV, 0.4f), rb.velocity.y);
             yield return new WaitForSeconds(0.2f);
         }
         yield break;
     }
+    IEnumerator SpeedUpY(Rigidbody2D rb, float targetV)
+    {
+        while (fsm.CurrentState == CarStates.Restarting)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Lerp(rb.velocity.y, targetV, 0.4f));
+            yield return new WaitForSeconds(0.2f);
+        }
+        yield break;
+    }
+    IEnumerator SpeedDownY(Rigidbody2D rb)
+    {
+        while (fsm.CurrentState == CarStates.Stoping)
+        {
+            rb.velocity = new Vector2(rb.velocity.x , Mathf.Lerp(rb.velocity.y, 0, 0.6f));
+            yield return new WaitForSeconds(0.2f);
+        }
+        yield break;
+    }
+    
+    IEnumerator SpeedDownPlayer(Rigidbody2D rb)
+    {
+        while (rb.velocity.magnitude > 0)
+        {
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.5f), Mathf.Lerp(rb.velocity.y, 0, 0.5f));
+            yield return new WaitForSeconds(0.2f);
+        }
+        yield break;
+    }
+    #endregion
 
     // Update is called once per frame
     void Update()
@@ -191,9 +280,17 @@ public class Car : MonoBehaviour
     private void FixedUpdate()
     {
         fsm.FixedUpdate();
-
-        warning = Physics2D.OverlapBoxAll(Warning_Sign.position, new Vector2(3.7f, 1.2f),0f)
-                      .Where((i) => { return i.CompareTag("Car") || i.CompareTag("Player"); }).Count() > 0;
+        if(carDirection == CarDirection.Left || carDirection == CarDirection.Right)
+        {
+            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(3.6f,1.15f),0)
+                      .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
+        }
+        else
+        {
+            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(1.15f, 2.8f), 0)
+                      .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
+        }
+        
 
     }
 }

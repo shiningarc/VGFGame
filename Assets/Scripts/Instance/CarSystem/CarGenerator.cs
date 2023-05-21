@@ -9,8 +9,8 @@ public class CarGenerator : MonoBehaviour
     private int index;
     private float timer;
     private float setTimer;
-    public Transform LeftBorder;
-    public Transform RightBorder;
+    public int minTime;
+    public int maxTime;
     void Start()
     {
         timer = 0;
@@ -22,23 +22,17 @@ public class CarGenerator : MonoBehaviour
     {
         if(timer >= setTimer)
         {
-            setTimer = Random.Range(1, 2);
+            setTimer = Random.Range(minTime, maxTime);
             timer = 0;
             for(int i = 0; i < cars.Count; i++)
             {
                 if (!cars[i].gameObject.activeInHierarchy)
                 {
-                    CarInit(cars[i]);
                     cars[i].gameObject.SetActive(true);
                     break;
                 }
             }
         }
         timer = timer + Time.deltaTime;
-    }
-    void CarInit(Car car)
-    {
-        car.LeftBorder = LeftBorder;
-        car.RightBorder = RightBorder;
     }
 }

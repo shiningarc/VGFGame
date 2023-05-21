@@ -1,45 +1,117 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class SkillSystem : MonoBehaviour
 {
     public SkillList_SO skillList_SO;
     public int displayNum;
     private int displayCnt;
-    public List<GameObject> skillSlots;
+    //public List<GameObject> skillSlots;
+    public SkillUI skillUI;
+
+    private static Dictionary<Skill, Action> SkillDic = new Dictionary<Skill, Action>();
+
+    private static Action<string> OnSkillRelease;
+    private static Action<string> OnSkillUnlocked;
+    private  static  Action<string,bool> OnSkillChangeAvalibility;
     public void Start()
     {
         EventHandler.NewGame += Init;
-        EventHandler.OnSkillRelease += CoolSkill;
+        OnSkillRelease += CoolSkill;
+        OnSkillChangeAvalibility += SetAvaliable;
     }
     private void OnDestroy()
     {
         EventHandler.NewGame -= Init;
-        EventHandler.OnSkillRelease -= CoolSkill;
+        OnSkillRelease -= CoolSkill;
+        OnSkillChangeAvalibility -= SetAvaliable;
     }
     private void Init()
     {
-        DataCollection.LoadSkills(skillList_SO.SkillsPrefab);
+        LoadSkills(skillList_SO.SkillsPrefab);
         displayCnt = 0;
-        foreach (var Skillset in DataCollection.SkillDic.Where(skill => skill.Key.Unlocked))
-        {
-            if (displayCnt < displayNum)
-            {
-                
-                skillSlots[displayCnt].GetComponent<SkillSlot>().RefreshUI(Skillset.Key);
-                skillSlots[displayCnt].SetActive(true);
-                displayCnt++;
-            }
-        }
+        skillUI.InitUI(skillList_SO.SkillsPrefab);
     }
+
     private void CoolSkill(string name)
     {
-        var skillSlot = skillSlots.Find((i) => { return i.GetComponent<SkillSlot>().skillName == name; }).GetComponent<SkillSlot>();
-        skillSlot.Cool();
+        skillUI.CoolSkill(name);
     }
+
+    public static void UnlockSkill(string name)
+    {
+        var skill = SearchSkill(name);
+        skill.Unlocked = true;
+        OnSkillUnlocked?.Invoke(name);
+    }
+
+    public static void SetSkillAvailable(string name,bool isAvaliable)
+    {
+        var skill = SearchSkill(name);
+        skill.Avaliable = isAvaliable;
+        OnSkillChangeAvalibility?.Invoke(name,isAvaliable);
+    }
+
+    public void SetAvaliable(string name,bool isAvaliable)
+    {
+        skillUI.ChangeSkillAvablility(name,isAvaliable);
+    }
+
+    public void RefreshBarUI()
+    {
+
+    }
+
+    #region 技能目录
+    public static void AddActionToSkillDic(Action action, string name, bool isAdd = true)
+    {
+        var skill = SearchSkill(name);
+        if (skill == null)
+        {
+            Debug.LogError("没有在初始化中加入此技能");
+            return;
+        }
+        if (isAdd)
+            SkillDic[skill] = SkillDic[skill] + action;
+        else if (action != null)
+            SkillDic[skill] = SkillDic[skill] - action;
+    }
+    public static Skill SearchSkill(string name)
+    {
+        foreach (KeyValuePair<Skill, Action> kvp in SkillDic)
+        {
+            if (kvp.Key.Name == name)
+            {
+                return kvp.Key;
+            }
+        }
+        return null;
+    }
+    public void LoadSkills(List<Skill> skills)
+    {
+        SkillDic = new Dictionary<Skill, Action>();
+        for (int i = 0; i < skills.Count; i++)
+        {
+            SkillDic.Add(skills[i], null);
+        }
+    }
+    #endregion
+    public static void ReleaseSkill(string name)
+    {
+        var skill = SearchSkill(name);
+        if (skill == null)
+        {
+            Debug.LogError($"没有在初始化中加入此技能{name}");
+            return;
+        }
+        if (!skill.Avaliable || !skill.Unlocked) return;
+        OnSkillRelease?.Invoke(name);
+        SkillDic[skill]?.Invoke();
+    }
+    
     private void Update()
     {
         
@@ -47,7 +119,10 @@ public class SkillSystem : MonoBehaviour
 
 
     }
+    void Refesh()
+    {
 
+    }
     private void DeInit()
     {
 

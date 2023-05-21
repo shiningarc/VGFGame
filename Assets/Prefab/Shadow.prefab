@@ -100,4 +100,4 @@ MonoBehaviour:
   activeTime: 1
   activeStart: 0
   alphaSet: 1
-  alphaMultiplier: 0.8
+  alphaMultiplier: 0.95

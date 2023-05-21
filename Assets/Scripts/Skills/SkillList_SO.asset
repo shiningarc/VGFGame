@@ -14,12 +14,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkillsPrefab:
   - Name: Dash
-    Description: aaa
+    Description: 
     DurationTime: 2
     Unlocked: 1
-    sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  - Name: Bandage
-    Description: aaa
+    Avaliable: 0
+    sprite: {fileID: 21300000, guid: 61d8af71ddce49247ba3d0b89c3bf9d1, type: 3}
+  - Name: Heal
+    Description: 
     DurationTime: 15
     Unlocked: 1
-    sprite: {fileID: 21300000, guid: 19aceb2347bdb3f4289e6637c569b0c4, type: 3}
+    Avaliable: 1
+    sprite: {fileID: 21300000, guid: d3a212671a99aef4faab183253cbf071, type: 3}
+  - Name: Power Within
+    Description: 
+    DurationTime: 30
+    Unlocked: 0
+    Avaliable: 0
+    sprite: {fileID: 21300000, guid: f3d4632f98d2b044a8c56b3a9322e957, type: 3}
+  - Name: Magic Shield
+    Description: 
+    DurationTime: 15
+    Unlocked: 0
+    Avaliable: 0
+    sprite: {fileID: 21300000, guid: 24500f2885ed5d64ca0a74aedc5275c8, type: 3}
+  - Name: Remedy
+    Description: 
+    DurationTime: 15
+    Unlocked: 0
+    Avaliable: 0
+    sprite: {fileID: 21300000, guid: 5aa6f747d9f370c4b9e4fcee756501f2, type: 3}

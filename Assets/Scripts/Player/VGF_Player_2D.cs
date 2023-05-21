@@ -30,16 +30,16 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        DataCollection.AddActionToSkillDic(ReadyToDash, "Dash");
-        DataCollection.AddActionToSkillDic(Bandage, "Bandage");
+        SkillSystem.AddActionToSkillDic(ReadyToDash, "Dash");
+        SkillSystem.AddActionToSkillDic(Bandage, "Heal");
         lastBandage = Time.time;
         lastDash = Time.time;
     }
     protected override void OnDestroy()
     {
         base.OnDestroy();
-        DataCollection.AddActionToSkillDic(ReadyToDash,"Dash",false);
-        DataCollection.AddActionToSkillDic(Bandage, "Bandage",false);
+        SkillSystem.AddActionToSkillDic(ReadyToDash,"Dash",false);
+        SkillSystem.AddActionToSkillDic(Bandage, "Heal",false);
     }
     private bool _mute = false;
 
@@ -73,13 +73,13 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
         {
             if(Time.time >= lastDash+dashCoolDown && rb2D.velocity.magnitude > 1f)
             {
-                DataCollection.ReleaseSkill("Dash");
+                SkillSystem.ReleaseSkill("Dash");
             }
         }
         if(Input.GetKeyDown(KeyCode.R))
         {
             if(Time.time >= lastBandage + BandageCoolDown)
-                DataCollection.ReleaseSkill("Bandage");
+                SkillSystem.ReleaseSkill("Heal");
         }
         
     }

@@ -9,24 +9,54 @@ public class TrafficControl : MonoBehaviour
     public List<Collider2D> colliders; 
     public float SetTimer;
     float timer;
+    public bool flag;
    
     void Start()
     {
         timer = 0;
     }
 
-   
+
     void Update()
     {
-        if(timer > SetTimer)
+        if (timer > SetTimer)
         {
             timer = 0;
-            for (int i = 0; i < colliders.Count; i++)
-            { 
-                if (colliders[i].enabled)
-                    colliders[i].enabled = false;
-                else colliders[i].enabled = true;
-            }
+        }
+        else if (timer > 12f)
+        {
+            colliders[0].enabled = true;
+            colliders[1].enabled = true;
+            colliders[2].enabled = true;
+            colliders[3].enabled = true;
+        }
+        else if(timer > 7f)
+        {
+            colliders[0].enabled = true;
+            colliders[1].enabled = true;
+            colliders[2].enabled = false;
+            colliders[3].enabled = false;
+        }
+        else if(timer > 5f)
+        {
+            colliders[0].enabled = true;
+            colliders[1].enabled = true;
+            colliders[2].enabled = true;
+            colliders[3].enabled = true;
+        }
+        else if(timer > 0f)
+        {
+            colliders[0].enabled = false;
+            colliders[1].enabled = false;
+            colliders[2].enabled = true;
+            colliders[3].enabled = true;
+        }
+        else
+        {
+            colliders[0].enabled = false;
+            colliders[1].enabled = false;
+            colliders[2].enabled = false;
+            colliders[3].enabled = false;
         }
         timer = timer + Time.deltaTime;
     }

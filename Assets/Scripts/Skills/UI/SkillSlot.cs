@@ -7,8 +7,32 @@ public class SkillSlot : MonoBehaviour
 {
     public string skillName;
     public string skillCoolTime;
+    private bool mIsAvaliable;
+    
+    public bool isAvaliable
+    {
+        get
+        {
+            return mIsAvaliable;
+        }
+        set
+        {
+            mIsAvaliable = value;
+            if(mIsAvaliable)
+            {
+                timer1.StartCnt();
+                unAvaliableImage.enabled = false;
+            }
+            else
+            {
+                unAvaliableImage.enabled = true;
+            }
+        }
+    }
     private TimeCounter timer1;
     public Image skillImage;
+    public Image MaskImage;
+    public Image unAvaliableImage;
 
     void Start()
     {
@@ -20,7 +44,7 @@ public class SkillSlot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        skillImage.fillAmount = timer1.timeCnt / timer1.setTime;
+        MaskImage.fillAmount = 1-timer1.timeCnt / timer1.setTime;
     }
 
     public void RefreshUI(Skill skill)
@@ -28,7 +52,7 @@ public class SkillSlot : MonoBehaviour
         timer1.setTime = skill.DurationTime;
         skillName = skill.Name;
         skillImage.sprite = skill.sprite;
-        timer1.StartCnt();
+        isAvaliable = skill.Avaliable;
     }
 
     public void Cool()

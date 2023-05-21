@@ -2,6 +2,8 @@ using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using VGF.UI;
+
 namespace VGF.Plot
 {
     public class Session0 : SessionBase
@@ -10,6 +12,8 @@ namespace VGF.Plot
         {
             BindSceneEvent("The Modern City", (msg) =>
             {
+                SetSkillAvaliable("Dash",true);
+                SetSkillAvaliable("Heal", true);
                 VGF_Player_2D.Instance.transform.position =  GameObject.Find("Origin_City").transform.position;
                 //Caption("序章");
                 Word("[v 5]唔~~[Halt 2][v 10]多么美好的一天啊");
@@ -38,7 +42,21 @@ namespace VGF.Plot
                 at("Blake").Interactive(() =>
                 {
                     Word("你好");
-                },true);
+                    Word("你有银行卡吗");
+                    Word("能借我一下吗~~~~");
+                    
+                }).Interactive(()=>
+                {
+                    AssignItem(1002, 1, true, (msg) =>
+                    {
+                        Word("非常感谢");
+                        at("Blake").Interactive(() =>
+                        {
+                            Word("非常感谢");
+                        }, true);
+                    });
+                });
+                
                 Arrival("人行道前", (msg) =>
                 {
                     Debug.Log("2333");
@@ -49,9 +67,10 @@ namespace VGF.Plot
             BindSceneEvent("The Bank", (msg) =>
             {
                 VGF_Player_2D.Instance.transform.position = GameObject.Find("BankEntrance").transform.position;
+                SetSkillAvaliable("Dash", false);
                 //Caption("序章");
                 Word("得快去取钱");
-
+                
             });
             SceneMove("The Modern City");
             

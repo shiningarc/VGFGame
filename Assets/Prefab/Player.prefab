@@ -123,6 +123,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  isDashing: 0
+  dashTime: 0
+  dashCoolDown: 0
+  dashSpeed: 0
+  dashFrames: 0
+  BandageCoolDown: 0
+  CDImage: {fileID: 0}
 --- !u!114 &7583793173447888515
 MonoBehaviour:
   m_ObjectHideFlags: 0
