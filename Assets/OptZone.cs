@@ -102,7 +102,7 @@ public class OptZone : MonoBehaviour
             Sequence sequence = DOTween.Sequence();
             sequence.AppendInterval(OptionList.IndexOf(obj) * 0.1f);
             sequence.Append(obj.transform.DOLocalMove(Vector3.zero, TotalTime).From(new Vector3(1000 * Mathf.Cos(angle * Mathf.PI / 180), 1000 * Mathf.Sin(angle * Mathf.PI / 180), 0)).SetEase(Ease.InCubic));
-            sequence.Join(obj.transform.DOScale(new Vector3(1, 1, 1), TotalTime).From(new Vector3(4, 4, 1)).SetEase(Ease.InCubic));
+            sequence.Join(obj.transform.DOScale(new Vector3(1, 1, 1), TotalTime).From(new Vector3(10, 6, 1)).SetEase(Ease.InCubic));
             // sequence.Play();
 
             allsequence.Join(sequence);
@@ -168,9 +168,6 @@ public class OptZone : MonoBehaviour
             rectTransform.pivot = new Vector2(0, 0.5f);
             float rightZ = -90f + 180f / (right + 1) * j;
             rectTransform.eulerAngles = new Vector3(rectTransform.eulerAngles.x, rectTransform.transform.eulerAngles.y, rightZ);
-
-
-
         }
     }
 

@@ -15,18 +15,37 @@ namespace VGF.Plot
             BindSceneEvent("The Modern City", (msg) =>
             {
 
+                #region 消防栓
                 at("Fire Hydrant ").Interactive(() =>
                 {
-                    OptZone.Show(at("Fire Hydrant ").gameObject.transform, new string[] { "打开", "关闭", "直接破坏", "踢一脚" }, (i) =>
+                    at("Fire Hydrant ")
+                    .Opt("轻轻摇晃", () =>
                     {
-                        if (true)
+                        Word("你使劲了全身的力气，灭火栓无动于衷");
+                    })
+                    .Opt("检查灭火器压力表", () =>
+                    {
+                        Caption("压力值 : 30帕");
+                        WaitThen(3f, CapitionEmpty);
+                    })
+                    .Opt("从地上拔起来", () =>
+                    {
+                        Word("......");
+                    })
+                    .Opt("使用灭火器", () =>
+                    {
+                        Word("灭火器上有2个开关，按下那个呢？");
+                        at("Fire Hydrant ")
+                        .Opt("左边", () =>
                         {
-                            OptZone.Show(at("Fire Hydrant ").gameObject.transform, new string[] { i.ToString(), "2", "3", "4" }, null);
-                        }
-
+                            Word("什么都没发生....");
+                        }).Opt("右边", () =>
+                        {
+                            Word("灭火器打开了，喷水了");
+                        });
                     });
-
-                });
+                }, isDefault: true);
+                #endregion
 
 
                 SetSkillAvaliable("Dash", true);
