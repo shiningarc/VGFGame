@@ -110,7 +110,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
         var localscale = transform.localScale;
 
         //根据水平输入轴的值决定玩家的朝向
-        localscale.x = Mathf.Sign(InputX);
+        localscale.x = Mathf.Sign(animator.GetFloat("InputX"));
         transform.localScale = localscale;
     }
     void Bandage()
