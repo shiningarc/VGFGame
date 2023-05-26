@@ -4,7 +4,7 @@ using AutumnFramework;
 using UnityEngine;
 
 
-//该类用于控制游戏中角色的移动、跳跃和动画
+//???????????????锟斤拷?????????????????
 public class VGF_Player : Singleton<VGF_Player>
 {
     public int speed;
@@ -14,7 +14,7 @@ public class VGF_Player : Singleton<VGF_Player>
     Animator animator;
     private bool _mute = false;
     
-    //是否允许旋转
+    //??????????
     public bool Mute
     {
         get
@@ -31,19 +31,19 @@ public class VGF_Player : Singleton<VGF_Player>
         }
     }
 
-    //跳跃状态（空闲、跳跃1、跳跃2）
+    //??????????锟斤拷????1?????2??
     public enum JumpState
     {
         Idle, Jump1, Jump2
     }
 
-    //角色移动方向（前、后、左、右）
+    //????????????????????
     public enum Direction
     {
         Forward, Backward, Left, Right
     }
 
-    //使用FSM来管理跳跃状态
+    //???FSM???????????
     public FSM<JumpState> fsm = new FSM<JumpState>();
     public Direction direction;
     public JumpState state;
@@ -67,20 +67,20 @@ public class VGF_Player : Singleton<VGF_Player>
         fsm.FixedUpdate();
     }
 
-    //角色移动属性获取
+    //????????????
     public void Move()
     {
-        //获取输入方向
+        //?????????
         float InputX = Input.GetAxis("Horizontal");
         float InputY = Input.GetAxis("Vertical");
         
-        //计算并改变移动速度
+        //?????????????
         rb.velocity = new Vector3(InputX * speed, rb.velocity.y, InputY * speed);
         var localscale = transform.localScale;
         localscale.x = Mathf.Sign(InputX);
         transform.localScale = localscale;
 
-        //播放角色的移动动画
+        //???????????????
         if (Mathf.Abs(InputX) > 0.01f || Mathf.Abs(InputY) > 0.01f)
         {
             animator.SetFloat("InputX", InputX);
@@ -92,10 +92,10 @@ public class VGF_Player : Singleton<VGF_Player>
 
     }
 
-    //初始化FSM
+    //?????FSM
     public void JumpStateInit()
     {
-        //初始化站立
+        //????????
         fsm.State(JumpState.Idle).
            OnUpdate(() =>
            {
@@ -106,7 +106,7 @@ public class VGF_Player : Singleton<VGF_Player>
 
            });
 
-        //初始化跳跃1
+        //????????1
         fsm.State(JumpState.Jump1)
             .OnEnter(() =>
             {
@@ -120,7 +120,7 @@ public class VGF_Player : Singleton<VGF_Player>
                     fsm.ChangeState(JumpState.Idle);
             });
 
-        //初始化跳跃2
+        //????????2
         fsm.State(JumpState.Jump2)
             .OnEnter(() =>
             {

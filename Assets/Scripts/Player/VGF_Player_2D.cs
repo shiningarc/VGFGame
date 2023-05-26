@@ -4,7 +4,7 @@ using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
-//¸ÃÀàÓÃÓÚ¿ØÖÆ2DµÄ½ÇÉ«ÒÆ¶¯ºÍ²¥·ÅÒÆ¶¯¶¯»­
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½2Dï¿½Ä½ï¿½É«ï¿½Æ¶ï¿½ï¿½Í²ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½
 public class VGF_Player_2D : Singleton<VGF_Player_2D>
 {
     public int speed;
@@ -12,7 +12,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     Animator animator;
     public bool isDashing;
 
-    [Header("Dash²ÎÊý")]
+    [Header("Dashï¿½ï¿½ï¿½ï¿½")]
     public float dashTime;
     private float dashTimeLeft;
     private float lastDash;
@@ -23,9 +23,9 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
 
     private float lastBandage;
     public float BandageCoolDown;
-    [Header("CDµÄUI×é¼þ")]
+    [Header("CDï¿½ï¿½UIï¿½ï¿½ï¿½")]
     public Image CDImage;
-    //³õÊ¼»¯ÊôÐÔ£¬»ñÈ¡Rigidbody2DºÍAnimator×é¼þ
+    //ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½È¡Rigidbody2Dï¿½ï¿½Animatorï¿½ï¿½ï¿½
     void Start()
     {
         rb2D = GetComponent<Rigidbody2D>();
@@ -43,7 +43,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     }
     private bool _mute = false;
 
-    //ÊÇ·ñÔÊÐíÐý×ª£¬ÊÇ·ñ¿ÉÒÔÔË¶¯
+    //ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½
     public bool Mute
     {
         get
@@ -95,7 +95,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     public void SwithAnim()
     {
         if (isDashing) return;
-        //ÉèÖÃ¶¯»­²ÎÊý²¢²¥·ÅÒÆ¶¯¶¯»­
+        //ï¿½ï¿½ï¿½Ã¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½ï¿½
         if (Mathf.Abs(InputX) > 0.01f || Mathf.Abs(InputY) > 0.01f)
         {
             animator.SetFloat("InputX", InputX);
@@ -109,7 +109,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
         rb2D.velocity = new Vector2(InputX, InputY) * speed;
         var localscale = transform.localScale;
 
-        //¸ù¾ÝË®Æ½ÊäÈëÖáµÄÖµ¾ö¶¨Íæ¼ÒµÄ³¯Ïò
+        //ï¿½ï¿½ï¿½ï¿½Ë®Æ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒµÄ³ï¿½ï¿½ï¿½
         localscale.x = Mathf.Sign(animator.GetFloat("InputX"));
         transform.localScale = localscale;
     }
