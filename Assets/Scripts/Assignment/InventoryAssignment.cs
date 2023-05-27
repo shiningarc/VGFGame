@@ -17,6 +17,8 @@ namespace VGF.Assignment
             Assignment.mItemID = itemID;
             Assignment.mItemAmount = itemAmount;
             Assignment.mIsTaken = isTaken;
+            Assignment.Name = "hhhh";
+            Assignment.Description = "bbkbdvkks";
             return Assignment;
         }
 

@@ -177,31 +177,31 @@ public class Car : MonoBehaviour
             sr.sprite = sprites[0];
             transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             rb.velocity = new Vector2(speed, 0);
-            coll.size = new Vector2(3f, 0.93f);
+            coll.size = new Vector2(4.8f, 1.7f);
             CurrentWarning = Warning_Sign_LR;
         }
         else if (carDirection == CarDirection.Left)
         {
-            sr.sprite = sprites[0];
+            sr.sprite = sprites[1];
             transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             rb.velocity = new Vector2(-speed, 0);
-            coll.size = new Vector2(3f, 0.93f);
+            coll.size = new Vector2(4.8f, 1.7f);
             CurrentWarning = Warning_Sign_LR;
         }           //gameObject.SetActive(true);
         else if (carDirection == CarDirection.Up)
         {
-            sr.sprite = sprites[1];
+            sr.sprite = sprites[2];
             //transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             rb.velocity = new Vector2(0, speed);
-            coll.size = new Vector2(1.15f, 2f);
+            coll.size = new Vector2(2f, 4.5f);
             CurrentWarning = Warning_Sign_U;
         }
         else if (carDirection == CarDirection.Down)
         {
-            sr.sprite = sprites[2];
+            sr.sprite = sprites[3];
             //transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
             rb.velocity = new Vector2(0, -speed);
-            coll.size = new Vector2(1.15f, 2f);
+            coll.size = new Vector2(2f, 4.5f);
             CurrentWarning = Warning_Sign_B;
         }
     }
@@ -282,12 +282,12 @@ public class Car : MonoBehaviour
         fsm.FixedUpdate();
         if(carDirection == CarDirection.Left || carDirection == CarDirection.Right)
         {
-            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(3.6f,1.15f),0)
+            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f),0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
         }
         else
         {
-            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(1.15f, 2.8f), 0)
+            warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(2f, 4.5f), 0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
         }
         

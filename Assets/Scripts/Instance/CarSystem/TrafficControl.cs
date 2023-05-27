@@ -23,21 +23,21 @@ public class TrafficControl : MonoBehaviour
         {
             timer = 0;
         }
-        else if (timer > 12f)
+        else if (timer > 16f)
         {
             colliders[0].enabled = true;
             colliders[1].enabled = true;
             colliders[2].enabled = true;
             colliders[3].enabled = true;
         }
-        else if(timer > 7f)
+        else if(timer > 10f)
         {
             colliders[0].enabled = true;
             colliders[1].enabled = true;
             colliders[2].enabled = false;
             colliders[3].enabled = false;
         }
-        else if(timer > 5f)
+        else if(timer > 6f)
         {
             colliders[0].enabled = true;
             colliders[1].enabled = true;

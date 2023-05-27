@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 0
@@ -11746,10 +11746,10 @@ TextureImporter:
       free_overview_477: -1458145005
       free_overview_70: -444906350
       free_overview_509: -1666406853
-      free_overview_362: -635800231
+      free_overview_105: -1434051314
       free_overview_118: -1146313593
       free_overview_108: 588501264
-      free_overview_105: -1434051314
+      free_overview_362: -635800231
       free_overview_129: 924279869
       free_overview_365: 683245025
       free_overview_452: 869005092

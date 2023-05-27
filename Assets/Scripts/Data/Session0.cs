@@ -98,7 +98,7 @@ namespace VGF.Plot
 
                 }).Interactive(() =>
                 {
-                    AssignItem(1002, 1, true, (msg) =>
+                    AssignItem(1002, 2, true, (msg) =>
                     {
                         Word("非常感谢");
                         at("Blake").Interactive(() =>

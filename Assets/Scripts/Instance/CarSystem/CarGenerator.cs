@@ -6,6 +6,7 @@ using UnityEngine;
 public class CarGenerator : MonoBehaviour
 {
     public List<Car> cars = new List<Car>();
+    public List<Sprite> spriteLists;
     private int index;
     private float timer;
     private float setTimer;
@@ -28,11 +29,22 @@ public class CarGenerator : MonoBehaviour
             {
                 if (!cars[i].gameObject.activeInHierarchy)
                 {
+                    CarInit(cars[i]);
                     cars[i].gameObject.SetActive(true);
+                    
                     break;
                 }
             }
         }
         timer = timer + Time.deltaTime;
+    }
+    public void CarInit(Car car)
+    {
+        car.sprites.Clear();
+        int carType = Random.Range(0, spriteLists.Count/4);
+        for(int i = carType*4; i < carType * 4 + 4; i++)
+        {
+            car.sprites.Add(spriteLists[i]);
+        }
     }
 }
