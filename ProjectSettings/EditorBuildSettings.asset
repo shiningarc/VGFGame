@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/GameMenu.unity
     guid: 26650614a508b2d4baa40fca4a19a6cd
   - enabled: 1
-    path: Assets/Scenes/AreaScene/The Modern City.unity
-    guid: 765e4f1ac2ee22d4cb32aebf8985f0ff
-  - enabled: 1
     path: Assets/Scenes/AreaScene/The Bank.unity
     guid: 4a023fe8238a5dc43b90584c4f4442cb
   - enabled: 1
     path: Assets/Scenes/UI/GameOver.unity
     guid: 48665714b87c9b242a71284ee5f53507
+  - enabled: 1
+    path: Assets/Scripts/The Modern City.unity
+    guid: 554b954ff971f554b814b9a979e1d680
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 4d8a692c91ec1f74ebd0a95819446b85, type: 2}
     com.unity.localization.settings: {fileID: 11400000, guid: f8d9c3b649d42154b8486d5468ac70b6, type: 2}

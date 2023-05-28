@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Car : MonoBehaviour
 { 
@@ -25,7 +26,10 @@ public class Car : MonoBehaviour
     private int CurrentTargetIndex;
     private BoxCollider2D coll;
     public bool warning;
-    
+    public AudioSource carWhistle;
+    public bool playerWarning;
+    private float LastWhistle;
+
     public enum CarDirection
     {
         Left, Right, Up, Down
@@ -215,7 +219,7 @@ public class Car : MonoBehaviour
             rb_player.velocity = rb.velocity * 4f;
             rb.velocity = Vector2.zero;
             rb.constraints = RigidbodyConstraints2D.FreezeAll;
-           
+            SoundManager.Instance.PlaySound(Globals.Crash);
             StartCoroutine(SpeedDownPlayer(rb_player));  
             
             collision.collider.enabled = false;
@@ -275,7 +279,13 @@ public class Car : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        fsm.update(); 
+        fsm.update();
+        if (playerWarning && Time.time > LastWhistle + 1f)
+        {
+            carWhistle.PlayOneShot(carWhistle.clip);
+            LastWhistle = Time.time;
+
+        }
     }
     private void FixedUpdate()
     {
@@ -284,11 +294,15 @@ public class Car : MonoBehaviour
         {
             warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f),0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
+            playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f), 0)
+                      .Where((i) => { return i.CompareTag("Player"); }).Count() > 0;
         }
         else
         {
             warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(2f, 4.5f), 0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
+            playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(2f, 4.5f), 0)
+                      .Where((i) => { return i.CompareTag("Player"); }).Count() > 0;
         }
         
 

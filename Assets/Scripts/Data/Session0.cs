@@ -15,7 +15,7 @@ namespace VGF.Plot
             BindSceneEvent("The Modern City", (msg) =>
             {
 
-                #region 消防栓
+              /*  #region 消防栓
                 at("Fire Hydrant ").Interactive(() =>
                 {
                     at("Fire Hydrant ")
@@ -45,7 +45,7 @@ namespace VGF.Plot
                         });
                     });
                 }, isDefault: true);
-                #endregion
+                #endregion*/
 
 
                 SetSkillAvaliable("Dash", true);
