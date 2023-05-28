@@ -71,6 +71,38 @@ MonoBehaviour:
     m_Localized: NO
     m_Metadata:
       m_Items: []
+  - m_Id: 29914310397952
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6118952754761728
+    m_Localized: New Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6119545191813120
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6120346652004352
+    m_Localized: Pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6121720190095360
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6121881314283520
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6122022951735296
+    m_Localized: Save As New
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6122178526859264
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

@@ -91,6 +91,7 @@ public class SkillUI : MonoBehaviour
         SkillPanel.SetActive(true);
         Time.timeScale = 0f;
         isOpen = true;
+        
     }
 
     //±³°ü¹Ø±ÕµÄ¼à²â
@@ -99,5 +100,6 @@ public class SkillUI : MonoBehaviour
         SkillPanel.SetActive(false);
         Time.timeScale = 1f;
         isOpen = false;
+      
     }
 }
