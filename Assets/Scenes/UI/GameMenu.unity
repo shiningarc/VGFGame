@@ -6852,7 +6852,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1572271395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93819534c95e3ef4a911c4b007fc744c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f3099556af5e574a940e5186331debe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InfoCanvas: {fileID: 1764322308}
