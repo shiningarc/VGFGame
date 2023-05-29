@@ -10,6 +10,7 @@ using System;
 public class OptZone : MonoBehaviour
 {
     public static OptZone optZone;
+    
 
     [SerializeField]
     private GameObject OptionContainer;
@@ -101,7 +102,7 @@ public class OptZone : MonoBehaviour
             float angle = CaculateAngle(OptionList.IndexOf(obj), null);
             Sequence sequence = DOTween.Sequence();
             sequence.AppendInterval(OptionList.IndexOf(obj) * 0.1f);
-            sequence.Append(obj.transform.DOLocalMove(Vector3.zero, TotalTime).From(new Vector3(1000 * Mathf.Cos(angle * Mathf.PI / 180), 1000 * Mathf.Sin(angle * Mathf.PI / 180), 0)).SetEase(Ease.InCubic));
+            sequence.Append(obj.transform.DOLocalMove(new Vector3(40 * Mathf.Cos(angle * Mathf.PI / 180), 40 * Mathf.Sin(angle * Mathf.PI / 180), 0), TotalTime).From(new Vector3(1000 * Mathf.Cos(angle * Mathf.PI / 180), 1000 * Mathf.Sin(angle * Mathf.PI / 180), 0)).SetEase(Ease.InCubic));
             sequence.Join(obj.transform.DOScale(new Vector3(1, 1, 1), TotalTime).From(new Vector3(10, 6, 1)).SetEase(Ease.InCubic));
             // sequence.Play();
 
@@ -171,13 +172,13 @@ public class OptZone : MonoBehaviour
         }
     }
 
-    public static void Show(Transform transfrom, string[] texts, Action<int> callback)
+    public static void Show(Vector3 position, string[] texts, Action<int> callback)
     {
         optZone.Callback = callback;
 
         optZone.Clear();
 
-        Vector3 screenPosition = Camera.main.WorldToScreenPoint(transfrom.position);
+        Vector3 screenPosition = Camera.main.WorldToScreenPoint(position);
         optZone.OptionContainer.transform.position = new Vector2(screenPosition.x, Screen.height - screenPosition.y);
 
         foreach (string text in texts)

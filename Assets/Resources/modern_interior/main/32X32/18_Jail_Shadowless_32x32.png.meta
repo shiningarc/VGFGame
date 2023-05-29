@@ -1,0 +1,6107 @@
+fileFormatVersion: 2
+guid: d212302061f5141408d596a0de9fb45a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1376
+        width: 384
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a911236906c426c4fb23775933d06ffa
+      internalID: 411229314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1416
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf80c264efe94b24f8f9ef7cc339296d
+      internalID: 736802534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1416
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae61fd5a6a1fdb4a82c65cad482ecfe
+      internalID: 115837855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1402
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267c7b14f55582349817afbcfcdfedb1
+      internalID: 599494023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1390
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a73453b30418499dc5fb1c117bebd
+      internalID: -1869748132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1402
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1784a824995754a80e3ff86ec63f3e
+      internalID: -546186303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 1390
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80206f8482b964caebaaba194a1a67
+      internalID: -1625379153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1392
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94293bd3138a814b957d4e80bd63806
+      internalID: -442374507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1392
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09ec8d1bcb0b754ba254970810e16ca
+      internalID: -1406805249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1354
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f061fdd93e973f44ead1df33a270e29e
+      internalID: 884184604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1356
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576136a98284240409389977c5e9bc57
+      internalID: 1467537229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1360
+        width: 14
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f43542f884934bbf17fab06090b43
+      internalID: 969293256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1352
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056f9e22441b30c4bbf2bcc602061d20
+      internalID: -271838893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1348
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10438c7c6e54e42bde675b5de1dc2d
+      internalID: 225999595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1292
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d19f22d9333682458019a0f8ed37483
+      internalID: -2112434403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1318
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffc49b3ea2292444827aee66536c3e9
+      internalID: 1115543891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1248
+        width: 8
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde164c88b806c049a18bd173a35ffb3
+      internalID: -1586825097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1312
+        width: 8
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46f349ae40b4b247b510d48ce9dc55f
+      internalID: -430434262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1292
+        width: 16
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae69d9df0b7a484e994b7be256cd316
+      internalID: 1312610822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1292
+        width: 16
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8b08cea441a2144a9feca4fb621f52
+      internalID: 893133269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1324
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7ceb35d5a83644d8dd11f973e89b14
+      internalID: 1987991003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1318
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c76def94f0e4c44a0ea431f5b03836
+      internalID: -1879078527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1318
+        width: 26
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbc4ac9aa340bd489619ced8753c9e7
+      internalID: -1036213940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1346
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6a18c79d74b644e95369a9ab1ceca5
+      internalID: -1301914585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1262
+        width: 64
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4844b78c966b56489aa3ffc4719328f
+      internalID: -1982974559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1338
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de64a1c6bc645942b4debe93690ac4f
+      internalID: 1610893698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1282
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb60f2d8a2a3b5438de1aac805a2088
+      internalID: -633990245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 1302
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f47e6c965574645aae327c8228f98f
+      internalID: 899955872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1304
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043046738bae9dd47b18a3775dfab2c7
+      internalID: 2024741430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 96
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa74583c016a50745aa7f7d5535bd48a
+      internalID: -1958465921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1170
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16e7807b31b284c4fb763b50f8d87374
+      internalID: 982976522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1262
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1541721ba63d764bb47f6763c2a4de3
+      internalID: 1871880222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1254
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eabacabaffa1041b97d30f0fd73ba7
+      internalID: -802139827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1170
+        width: 96
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d51f02f7142e464b8752837328b9ca6
+      internalID: -247070135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1268
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8822d69562db25549b98d9da51f65edd
+      internalID: 1605934358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1268
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6369ce35c7980d747b385ed2e5e3dc29
+      internalID: -580224425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1268
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c629314ecbcf95408c2ddcdf4d85c56
+      internalID: -2004388612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1238
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17ab1bf270207d48bb2ed81c6a23bf0
+      internalID: -690560192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1220
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e665bfdab024e7c40af34607e81eb1c9
+      internalID: -487673077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1218
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8331527dd59935d458679fcf08b92ebc
+      internalID: 531617908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1218
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743655fd12d018f439e46b5e7c98375c
+      internalID: 241057962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1222
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4f83894a3eee4ca24627b09093721
+      internalID: -1673015709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1216
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736d2d5ef1a489b49a026904218437b4
+      internalID: 1618150043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1218
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c45327b9b49b449aedf9f79f3316e
+      internalID: -1358382606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1202
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd2236dde9d6fe42b537e3c51df8d52
+      internalID: 1763686001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1216
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94006f69807e8248aa6020e85850545
+      internalID: 483675114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1216
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da670ccac8e31241b6baafec56896f0
+      internalID: 755361940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 38
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db656f508c532574caddda09afee9620
+      internalID: -47084665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1154
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f5d8643735bfc47a3dc87ede20ffa7
+      internalID: -1813315149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f602964fe02610b4e98b11f72d136aba
+      internalID: 894237753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1198
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3536dd2f44c6ab64a8571597c3c895f6
+      internalID: -1438845435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1194
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3f3c115784cf8459b7a87dbf0a7356
+      internalID: -287859671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1202
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da801f36d298894685773965e1854e0
+      internalID: -637403880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1184
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c072c0ae89ba6e4595b750b6ffdbb1e
+      internalID: 597156392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1184
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665adc3311370994f81194d89af527f3
+      internalID: 304481957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1162
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4adfce158a1cbc48b5b70e1fbd85d15
+      internalID: 692110456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1100
+        width: 32
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6322660b3bcb74748997a732acf0fd94
+      internalID: 546035127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1152
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf75eedbce113f47809e6165bc8f7dc
+      internalID: 1768136174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1140
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0846215eeda264640a71df706ff1e75a
+      internalID: 876897240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1092
+        width: 30
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58050114b76ad464e941c5061cb6425e
+      internalID: 1633166269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1092
+        width: 30
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4662e3d508a73324babb43ef23a3044f
+      internalID: 594942417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1152
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fcd2f6989eaa084e8211cc2743b36ad
+      internalID: 2108144612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1122
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55013ea7991a0034c9dc5575f8d42f99
+      internalID: -604210901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1106
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4fef186a76028b4e8dd2f378027b30a
+      internalID: -1275612115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1120
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc6a894a5d90344397ed5978511fdee
+      internalID: -1835172003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1124
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3671214132c8244badc361e7aa47d5
+      internalID: -1179831339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1138
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067556196b996b545a10ad4322164998
+      internalID: 39349789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1088
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474900f0cdad77c42b2535aaabe07a60
+      internalID: -179747880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1106
+        width: 14
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331c586f908fa7343b4b811edabed9c4
+      internalID: 750205852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1120
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d051c1a89d34a14bb558dda29b66e46
+      internalID: 1282806437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1088
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22bd7dd9c3536ca449035859de7168f3
+      internalID: 25813887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1088
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2ea8b0df50b48449882c2d9042077b
+      internalID: 56416145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1062
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2932f131e4346408ad42613eb3750a
+      internalID: 922020601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1082
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 508de665b3e542746a1364047ccddef8
+      internalID: -407408445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1088
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be06380b8a08ae548a361bf20fea245e
+      internalID: 1593608423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1092
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafd33d198947114194ebecbb03d551f
+      internalID: -1474307119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1092
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f19f875e42de5428868825f3bc00b5
+      internalID: 429296102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1088
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df99f7fbd0f9e5142bfa0ebb76553a2a
+      internalID: 529756441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1056
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2575077fbb6f74bbd8a0c73c7ed21c
+      internalID: 2078412572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1056
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 050959bb7f4e9314da74dd6671fe9272
+      internalID: -1526951287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 998
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4187b7583b00d4c8a0a33003e62d2f
+      internalID: -1818953215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 998
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e242f7ba890d0a43848e463c2261cad
+      internalID: 643170881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1002
+        width: 44
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f4d778097626049bf7408657b73ead
+      internalID: 413121664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1000
+        width: 74
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1270e0ed6e4b85646978b682ec99183b
+      internalID: -1527930677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1056
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcd2de91d989fd4b932d94f5940a5df
+      internalID: 2047704057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1056
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604f958728fe4d6498825cc036399e0d
+      internalID: -1669422286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1058
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c788719e752fb4083ed8785baaf173
+      internalID: -95438219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 1032
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb20f45927cd6458006f449c5b4c68
+      internalID: -383613655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1032
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d78a8d3c76907343b0504e01dd202b9
+      internalID: 1695514276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 978
+        width: 32
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 619405e38ba90f64bb87d6dafcfac752
+      internalID: 1568480158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1000
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0153cf6c658be64e88d5a99336b8332
+      internalID: 1964960710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1002
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5ebd20c35676f46801aa2285895bb6
+      internalID: 1808934104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1002
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c23b923875a78408dc711fd2e2d45e
+      internalID: -1363425420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 992
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c3ada73abe9f94b9d2eda0a8f8735a
+      internalID: 669701642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 970
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cef869aa0574f4eae0bd1d1ab4a8a4
+      internalID: -731477407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 970
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61c75f5ba5012458bc4c447dbf148a
+      internalID: -735465530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 960
+        width: 64
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e095b719410d1e74d9a8c5713f55e639
+      internalID: 508336136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 950
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9b23109a77ff449a33c49f2cf41f44
+      internalID: 614842219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 954
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb1c43b827e5dd469b399e2293852c0
+      internalID: -1810273439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 950
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f88810346d7834db46b4652d4c471b
+      internalID: -7668608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 954
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7df1bef1ef04748ab3c19c3551eba6
+      internalID: -7406333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 954
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d7577b3390d564bb4968e80c418ffa
+      internalID: 828403650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 954
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5af3e9ec102d62049a4f2b00ee9422b2
+      internalID: 1112175451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 954
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1061777968e4972438f4a8aa42846472
+      internalID: -815100360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 936
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df3491854725cd4e82bb37c43fd6730
+      internalID: 1327400467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 874
+        width: 92
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd629d36436449846a6663d7e190a272
+      internalID: 2105960299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 902
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fbc69d96aad4e84a83e1cbe016d4a0b
+      internalID: 746470619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 866
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7697a02fdd0b9948ab4924f941e3388
+      internalID: -857104921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 872
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd1fe2514fef1d8478a6eaa4ad610d53
+      internalID: -1452051927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 872
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1065a3d8578962349912cb77c5fd93c3
+      internalID: 1564814545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 866
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fac8d42d453c2640a7ae6f88333f859
+      internalID: 679979763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 886
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3ab21d5e2f914438bfb136cef380e1
+      internalID: -584880368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 886
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4399d5c2fb7de5c49be038a2ac49cf8c
+      internalID: -624372764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 890
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8eb49aadc2890d4baebdfb933f73598
+      internalID: -412424246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 886
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12572e6ffb0186f4a88160488358f313
+      internalID: -1168153512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 886
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e7ef27af2e38243ac44ae32c288a37
+      internalID: -194531592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 878
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a77678c136e9f42a77274678a65719
+      internalID: 2048574844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 878
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69c1f6e6a881044cb476219aec063b8
+      internalID: -1598385607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 878
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64507c45aab2e44b9b89aa57917ab41
+      internalID: 443589702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 882
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be49a082bc9e94d448d70259c70e5742
+      internalID: -1233254164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 878
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30603d3c7bc815249bd64820706d48f2
+      internalID: -221745198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 844
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed82858588e1a04eb28e1bd0106808a
+      internalID: -1401150138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 844
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495c3c97f9cae9e4594b61eaa61f9baf
+      internalID: 1322103976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 822
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34821499987a0647a87863747360d33
+      internalID: 1504327567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 822
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed222156278bda44e897e268e583ced3
+      internalID: -30283652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 826
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ec09d1424830b4b8d5e53f1db05d1f
+      internalID: -61900609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 822
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56cd446c1c1053419e301b5c25eb817
+      internalID: 1336157586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 822
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab10284a3b6d9e48a5d5bfc86d06e03
+      internalID: -713853396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 814
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db199f3f273ee6e4984bd65b917d9350
+      internalID: -1984472265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 814
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7eac01223f50c48bbf1cd75deeb435
+      internalID: -299019868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 814
+        width: 38
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df29dee364f61a74f9740397aef2fced
+      internalID: -140328714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 770
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd6af4154792f74e862d90b38fbf73e
+      internalID: 547696673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 776
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd4c69eb19fce41be884c6d1cb809b
+      internalID: 1334889208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 776
+        width: 30
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66231e321ab258d49a967fb282ed4bf0
+      internalID: -1347882166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 770
+        width: 26
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d969e169d18d42918471e8f3accc9
+      internalID: -701682942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 814
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366b9c0ae75bd624989bf8c648b4175f
+      internalID: 1236254776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 748
+        width: 94
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aef7fd4793d4914f98cda5ef2b79dd2
+      internalID: -827830034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 774
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411817f4af4444944b2ed14bd403071f
+      internalID: 157918823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 712
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd21606abd3aa428d4293ff5a94a1d
+      internalID: 996978570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 746
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7253abb055e82e42a771cc9daea9f3c
+      internalID: 1818077915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 748
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503c9dee52a08c44c8c0f27e16ab8710
+      internalID: -1595445159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 744
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e832d4d56bc63d439e652883dfde574
+      internalID: -968380696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 756
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009d0f5e59bc574685e9bd93f3c343b
+      internalID: -905434112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 756
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ded25849dd747041960aff2e46925a2
+      internalID: 843173826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 744
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a324d5a804df0c4f942fa7382acbde3
+      internalID: 352174907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 744
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3129fcec0b6d24eaa003845ef021b5
+      internalID: -523044332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 726
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92acd3cb13660694bac694e32f887d2a
+      internalID: 915068033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 716
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348422f33e9fd51449100828f0af1802
+      internalID: 473350959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 718
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322056a3135ce154e8f3c0590feac241
+      internalID: 847178560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 682
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e98dd8f4b1b5a47ba32040eec9e82a
+      internalID: -494949984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 684
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f526f727607bb2e4fa33feadd328a381
+      internalID: 1648677723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 680
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45243d01d7bf4a140b3739770475e6b5
+      internalID: -1058194159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 692
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8564ceb721bd954a84c9fa281a406e7
+      internalID: -1767318551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 692
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff127a2d658e934b911753c8cd05781
+      internalID: -689763939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 706
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ace2233aad66b4cbb02824ba6d630e
+      internalID: 966247796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 706
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84d04433786414eb53955cd540340f
+      internalID: 2070269932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 688
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709c2ce1550f4fb49bdf3119d1b2fb91
+      internalID: -536855330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 648
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99760befa170f4548b0c71ead75f957d
+      internalID: 1763696402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 610
+        width: 6
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2a3572e4378324097c1034ce5f6c02
+      internalID: 811485410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 640
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cddbbce7b86e7e4da1db470bc6644d9
+      internalID: -726066432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 656
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2885989a2ac284082a2eccce22e996
+      internalID: -2128967117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 656
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98de1b006e99a345bf56cdc03204c7c
+      internalID: -792429309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 656
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76f71fa95c3f140ab616456d10fbbe
+      internalID: 1276009519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 618
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9593796baa98342b61f2da561d132c
+      internalID: 1468038515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 620
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0566f057c354e4e9939be59fc562d7
+      internalID: 203756898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 628
+        width: 24
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8155bf70ed8a6044bba8157dc7a25043
+      internalID: -1210881299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 628
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c5023aaf69e2a4eb894d10fb3df742
+      internalID: 1052167072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 626
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6542069db9072cd4083dd692fd8813e1
+      internalID: 2078415442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 626
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d815eb76466f772498ce4d62af1a9c9b
+      internalID: 1737466650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 620
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d01e79eb4e07b9f4d8b381a6e703ed21
+      internalID: 180770922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 616
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195bb12668369274b8a0dd8d5825250d
+      internalID: -1495348223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 550
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453e98c3d5b4def458f60be08cc79aec
+      internalID: 2012543624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 550
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f165c6924a72204ba5f92cf0189e2df
+      internalID: 800424384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 550
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be456e26a90fd2b49b0c03af47fa0875
+      internalID: -90209828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 550
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134c486e3cf30144aaaaad20ce51f413
+      internalID: 1001328368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 566
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaace0cf103089c4598028325057dfd8
+      internalID: 277006383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 550
+        width: 96
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ffc7fffbb4a0c41bf295f509fa083a
+      internalID: -15234639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf402e518fff34bbd3370c84f9c98b
+      internalID: 336618137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 280
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637201e75a335ab4da2601a07869a4ae
+      internalID: 1666156109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_179
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc87cefa03b702469039149200e6f40
+      internalID: -550451334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_180
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95d23632c96174799c18a1a71cf313
+      internalID: -1608258809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_181
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b5482eeca16564ba7dd7727548b714
+      internalID: 1439896376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_182
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f98471a91202343ae77d4c0d858d9c
+      internalID: 1224825162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_183
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537955f2fb890de46a403ae689546abb
+      internalID: 451297736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_184
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab5263d94cacac42975a02509cf5f40
+      internalID: -1979297826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_185
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 436
+        width: 24
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66429989893a10c4aa0eb0c78dcec168
+      internalID: -734217124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc79d7f0fc0bb24f996ee0dd3af4488
+      internalID: 116426819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_187
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 352
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebeb70725038a9f44961795b82c45973
+      internalID: -1671292513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 334
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb3707ba3cd9d3468a65ea39bbcbbde
+      internalID: -802019099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_189
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 340
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c05348062b4eed4790223cf5b1e9c7b
+      internalID: 2119637705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 340
+        width: 128
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 257d6db6346868a40856cd8dabb91961
+      internalID: -434513557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_191
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 320
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c6f4134139b2d4bb5b768706096cd0
+      internalID: -447548146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_192
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 320
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e42a085ab96d64a93901125750b017
+      internalID: 915563989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_193
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6637ab417923ca4892f53d416afb186
+      internalID: -1530524569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_194
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075d8b737c99575438d9364303443610
+      internalID: 1239049816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_195
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc49d9e930e4c8f4699208101552b753
+      internalID: 1078162383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_196
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3bce5ad679dea4bbe9e564052e4419
+      internalID: 793542989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_197
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2081692012d1f4ab31063889192fcf
+      internalID: 498671348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_198
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 352
+        width: 24
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2abd8d380db37b442b40855dde6ae890
+      internalID: 1234785789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a154f4f119f434ab2e7ce07ec7ec7a
+      internalID: -350440767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_200
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 288
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 238d0ec7e92091a4a8762511c7c7c55d
+      internalID: 506161482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 270
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248fab81daed0fc48a78c7d5212fe54d
+      internalID: -709409067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_202
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 276
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d38a812316152a4f931206550fff140
+      internalID: -1223858288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_203
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 276
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 190553a7cdcefce4f88957422609fe54
+      internalID: 644113528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_204
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 256
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592cff3b8012bbd448e3b9554cbbd080
+      internalID: 1992754953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_205
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 256
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84b7efdebd795840ad3393ef509b24d
+      internalID: 1736416759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_206
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 290
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44fff6470498b5448a3333240b5d393
+      internalID: 709134433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_207
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 290
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc0b9e57c36bee40b9990afd2081c84
+      internalID: 978705175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_208
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 290
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc07dc65760d2c4d8d99433a29f3e65
+      internalID: -2129428482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_209
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74673a417b417db46b76d921b0db00bb
+      internalID: 852798857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_210
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 234
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3d1c2297d956d4abf77090b55e5228
+      internalID: 2099084673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_211
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 234
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: babc4ef4fe05aa745b9e594a52bfaab5
+      internalID: -397691308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_212
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 234
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecac81f36e65b844b8f151b6a22aa15
+      internalID: -894134063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_213
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 234
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc52faf5267e3034989001ced1913877
+      internalID: -911509634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_214
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 234
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653b9a2af2955a846a9cea5e96675744
+      internalID: -7675082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_215
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 180
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7251a9f85fabf43b3c16fbe1273ee8
+      internalID: -1546666254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_216
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 180
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2490db2c05e3040b700c1e680bb464
+      internalID: 1360567677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_217
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 226
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685e008caaac6334eafb32d518f4357b
+      internalID: -1125784077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_218
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 226
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fbea00bee6ff84a8e49b659a4ba7cf
+      internalID: -807165132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_219
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebfb6ee3d03727489172a0f0f3adeb9
+      internalID: 1897124576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_220
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 202
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2290ac3f84cfcd47b6da848691337df
+      internalID: 108836669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_221
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d779e1068374c7408d34063e87e3884
+      internalID: 1289994589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_222
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 202
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31bb7523d3b3e5e46801579346424ceb
+      internalID: -594352624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_223
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21d060c7419019c40a36d38559525c57
+      internalID: -1435603941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_224
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196b79fdb516bf34c91e2ae682f6062f
+      internalID: 1659021570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_225
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 64
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06507a4de4bcdd44b9640ced50fa706a
+      internalID: -346560660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_226
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 194
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f910cbc0299389d4f8a4269b1b3ca672
+      internalID: 1953409963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_227
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 192
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe65f77e42eae2b4c999af4f7286f23a
+      internalID: -1647353156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_228
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d51b179bdebe5149ab48d996c2c0ef6
+      internalID: 116556468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_229
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 170
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed779c754c58e44e882074441fca24e
+      internalID: -140323079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_230
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 170
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dd8bbe058a17c4c8d9db190ad6fa48
+      internalID: -1915133793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_231
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 164
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4533a2c6b8f19547a2ac8fc8a84a406
+      internalID: -832479434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_232
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 164
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1e0e91389b9c0408e447ddd0e5c38a
+      internalID: -356300203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_233
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 164
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eff0767ba92aa42bb85acf942033b6
+      internalID: 63747605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_234
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 162
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 125f91f79c850f34b855315e3e997ef9
+      internalID: 1118720496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_235
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 160
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddfef802511084498cc154654c0ce3b
+      internalID: 2136456684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_236
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e44dafaab84594e8cc855811f14f43
+      internalID: -179723784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_237
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b4fa71c3823df429022d0b7f9468eb
+      internalID: -1414351583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_238
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 132
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3b54b89d42a9f498353c0e8a8ce0ec
+      internalID: 1211749148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_239
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 132
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488a3a785a08271428c7c7228d3d0307
+      internalID: 693518347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_240
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 132
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bc0f6df609a834ab0ee2920bf72e8a
+      internalID: -719207860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_241
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7541492d9e9b59843ac0f8a71bd96a14
+      internalID: -1692688044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_242
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2352c345dddf5b94ab526f1638feeab0
+      internalID: -1393665506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_243
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd45371d580033469683cfe2d6976f7
+      internalID: -2133165405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_244
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6a6c414ffe625459ffc3aab9c8e965
+      internalID: 47818975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_245
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0372235bfe693c44ca6a2c5675c15170
+      internalID: -561746716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_246
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b598a67c08f930c4b877d24a85ee1ab3
+      internalID: 1987556192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_247
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 138
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cdc9d2430174be48b68940f3e39bc3e
+      internalID: 1413276464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_248
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 128
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213122d56ede4394fbe337ee9c7eb1fb
+      internalID: -2053811570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_249
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 128
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7abcf2ce8b2a745b5b97e099a55800
+      internalID: -957166987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_250
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 683a798a4f20cf24d8c5d7b5ad70f06a
+      internalID: -461122007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_251
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68788b33c6ac82340af2464500309d5f
+      internalID: -1891118638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_252
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 767c9f65f9fb905439c7fc3ec7a30b1f
+      internalID: -1049061273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_253
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b21e0c6306688740b3f5dc6e2ca4cf4
+      internalID: 488146223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_254
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5021346faacda44a5f6ce950944ab8
+      internalID: 1303833311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_255
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 100
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 440fb05a12e150a4ca5b4e33a49c3deb
+      internalID: 867596691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_256
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780e8a9e5bcf8964e93bfbee1ee48c56
+      internalID: -590976759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_257
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2447e509e8763d9439d3617c5ffcb0a8
+      internalID: 923602206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_258
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170df3b394963d54daca6fc849bdd4f7
+      internalID: -674279007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_259
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcba5e852b32c44abc22e487030e53c
+      internalID: 1349645722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_260
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649668e187f20ef439ff28565ce87107
+      internalID: 157934924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_261
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 106
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3da0d6398aec149a69cea0180a8c42
+      internalID: -1778957136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_262
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 98
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb4c8718bde58e479cbbd8dc0e11f16
+      internalID: -1310697729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_263
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdf6c1a59e699e418a09b754ea7a9fc
+      internalID: 923348844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_264
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 160
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb872d506277a04aaedc5a348c8a6b6
+      internalID: -695476957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_265
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 14
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d58666c0baed6f4ab66a0a107e267fb
+      internalID: -238279134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_266
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 14
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330d1f493567015499df92f937ae40c8
+      internalID: -1605862150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_267
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 14
+        width: 58
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c77ba2ad02cda4a9c3b6f7914dfd5f
+      internalID: 178289277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_268
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 66
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97525fd8e3dcdc04ebbb6fe1def580f5
+      internalID: 534037760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_269
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 66
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e5fd8914c843c47a02a25f87bf096d
+      internalID: 868804931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_270
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 34
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aa7952d0fe72443a735462cddbf7d6
+      internalID: -1534823294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 18_Jail_Shadowless_32x32_271
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 34
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cdaa4f2fde6f642a97be934da38d68
+      internalID: 574418252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e95abb8b078c7584590a25e63593ff2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      18_Jail_Shadowless_32x32_28: 2024741430
+      18_Jail_Shadowless_32x32_2: 115837855
+      18_Jail_Shadowless_32x32_52: -637403880
+      18_Jail_Shadowless_32x32_246: 1987556192
+      18_Jail_Shadowless_32x32_144: 352174907
+      18_Jail_Shadowless_32x32_256: -590976759
+      18_Jail_Shadowless_32x32_106: 746470619
+      18_Jail_Shadowless_32x32_206: 709134433
+      18_Jail_Shadowless_32x32_9: 884184604
+      18_Jail_Shadowless_32x32_108: -1452051927
+      18_Jail_Shadowless_32x32_45: 483675114
+      18_Jail_Shadowless_32x32_62: -604210901
+      18_Jail_Shadowless_32x32_173: -90209828
+      18_Jail_Shadowless_32x32_22: -1036213940
+      18_Jail_Shadowless_32x32_41: -1673015709
+      18_Jail_Shadowless_32x32_169: 180770922
+      18_Jail_Shadowless_32x32_151: -1058194159
+      18_Jail_Shadowless_32x32_4: -1869748132
+      18_Jail_Shadowless_32x32_92: -1363425420
+      18_Jail_Shadowless_32x32_32: -802139827
+      18_Jail_Shadowless_32x32_129: -299019868
+      18_Jail_Shadowless_32x32_42: 1618150043
+      18_Jail_Shadowless_32x32_51: -287859671
+      18_Jail_Shadowless_32x32_145: -523044332
+      18_Jail_Shadowless_32x32_137: 157918823
+      18_Jail_Shadowless_32x32_18: 1312610822
+      18_Jail_Shadowless_32x32_79: -1526951287
+      18_Jail_Shadowless_32x32_148: 847178560
+      18_Jail_Shadowless_32x32_87: -383613655
+      18_Jail_Shadowless_32x32_175: 277006383
+      18_Jail_Shadowless_32x32_11: 969293256
+      18_Jail_Shadowless_32x32_209: 852798857
+      18_Jail_Shadowless_32x32_167: 2078415442
+      18_Jail_Shadowless_32x32_196: 793542989
+      18_Jail_Shadowless_32x32_177: 336618137
+      18_Jail_Shadowless_32x32_131: 547696673
+      18_Jail_Shadowless_32x32_48: -1813315149
+      18_Jail_Shadowless_32x32_104: 1327400467
+      18_Jail_Shadowless_32x32_114: -1168153512
+      18_Jail_Shadowless_32x32_119: -1233254164
+      18_Jail_Shadowless_32x32_36: -2004388612
+      18_Jail_Shadowless_32x32_236: -179723784
+      18_Jail_Shadowless_32x32_254: 1303833311
+      18_Jail_Shadowless_32x32_86: -95438219
+      18_Jail_Shadowless_32x32_166: 1052167072
+      18_Jail_Shadowless_32x32_125: -61900609
+      18_Jail_Shadowless_32x32_202: -1223858288
+      18_Jail_Shadowless_32x32_251: -1891118638
+      18_Jail_Shadowless_32x32_214: -7675082
+      18_Jail_Shadowless_32x32_97: 614842219
+      18_Jail_Shadowless_32x32_26: -633990245
+      18_Jail_Shadowless_32x32_140: -1595445159
+      18_Jail_Shadowless_32x32_229: -140323079
+      18_Jail_Shadowless_32x32_187: -1671292513
+      18_Jail_Shadowless_32x32_65: -1179831339
+      18_Jail_Shadowless_32x32_135: 1236254776
+      18_Jail_Shadowless_32x32_161: -792429309
+      18_Jail_Shadowless_32x32_128: -1984472265
+      18_Jail_Shadowless_32x32_69: 1282806437
+      18_Jail_Shadowless_32x32_205: 1736416759
+      18_Jail_Shadowless_32x32_225: -346560660
+      18_Jail_Shadowless_32x32_53: 597156392
+      18_Jail_Shadowless_32x32_63: -1275612115
+      18_Jail_Shadowless_32x32_176: -15234639
+      18_Jail_Shadowless_32x32_255: 867596691
+      18_Jail_Shadowless_32x32_66: 39349789
+      18_Jail_Shadowless_32x32_242: -1393665506
+      18_Jail_Shadowless_32x32_17: -430434262
+      18_Jail_Shadowless_32x32_88: 1695514276
+      18_Jail_Shadowless_32x32_132: 1334889208
+      18_Jail_Shadowless_32x32_112: -624372764
+      18_Jail_Shadowless_32x32_143: 843173826
+      18_Jail_Shadowless_32x32_55: 692110456
+      18_Jail_Shadowless_32x32_190: -434513557
+      18_Jail_Shadowless_32x32_212: -894134063
+      18_Jail_Shadowless_32x32_197: 498671348
+      18_Jail_Shadowless_32x32_141: -968380696
+      18_Jail_Shadowless_32x32_111: -584880368
+      18_Jail_Shadowless_32x32_27: 899955872
+      18_Jail_Shadowless_32x32_149: -494949984
+      18_Jail_Shadowless_32x32_154: 966247796
+      18_Jail_Shadowless_32x32_213: -911509634
+      18_Jail_Shadowless_32x32_33: -247070135
+      18_Jail_Shadowless_32x32_95: -735465530
+      18_Jail_Shadowless_32x32_266: -1605862150
+      18_Jail_Shadowless_32x32_70: 25813887
+      18_Jail_Shadowless_32x32_54: 304481957
+      18_Jail_Shadowless_32x32_8: -1406805249
+      18_Jail_Shadowless_32x32_94: -731477407
+      18_Jail_Shadowless_32x32_218: -807165132
+      18_Jail_Shadowless_32x32_56: 546035127
+      18_Jail_Shadowless_32x32_133: -1347882166
+      18_Jail_Shadowless_32x32_121: -1401150138
+      18_Jail_Shadowless_32x32_265: -238279134
+      18_Jail_Shadowless_32x32_37: -690560192
+      18_Jail_Shadowless_32x32_29: -1958465921
+      18_Jail_Shadowless_32x32_248: -2053811570
+      18_Jail_Shadowless_32x32_83: -1527930677
+      18_Jail_Shadowless_32x32_243: -2133165405
+      18_Jail_Shadowless_32x32_241: -1692688044
+      18_Jail_Shadowless_32x32_269: 868804931
+      18_Jail_Shadowless_32x32_130: -140328714
+      18_Jail_Shadowless_32x32_47: -47084665
+      18_Jail_Shadowless_32x32_181: 1439896376
+      18_Jail_Shadowless_32x32_150: 1648677723
+      18_Jail_Shadowless_32x32_237: -1414351583
+      18_Jail_Shadowless_32x32_155: 2070269932
+      18_Jail_Shadowless_32x32_163: 1468038515
+      18_Jail_Shadowless_32x32_268: 534037760
+      18_Jail_Shadowless_32x32_182: 1224825162
+      18_Jail_Shadowless_32x32_31: 1871880222
+      18_Jail_Shadowless_32x32_221: 1289994589
+      18_Jail_Shadowless_32x32_103: -815100360
+      18_Jail_Shadowless_32x32_168: 1737466650
+      18_Jail_Shadowless_32x32_67: -179747880
+      18_Jail_Shadowless_32x32_93: 669701642
+      18_Jail_Shadowless_32x32_184: -1979297826
+      18_Jail_Shadowless_32x32_171: 2012543624
+      18_Jail_Shadowless_32x32_117: -1598385607
+      18_Jail_Shadowless_32x32_270: -1534823294
+      18_Jail_Shadowless_32x32_160: -2128967117
+      18_Jail_Shadowless_32x32_159: -726066432
+      18_Jail_Shadowless_32x32_80: -1818953215
+      18_Jail_Shadowless_32x32_271: 574418252
+      18_Jail_Shadowless_32x32_15: 1115543891
+      18_Jail_Shadowless_32x32_152: -1767318551
+      18_Jail_Shadowless_32x32_156: -536855330
+      18_Jail_Shadowless_32x32_198: 1234785789
+      18_Jail_Shadowless_32x32_49: 894237753
+      18_Jail_Shadowless_32x32_6: -1625379153
+      18_Jail_Shadowless_32x32_102: 1112175451
+      18_Jail_Shadowless_32x32_127: -713853396
+      18_Jail_Shadowless_32x32_78: 2078412572
+      18_Jail_Shadowless_32x32_59: 1633166269
+      18_Jail_Shadowless_32x32_217: -1125784077
+      18_Jail_Shadowless_32x32_23: -1301914585
+      18_Jail_Shadowless_32x32_81: 643170881
+      18_Jail_Shadowless_32x32_91: 1808934104
+      18_Jail_Shadowless_32x32_183: 451297736
+      18_Jail_Shadowless_32x32_118: 443589702
+      18_Jail_Shadowless_32x32_234: 1118720496
+      18_Jail_Shadowless_32x32_124: -30283652
+      18_Jail_Shadowless_32x32_85: -1669422286
+      18_Jail_Shadowless_32x32_185: -734217124
+      18_Jail_Shadowless_32x32_260: 157934924
+      18_Jail_Shadowless_32x32_43: -1358382606
+      18_Jail_Shadowless_32x32_222: -594352624
+      18_Jail_Shadowless_32x32_101: 828403650
+      18_Jail_Shadowless_32x32_14: -2112434403
+      18_Jail_Shadowless_32x32_264: -695476957
+      18_Jail_Shadowless_32x32_249: -957166987
+      18_Jail_Shadowless_32x32_263: 923348844
+      18_Jail_Shadowless_32x32_224: 1659021570
+      18_Jail_Shadowless_32x32_238: 1211749148
+      18_Jail_Shadowless_32x32_96: 508336136
+      18_Jail_Shadowless_32x32_252: -1049061273
+      18_Jail_Shadowless_32x32_261: -1778957136
+      18_Jail_Shadowless_32x32_228: 116556468
+      18_Jail_Shadowless_32x32_226: 1953409963
+      18_Jail_Shadowless_32x32_74: 1593608423
+      18_Jail_Shadowless_32x32_134: -701682942
+      18_Jail_Shadowless_32x32_82: 413121664
+      18_Jail_Shadowless_32x32_201: -709409067
+      18_Jail_Shadowless_32x32_199: -350440767
+      18_Jail_Shadowless_32x32_1: 736802534
+      18_Jail_Shadowless_32x32_90: 1964960710
+      18_Jail_Shadowless_32x32_165: -1210881299
+      18_Jail_Shadowless_32x32_39: 531617908
+      18_Jail_Shadowless_32x32_215: -1546666254
+      18_Jail_Shadowless_32x32_109: 1564814545
+      18_Jail_Shadowless_32x32_157: 1763696402
+      18_Jail_Shadowless_32x32_73: -407408445
+      18_Jail_Shadowless_32x32_192: 915563989
+      18_Jail_Shadowless_32x32_139: 1818077915
+      18_Jail_Shadowless_32x32_195: 1078162383
+      18_Jail_Shadowless_32x32_44: 1763686001
+      18_Jail_Shadowless_32x32_84: 2047704057
+      18_Jail_Shadowless_32x32_164: 203756898
+      18_Jail_Shadowless_32x32_19: 893133269
+      18_Jail_Shadowless_32x32_211: -397691308
+      18_Jail_Shadowless_32x32_244: 47818975
+      18_Jail_Shadowless_32x32_138: 996978570
+      18_Jail_Shadowless_32x32_113: -412424246
+      18_Jail_Shadowless_32x32_25: 1610893698
+      18_Jail_Shadowless_32x32_21: -1879078527
+      18_Jail_Shadowless_32x32_153: -689763939
+      18_Jail_Shadowless_32x32_38: -487673077
+      18_Jail_Shadowless_32x32_7: -442374507
+      18_Jail_Shadowless_32x32_204: 1992754953
+      18_Jail_Shadowless_32x32_60: 594942417
+      18_Jail_Shadowless_32x32_240: -719207860
+      18_Jail_Shadowless_32x32_210: 2099084673
+      18_Jail_Shadowless_32x32_75: -1474307119
+      18_Jail_Shadowless_32x32_126: 1336157586
+      18_Jail_Shadowless_32x32_142: -905434112
+      18_Jail_Shadowless_32x32_162: 1276009519
+      18_Jail_Shadowless_32x32_178: 1666156109
+      18_Jail_Shadowless_32x32_247: 1413276464
+      18_Jail_Shadowless_32x32_12: -271838893
+      18_Jail_Shadowless_32x32_116: 2048574844
+      18_Jail_Shadowless_32x32_13: 225999595
+      18_Jail_Shadowless_32x32_262: -1310697729
+      18_Jail_Shadowless_32x32_235: 2136456684
+      18_Jail_Shadowless_32x32_107: -857104921
+      18_Jail_Shadowless_32x32_233: 63747605
+      18_Jail_Shadowless_32x32_76: 429296102
+      18_Jail_Shadowless_32x32_57: 1768136174
+      18_Jail_Shadowless_32x32_239: 693518347
+      18_Jail_Shadowless_32x32_35: -580224425
+      18_Jail_Shadowless_32x32_200: 506161482
+      18_Jail_Shadowless_32x32_207: 978705175
+      18_Jail_Shadowless_32x32_170: -1495348223
+      18_Jail_Shadowless_32x32_191: -447548146
+      18_Jail_Shadowless_32x32_216: 1360567677
+      18_Jail_Shadowless_32x32_180: -1608258809
+      18_Jail_Shadowless_32x32_245: -561746716
+      18_Jail_Shadowless_32x32_189: 2119637705
+      18_Jail_Shadowless_32x32_193: -1530524569
+      18_Jail_Shadowless_32x32_77: 529756441
+      18_Jail_Shadowless_32x32_186: 116426819
+      18_Jail_Shadowless_32x32_231: -832479434
+      18_Jail_Shadowless_32x32_10: 1467537229
+      18_Jail_Shadowless_32x32_120: -221745198
+      18_Jail_Shadowless_32x32_64: -1835172003
+      18_Jail_Shadowless_32x32_179: -550451334
+      18_Jail_Shadowless_32x32_174: 1001328368
+      18_Jail_Shadowless_32x32_30: 982976522
+      18_Jail_Shadowless_32x32_5: -546186303
+      18_Jail_Shadowless_32x32_172: 800424384
+      18_Jail_Shadowless_32x32_24: -1982974559
+      18_Jail_Shadowless_32x32_158: 811485410
+      18_Jail_Shadowless_32x32_194: 1239049816
+      18_Jail_Shadowless_32x32_203: 644113528
+      18_Jail_Shadowless_32x32_16: -1586825097
+      18_Jail_Shadowless_32x32_3: 599494023
+      18_Jail_Shadowless_32x32_0: 411229314
+      18_Jail_Shadowless_32x32_208: -2129428482
+      18_Jail_Shadowless_32x32_61: 2108144612
+      18_Jail_Shadowless_32x32_110: 679979763
+      18_Jail_Shadowless_32x32_147: 473350959
+      18_Jail_Shadowless_32x32_188: -802019099
+      18_Jail_Shadowless_32x32_99: -7668608
+      18_Jail_Shadowless_32x32_253: 488146223
+      18_Jail_Shadowless_32x32_40: 241057962
+      18_Jail_Shadowless_32x32_220: 108836669
+      18_Jail_Shadowless_32x32_267: 178289277
+      18_Jail_Shadowless_32x32_250: -461122007
+      18_Jail_Shadowless_32x32_34: 1605934358
+      18_Jail_Shadowless_32x32_71: 56416145
+      18_Jail_Shadowless_32x32_122: 1322103976
+      18_Jail_Shadowless_32x32_89: 1568480158
+      18_Jail_Shadowless_32x32_227: -1647353156
+      18_Jail_Shadowless_32x32_223: -1435603941
+      18_Jail_Shadowless_32x32_219: 1897124576
+      18_Jail_Shadowless_32x32_105: 2105960299
+      18_Jail_Shadowless_32x32_123: 1504327567
+      18_Jail_Shadowless_32x32_46: 755361940
+      18_Jail_Shadowless_32x32_68: 750205852
+      18_Jail_Shadowless_32x32_146: 915068033
+      18_Jail_Shadowless_32x32_20: 1987991003
+      18_Jail_Shadowless_32x32_230: -1915133793
+      18_Jail_Shadowless_32x32_50: -1438845435
+      18_Jail_Shadowless_32x32_98: -1810273439
+      18_Jail_Shadowless_32x32_58: 876897240
+      18_Jail_Shadowless_32x32_115: -194531592
+      18_Jail_Shadowless_32x32_232: -356300203
+      18_Jail_Shadowless_32x32_257: 923602206
+      18_Jail_Shadowless_32x32_136: -827830034
+      18_Jail_Shadowless_32x32_72: 922020601
+      18_Jail_Shadowless_32x32_259: 1349645722
+      18_Jail_Shadowless_32x32_100: -7406333
+      18_Jail_Shadowless_32x32_258: -674279007
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

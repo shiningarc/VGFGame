@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 498406726377378900}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.98, y: -2, z: 0}
+  m_LocalPosition: {x: -0.98, y: -3.63, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingLayerID: -1147660185
+  m_SortingLayer: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 1996204891, guid: d5c93331467cea84c955b71b13a09559, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_SpriteSortPoint: 1
 --- !u!1 &3070713245367351923
 GameObject:
   m_ObjectHideFlags: 0
@@ -109,7 +109,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3070713245367351923}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -3.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -154,9 +154,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1147660185
+  m_SortingLayer: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 0af61b276ab646b468eaddb7590971ab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -180,7 +180,6 @@ GameObject:
   - component: {fileID: 5820206862844359373}
   - component: {fileID: 8677930995163930674}
   - component: {fileID: 1763228258204884138}
-  - component: {fileID: 7435617604516160156}
   m_Layer: 0
   m_Name: Pizza_Tuk
   m_TagString: Untagged
@@ -218,7 +217,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.003250122, y: -2.1629353}
+  m_Offset: {x: 0.003250122, y: -2.2325325}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -229,7 +228,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 5.944641, y: 1.655098}
+  m_Size: {x: 5.944641, y: 1.7942924}
   m_EdgeRadius: 0
 --- !u!61 &8677930995163930674
 BoxCollider2D:
@@ -269,14 +268,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c643aadec27c614da4de5d20aee2552, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!210 &7435617604516160156
-SortingGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8996706168160544443}
-  m_Enabled: 1
-  m_SortingLayerID: -1147660185
-  m_SortingLayer: 1
-  m_SortingOrder: 0

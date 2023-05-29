@@ -1,0 +1,1839 @@
+fileFormatVersion: 2
+guid: 6e28b9a3262916444a275b2d2f4bd9f5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 820
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5bdcd3f3ef9e45b5180e698831705
+      internalID: -489968283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 820
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1eb87e1b792ae4a8d7d17c2713ff58
+      internalID: 1000553427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 786
+        width: 128
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10cdf94fda278448ac35a99d5f9338f
+      internalID: 832108820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 750
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab70ec35dbb1a34b8e8a8e288d6afe1
+      internalID: 501510018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 750
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0cdfef45183840bdf7ad5f5c79dd3
+      internalID: 807149424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 750
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ddf889a7cbad924d895ee73267759af
+      internalID: 80462660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 774
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c66cdc04382748043a49e2f1ef80ccff
+      internalID: 1427719278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 788
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed46ee8dc79e6a49ab41123bc730b1d
+      internalID: 1372350837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 96
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5b57a28a8195b4889c2e7bad111767
+      internalID: -1511684000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 686
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd026f2851ae494ea414ea334b3e86d
+      internalID: 992635723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 684
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7b90240e24ecb428fda8f3c75c1e00
+      internalID: 456114539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 722
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95d8ae8557dd3ac4f93f7f0e9fa8dbf7
+      internalID: -1242090982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 704
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89b726b51f6c3b458fe851a49c445ce
+      internalID: 1287124321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 674
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1f3be27e28ef24bb665b78fdc6a422
+      internalID: -1984323818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 642
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72f2fc0bcbc399c4d9b202356ecb94d0
+      internalID: -1202870872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 664
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d011a5e944ca2a041a93cf7f414e579b
+      internalID: 1681835932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 664
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe79c127e4fe749b9b216f3f172443
+      internalID: 1433333861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 664
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9ac2bf4d55622478e1f1103a24d373
+      internalID: -2137461242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 692
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4b6ebb8a87e924582760f8d21a8210
+      internalID: -522457126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 692
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2615ad40651a73f498d327ad906fe69e
+      internalID: 846640696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 622
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c321bc24a538a24288efb851924efd2
+      internalID: 837708081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 622
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc64fc1d7723f754185f6106f99c4113
+      internalID: 1578614212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 594
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4355ca419daf29143a8fe90a370a38be
+      internalID: 1783616833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 586
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55bb5834373eca4085cfa081ec839d7
+      internalID: -1787691362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 612
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fff7c6e48b25ab040854091ad9d78c45
+      internalID: 1718676510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 558
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b343df4eec05084286e823f3259943c
+      internalID: 1457758895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 558
+        width: 60
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085730ba5699ff84ca87e545edb9dbf6
+      internalID: -5424009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 580
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fef4e8004f0940bd552d4bd9d5220
+      internalID: -289758069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 592
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ced67c378e1a0c9419ada318e4dc7a1f
+      internalID: -989382049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 592
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc77f74a3d0a7e9439c8985a1ac0bf49
+      internalID: 2081444812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 590
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79e4f3a78eb16e4ba4c41b5d6d02e3c
+      internalID: 2139935214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 584
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49557483db5c854459413e4fb48673d8
+      internalID: -2133976197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 586
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2600c73f0a44bf409367ea54b6d3d03
+      internalID: 1134637892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 580
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056cab7f811fbc2459d6cb648239c9f6
+      internalID: 743859569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 590
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d374f06184456ba49b290c4ef3538e68
+      internalID: 932815979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 584
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43efdf163284e124a97fc230f4fe1699
+      internalID: -1169816574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 538
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4692dfc23e205304fa01378e9084c15f
+      internalID: 1344506717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 538
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd54cc024d60b4b43a8421340f7469f5
+      internalID: -367794200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 548
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda6f0253208bcb4da3afee56459ad3d
+      internalID: -1302779056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 548
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 308771336ca4f7a4c868f5cb2d7753da
+      internalID: -173059777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 514
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b23fce21cd8054ebc4cefd92df58b5
+      internalID: 208821972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 532
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7cfdb4d12565949914f73352ca835b
+      internalID: 911621410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 524
+        width: 48
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1e1112b07ef3f48a19d2c6801d6307
+      internalID: -1736134315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 512
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e21750e80f87f4ab0be85438e85c68
+      internalID: -1323144494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 492
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccf3fb4bdb7c52f4aa35d6f4fed00ad8
+      internalID: -66079500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 514
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f88f6652cdc84bb4d883ccdae9544
+      internalID: 1777991091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 480
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8d6e800c10a1343b32f82d24d62ca4
+      internalID: 1278492310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 456
+        width: 92
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0d7e80734c8cd4e898ced6feddd18f
+      internalID: 1572543796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 474
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd94b65c885e64d4faca0de89a889eaa
+      internalID: 2129209433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 450
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa250b59fd1b4ca448f83ab291a64df6
+      internalID: 507488881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 450
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3372704aaf8b04b469fe83f724bf6970
+      internalID: 1656485201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 448
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea06abc4c50ce045a10882710f5e5ef
+      internalID: -989816656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 396
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e453400c72418449beec35406cbc74
+      internalID: -956912241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 396
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03604de0aa0d334bbf5115a2f2c8889
+      internalID: 310923283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 408
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2971650cffd07b14c8a7a9d4712f35f6
+      internalID: 141827694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 392
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea128bf93628bb47836242b3e42c92d
+      internalID: -1122179581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 392
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344f2c0f482d7dc4b82dd10b499fe261
+      internalID: 1421793032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 364
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eae190bd6e80d044b48a0f8f6320b79
+      internalID: 1894380822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 364
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea5bbefc66a6824caa49079119b87fe
+      internalID: 1063098037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 360
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0e8f4c00bf4934e9317e7fdf7bb243
+      internalID: -1984254681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 360
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c5f1478c8a3749879b8ab4c8717f2
+      internalID: 1105805073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 398
+        width: 32
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84c5a14735bd2df498ea8705c5306223
+      internalID: 611945058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 264
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c582b869b4890348a879699c2017055
+      internalID: 1495705693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 264
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83da063d9cefde243b81a311a521fe50
+      internalID: -1185802676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 264
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5119dd910beb69c43a948dc2544d18f3
+      internalID: -27703437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 300
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52137f3e904f0054eb3ce74985c278c3
+      internalID: 1657534758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 258
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f2a120ed42b66429d5eaffc8ebadf4
+      internalID: 107628870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 162
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de06bf9231715149a63413a596ccb2e
+      internalID: -262107650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 162
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7acb3e7491b68c4ea45d09dcdffe259
+      internalID: -213315812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 162
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282d034969d76874da3734ad86c9bde3
+      internalID: -1024731499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 162
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f32399a9018a74694ce0b42d05246f
+      internalID: -177981196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 66
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813b798dd8fe4e54a82a29bb5f22ceab
+      internalID: 1663583882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 66
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff109a27a05e8e2489ded7da61f3c0fa
+      internalID: 1417329807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 66
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0166a304ee2a9ca4ca2d95fdf6660d2b
+      internalID: -415325587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 66
+        width: 80
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a7c56964206f0479b612be26141724
+      internalID: -1928622190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 6
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c0e33e5bf7eb2c4b82f4da463aee742
+      internalID: 836909551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 18
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f503e1ec8d1ed45920eb72386bf068
+      internalID: 1496494754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 9_Fishing_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 18
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69dccc2b865fa7a46b21b2324fda1602
+      internalID: 789754076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e550765828bce684d9142af3f9b0162b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      9_Fishing_Shadowless_32x32_17: -2137461242
+      9_Fishing_Shadowless_32x32_0: -489968283
+      9_Fishing_Shadowless_32x32_7: 1372350837
+      9_Fishing_Shadowless_32x32_61: 611945058
+      9_Fishing_Shadowless_32x32_51: -989816656
+      9_Fishing_Shadowless_32x32_50: 1656485201
+      9_Fishing_Shadowless_32x32_71: 1663583882
+      9_Fishing_Shadowless_32x32_32: 1134637892
+      9_Fishing_Shadowless_32x32_24: 1718676510
+      9_Fishing_Shadowless_32x32_29: 2081444812
+      9_Fishing_Shadowless_32x32_47: 1572543796
+      9_Fishing_Shadowless_32x32_18: -522457126
+      9_Fishing_Shadowless_32x32_4: 807149424
+      9_Fishing_Shadowless_32x32_62: 1495705693
+      9_Fishing_Shadowless_32x32_67: -262107650
+      9_Fishing_Shadowless_32x32_37: -367794200
+      9_Fishing_Shadowless_32x32_9: 992635723
+      9_Fishing_Shadowless_32x32_76: 1496494754
+      9_Fishing_Shadowless_32x32_42: -1736134315
+      9_Fishing_Shadowless_32x32_38: -1302779056
+      9_Fishing_Shadowless_32x32_59: -1984254681
+      9_Fishing_Shadowless_32x32_31: -2133976197
+      9_Fishing_Shadowless_32x32_40: 208821972
+      9_Fishing_Shadowless_32x32_2: 832108820
+      9_Fishing_Shadowless_32x32_15: 1681835932
+      9_Fishing_Shadowless_32x32_54: 141827694
+      9_Fishing_Shadowless_32x32_43: -1323144494
+      9_Fishing_Shadowless_32x32_28: -989382049
+      9_Fishing_Shadowless_32x32_39: -173059777
+      9_Fishing_Shadowless_32x32_68: -213315812
+      9_Fishing_Shadowless_32x32_41: 911621410
+      9_Fishing_Shadowless_32x32_63: -1185802676
+      9_Fishing_Shadowless_32x32_5: 80462660
+      9_Fishing_Shadowless_32x32_72: 1417329807
+      9_Fishing_Shadowless_32x32_12: 1287124321
+      9_Fishing_Shadowless_32x32_20: 837708081
+      9_Fishing_Shadowless_32x32_27: -289758069
+      9_Fishing_Shadowless_32x32_26: -5424009
+      9_Fishing_Shadowless_32x32_53: 310923283
+      9_Fishing_Shadowless_32x32_46: 1278492310
+      9_Fishing_Shadowless_32x32_35: -1169816574
+      9_Fishing_Shadowless_32x32_64: -27703437
+      9_Fishing_Shadowless_32x32_55: -1122179581
+      9_Fishing_Shadowless_32x32_49: 507488881
+      9_Fishing_Shadowless_32x32_3: 501510018
+      9_Fishing_Shadowless_32x32_30: 2139935214
+      9_Fishing_Shadowless_32x32_75: 836909551
+      9_Fishing_Shadowless_32x32_11: -1242090982
+      9_Fishing_Shadowless_32x32_77: 789754076
+      9_Fishing_Shadowless_32x32_6: 1427719278
+      9_Fishing_Shadowless_32x32_58: 1063098037
+      9_Fishing_Shadowless_32x32_25: 1457758895
+      9_Fishing_Shadowless_32x32_57: 1894380822
+      9_Fishing_Shadowless_32x32_69: -1024731499
+      9_Fishing_Shadowless_32x32_16: 1433333861
+      9_Fishing_Shadowless_32x32_23: -1787691362
+      9_Fishing_Shadowless_32x32_33: 743859569
+      9_Fishing_Shadowless_32x32_8: -1511684000
+      9_Fishing_Shadowless_32x32_19: 846640696
+      9_Fishing_Shadowless_32x32_14: -1202870872
+      9_Fishing_Shadowless_32x32_45: 1777991091
+      9_Fishing_Shadowless_32x32_74: -1928622190
+      9_Fishing_Shadowless_32x32_56: 1421793032
+      9_Fishing_Shadowless_32x32_66: 107628870
+      9_Fishing_Shadowless_32x32_70: -177981196
+      9_Fishing_Shadowless_32x32_44: -66079500
+      9_Fishing_Shadowless_32x32_65: 1657534758
+      9_Fishing_Shadowless_32x32_34: 932815979
+      9_Fishing_Shadowless_32x32_60: 1105805073
+      9_Fishing_Shadowless_32x32_52: -956912241
+      9_Fishing_Shadowless_32x32_48: 2129209433
+      9_Fishing_Shadowless_32x32_36: 1344506717
+      9_Fishing_Shadowless_32x32_13: -1984323818
+      9_Fishing_Shadowless_32x32_1: 1000553427
+      9_Fishing_Shadowless_32x32_73: -415325587
+      9_Fishing_Shadowless_32x32_22: 1783616833
+      9_Fishing_Shadowless_32x32_10: 456114539
+      9_Fishing_Shadowless_32x32_21: 1578614212
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

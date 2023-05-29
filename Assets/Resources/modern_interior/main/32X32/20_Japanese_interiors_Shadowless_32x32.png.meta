@@ -1,0 +1,2345 @@
+fileFormatVersion: 2
+guid: faf683e1b0558ed4e92a7eda24851114
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 160
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9326cc3e2fa7f1438191f9e57391c81
+      internalID: 294042870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 962
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d270a4fc7ac477447af47594733202de
+      internalID: -1909718070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 962
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a2bf451db45ccd45b417fb978385675
+      internalID: -1389597721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 962
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3beda7840ea59459f83bea07228d5d
+      internalID: -1549898740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 962
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d1ab9a145e545498e25267e746fad5
+      internalID: -1660190850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 962
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae34ccc84a8b37438d291712902926d
+      internalID: 86191058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 962
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcb3ae154bc4c594da2ec9af4d054358
+      internalID: -431239344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 966
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1116edd7fb2024b4e80d628ae9da8472
+      internalID: 454709498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 966
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142974efd59e7a94483c9a0cbd2e1431
+      internalID: 6123295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 930
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f313ef79f5cffe4091d9d1819648128
+      internalID: -345044983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 930
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b0237a47b1e76409e842f5d31f9e33
+      internalID: -1992369407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 930
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07adb15ce09bf8e4d8f64d8caec618f1
+      internalID: -54571707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 930
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403a12faebc0c4342b717e215ec31607
+      internalID: -401438699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 930
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac94111df17c1434d944fcd65c64a802
+      internalID: 381595025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 930
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcfb3e1b16bbc3409c877ec4e7caa9a
+      internalID: -356898693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 848
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc5f277654df324f9fc76b76a5adb48
+      internalID: 1176180972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 882
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1becbb511ac7bdf499cf716ea32bcafa
+      internalID: 906537867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 882
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0506387d163c2418554b587ea10b7d
+      internalID: 590903781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 884
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c8f5f3838d81549aa005a248d5e395
+      internalID: 1323873695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 884
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8bcb7aafa02db47b135c3017ee3cab
+      internalID: 1812797315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 884
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4c3934b745d7c4b8f9fd7441d2b920
+      internalID: -75248699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 884
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b797d764f2a674bba6b04c2cf67a4e
+      internalID: -767215353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 884
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c825bf00256904cbcc98d841399359
+      internalID: -1513455097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 888
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5d9f563c207834384c82cfe34647a8
+      internalID: 861855263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 872
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbd4c6395062bf4d83790dc28f4b05e
+      internalID: 1867433639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 868
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d537eb48a25ecfd48897a601a4e6a7aa
+      internalID: -781586631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 844
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee129fbd108a804baef6b7ceb189405
+      internalID: 1510457825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 852
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a22a2387ffa0264cbefb848ceef91ef
+      internalID: -1220889745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 836
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7480bcc9b506c04d95085601e93ef88
+      internalID: -47292649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 816
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168e7369608e9a6439c16c2c44eb4ac7
+      internalID: -1165325048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 840
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c872c003fbcf5ec4cbd94cfeaacab536
+      internalID: -1440534763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 818
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b3c8d4efa67ec843bab3dd9d6278806
+      internalID: 1320224309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 818
+        width: 60
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9285dbd29716241a02493bec7f3aa7
+      internalID: 1313147992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 836
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2416fa64b62a3741856e72f1c85aa71
+      internalID: -1626748930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 816
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9b327c770677749814f17afa7601bd
+      internalID: 1021575178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 780
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d027084a70108cc40a9f4356cfea11fe
+      internalID: -964810110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 804
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f6cc56ecc4df334985aa34ed27c7317
+      internalID: -1365136895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 822
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ae9d4de9326934a840a289ddc23a6b
+      internalID: -633819049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 820
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cd585a7aee68149b6947241d0b0a21
+      internalID: 77439837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 808
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8614468e2fd94e419e6d0476bea3843
+      internalID: -2119226369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 748
+        width: 158
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bc864e796a76429fe625c461c7e7e
+      internalID: -151809557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 780
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2682b87550ec4a34a8b5598400f143c0
+      internalID: -936065499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 732
+        width: 88
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d0340833a8adf4398ffdb499422133
+      internalID: -228572331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 768
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ec41e54c96fd748bfcfbea25d24f9e
+      internalID: -1244291955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 778
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba4b9e9bd43f25a4f8219dd373f3376c
+      internalID: -845641914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 772
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082c09b0b39b6d8459f03e0c56f95756
+      internalID: 1802462727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 750
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aaa0c77eac6bfa46b4a4d010097262f
+      internalID: 207404084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 748
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48a3f8d080bcbad40add140e4dab18b6
+      internalID: 1319355368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 722
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9718737f103a1074981e97e69c12f5aa
+      internalID: -684207248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 722
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02139d50ca49c8a48a71c43793c674d1
+      internalID: -1791874147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 684
+        width: 222
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0917f3580d0a0834896ed3c122a8ed08
+      internalID: 1558954778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 692
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5a8a4f9017e87438bb5098e6b2c4ac
+      internalID: 1137915064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 724
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad34e775513d234aaa74bb958c010b0
+      internalID: -156617037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 558
+        width: 222
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac911a6cb0416c04fb85d4d9c8c4235e
+      internalID: -478434930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 642
+        width: 160
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a771dbd9c441641a9adf9d6c88e234
+      internalID: -527703033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 640
+        width: 10
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd5974a2f1c5d747b7a081d6b9d5dfc
+      internalID: -1253704943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 558
+        width: 46
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962edc36421073b449e2c264b88bb45d
+      internalID: -909654242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 622
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91f633f5a33cbb46acea80c5f19d1ea
+      internalID: -115623945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 596
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24227df3c1401a742bfc41c49bcc5607
+      internalID: 614395061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 596
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f647503624f69b84b816126b35404cd1
+      internalID: -745297667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 596
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44de4b7246651374db0dea73f24a4d56
+      internalID: -1860792026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 596
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5179cab52a7e9f459840862fcd0037e
+      internalID: 2110731173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 596
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dcb329f809fb304b8ef51a0a53e3537
+      internalID: -1833734351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 544
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfeae6bf818e0bd478f6196c5c6006dd
+      internalID: -1245902814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 532
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab9bb9a6ec05e14d9ce23caf1ee8c81
+      internalID: -986159128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 532
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15832b5c767c9ac4d9ff8a3f9d1e3135
+      internalID: 753980218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 532
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69bb0fc5f267894888ed5a9f2bed798
+      internalID: 1721471720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 532
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dfb947abae04724d9f3267817a2cd15
+      internalID: -2090424493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 512
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527526bb7463654d948d787addab2ed
+      internalID: 1455219216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 512
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f650ff0a89b5b4cbf1645ddd04b911
+      internalID: -1663669348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 512
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3fbd3acdb7e397469c21ba61eef5e0a
+      internalID: 936564155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 512
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c5b96536e6acd4b973d1e379d04953
+      internalID: -1050042412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 256
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36af3b3a567265948bfe21829c3c7590
+      internalID: -1699897837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 456
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c038fca6fdfd44f98ae6dbc1ec677c
+      internalID: -1678014223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 412
+        width: 18
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd4bddb405e9e14495eefc5864be6be
+      internalID: 1431498000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 490
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac7f8865384ccc4392434a57c02acf9
+      internalID: -970251500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 488
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afd8eecea04d0d4783c8bbb8260065f
+      internalID: -775492862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 490
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ef65488c1e93b4a8014c896fb556e3
+      internalID: 294890449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 488
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097a136a7d46f004bb91c4d2064f52c5
+      internalID: 834405632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d79578942b6883419c6c34ae4f956e6
+      internalID: -1814166048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 458
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa2264de451bd54bb7fc608f0f7140b
+      internalID: 1111862347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 456
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e86350d90da9948b9f20dd72cf4256
+      internalID: 1885944083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 458
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2a6adc8cfe3e442aba8e2972280435
+      internalID: -1487125911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 456
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26f9e7d49a14004dafdb8f4515f97a4
+      internalID: 951102878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d103e8c3ee09d75459bcde945e05feeb
+      internalID: 913118403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 400
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4431c1ee90e5749ac4e0b5fc5e21bb
+      internalID: 1631645724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 402
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5187119d733036543a18d8ec936f83a7
+      internalID: 1725119696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 402
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709afe0e61d058342903f45c8e73e700
+      internalID: -1086562729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 320
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5849e0c40b7c134dbff147718b7b61e
+      internalID: 1840763477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 338
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f5a804ce7efab43a7375773a3ca0c7
+      internalID: 1561329936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 338
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d31f3cc57ac6c542b9dc2053b70a193
+      internalID: -1803653820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 274
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c5892f678ea8f04396b2dcb438701fe
+      internalID: 1476943296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 274
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca0ba098b2c64f45856223e9fdc77b0
+      internalID: -1010797646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 224
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712ab4b9819316345ae12f073a750c90
+      internalID: -1392849111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 210
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114f52b2251e08d40b2690ec33cc322b
+      internalID: -629117724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 210
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90f6a541c8a31be4fa13658aed9945e3
+      internalID: 1661416028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 128
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7d4fb79ee7cf445b7005be8bd710a8
+      internalID: -1702701024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 146
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aea357a9288bff468292090d3a51873
+      internalID: 1927282026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 146
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fa14cee2d3e9b4d8bd02222112fd94
+      internalID: -595045060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 82
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc8bc68084d7924e86d6e4ae370f4e8
+      internalID: 1338965504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 20_Japanese_interiors_Shadowless_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 82
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d394555c8b222bd499bf317ec5a47389
+      internalID: -1473958792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1dca6c394d6efd74ebc099f30d89f6cb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      20_Japanese_interiors_Shadowless_32x32_71: -1050042412
+      20_Japanese_interiors_Shadowless_32x32_88: 1840763477
+      20_Japanese_interiors_Shadowless_32x32_87: -1086562729
+      20_Japanese_interiors_Shadowless_32x32_96: -1702701024
+      20_Japanese_interiors_Shadowless_32x32_31: 1320224309
+      20_Japanese_interiors_Shadowless_32x32_80: 1111862347
+      20_Japanese_interiors_Shadowless_32x32_60: -1860792026
+      20_Japanese_interiors_Shadowless_32x32_97: 1927282026
+      20_Japanese_interiors_Shadowless_32x32_78: 834405632
+      20_Japanese_interiors_Shadowless_32x32_81: 1885944083
+      20_Japanese_interiors_Shadowless_32x32_55: -1253704943
+      20_Japanese_interiors_Shadowless_32x32_29: -1165325048
+      20_Japanese_interiors_Shadowless_32x32_49: -1791874147
+      20_Japanese_interiors_Shadowless_32x32_34: 1021575178
+      20_Japanese_interiors_Shadowless_32x32_40: -151809557
+      20_Japanese_interiors_Shadowless_32x32_22: -1513455097
+      20_Japanese_interiors_Shadowless_32x32_16: 906537867
+      20_Japanese_interiors_Shadowless_32x32_68: 1455219216
+      20_Japanese_interiors_Shadowless_32x32_100: -1473958792
+      20_Japanese_interiors_Shadowless_32x32_20: -75248699
+      20_Japanese_interiors_Shadowless_32x32_43: -1244291955
+      20_Japanese_interiors_Shadowless_32x32_30: -1440534763
+      20_Japanese_interiors_Shadowless_32x32_51: 1137915064
+      20_Japanese_interiors_Shadowless_32x32_46: 207404084
+      20_Japanese_interiors_Shadowless_32x32_13: 381595025
+      20_Japanese_interiors_Shadowless_32x32_36: -1365136895
+      20_Japanese_interiors_Shadowless_32x32_57: -115623945
+      20_Japanese_interiors_Shadowless_32x32_2: -1389597721
+      20_Japanese_interiors_Shadowless_32x32_64: -986159128
+      20_Japanese_interiors_Shadowless_32x32_89: 1561329936
+      20_Japanese_interiors_Shadowless_32x32_70: 936564155
+      20_Japanese_interiors_Shadowless_32x32_39: -2119226369
+      20_Japanese_interiors_Shadowless_32x32_84: 913118403
+      20_Japanese_interiors_Shadowless_32x32_25: -781586631
+      20_Japanese_interiors_Shadowless_32x32_90: -1803653820
+      20_Japanese_interiors_Shadowless_32x32_95: 1661416028
+      20_Japanese_interiors_Shadowless_32x32_94: -629117724
+      20_Japanese_interiors_Shadowless_32x32_63: -1245902814
+      20_Japanese_interiors_Shadowless_32x32_75: -970251500
+      20_Japanese_interiors_Shadowless_32x32_93: -1392849111
+      20_Japanese_interiors_Shadowless_32x32_27: -1220889745
+      20_Japanese_interiors_Shadowless_32x32_79: -1814166048
+      20_Japanese_interiors_Shadowless_32x32_77: 294890449
+      20_Japanese_interiors_Shadowless_32x32_9: -345044983
+      20_Japanese_interiors_Shadowless_32x32_54: -527703033
+      20_Japanese_interiors_Shadowless_32x32_33: -1626748930
+      20_Japanese_interiors_Shadowless_32x32_59: -745297667
+      20_Japanese_interiors_Shadowless_32x32_8: 6123295
+      20_Japanese_interiors_Shadowless_32x32_11: -54571707
+      20_Japanese_interiors_Shadowless_32x32_50: 1558954778
+      20_Japanese_interiors_Shadowless_32x32_56: -909654242
+      20_Japanese_interiors_Shadowless_32x32_66: 1721471720
+      20_Japanese_interiors_Shadowless_32x32_0: 294042870
+      20_Japanese_interiors_Shadowless_32x32_58: 614395061
+      20_Japanese_interiors_Shadowless_32x32_14: -356898693
+      20_Japanese_interiors_Shadowless_32x32_38: 77439837
+      20_Japanese_interiors_Shadowless_32x32_6: -431239344
+      20_Japanese_interiors_Shadowless_32x32_74: 1431498000
+      20_Japanese_interiors_Shadowless_32x32_28: -47292649
+      20_Japanese_interiors_Shadowless_32x32_67: -2090424493
+      20_Japanese_interiors_Shadowless_32x32_12: -401438699
+      20_Japanese_interiors_Shadowless_32x32_17: 590903781
+      20_Japanese_interiors_Shadowless_32x32_24: 1867433639
+      20_Japanese_interiors_Shadowless_32x32_47: 1319355368
+      20_Japanese_interiors_Shadowless_32x32_26: 1510457825
+      20_Japanese_interiors_Shadowless_32x32_53: -478434930
+      20_Japanese_interiors_Shadowless_32x32_32: 1313147992
+      20_Japanese_interiors_Shadowless_32x32_62: -1833734351
+      20_Japanese_interiors_Shadowless_32x32_91: 1476943296
+      20_Japanese_interiors_Shadowless_32x32_73: -1678014223
+      20_Japanese_interiors_Shadowless_32x32_65: 753980218
+      20_Japanese_interiors_Shadowless_32x32_1: -1909718070
+      20_Japanese_interiors_Shadowless_32x32_10: -1992369407
+      20_Japanese_interiors_Shadowless_32x32_23: 861855263
+      20_Japanese_interiors_Shadowless_32x32_61: 2110731173
+      20_Japanese_interiors_Shadowless_32x32_99: 1338965504
+      20_Japanese_interiors_Shadowless_32x32_21: -767215353
+      20_Japanese_interiors_Shadowless_32x32_69: -1663669348
+      20_Japanese_interiors_Shadowless_32x32_42: -228572331
+      20_Japanese_interiors_Shadowless_32x32_86: 1725119696
+      20_Japanese_interiors_Shadowless_32x32_7: 454709498
+      20_Japanese_interiors_Shadowless_32x32_85: 1631645724
+      20_Japanese_interiors_Shadowless_32x32_98: -595045060
+      20_Japanese_interiors_Shadowless_32x32_19: 1812797315
+      20_Japanese_interiors_Shadowless_32x32_35: -964810110
+      20_Japanese_interiors_Shadowless_32x32_41: -936065499
+      20_Japanese_interiors_Shadowless_32x32_76: -775492862
+      20_Japanese_interiors_Shadowless_32x32_37: -633819049
+      20_Japanese_interiors_Shadowless_32x32_52: -156617037
+      20_Japanese_interiors_Shadowless_32x32_82: -1487125911
+      20_Japanese_interiors_Shadowless_32x32_5: 86191058
+      20_Japanese_interiors_Shadowless_32x32_92: -1010797646
+      20_Japanese_interiors_Shadowless_32x32_83: 951102878
+      20_Japanese_interiors_Shadowless_32x32_3: -1549898740
+      20_Japanese_interiors_Shadowless_32x32_44: -845641914
+      20_Japanese_interiors_Shadowless_32x32_45: 1802462727
+      20_Japanese_interiors_Shadowless_32x32_4: -1660190850
+      20_Japanese_interiors_Shadowless_32x32_18: 1323873695
+      20_Japanese_interiors_Shadowless_32x32_15: 1176180972
+      20_Japanese_interiors_Shadowless_32x32_48: -684207248
+      20_Japanese_interiors_Shadowless_32x32_72: -1699897837
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

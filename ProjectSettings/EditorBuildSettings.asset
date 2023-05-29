@@ -18,7 +18,14 @@ EditorBuildSettings:
     path: Assets/Scenes/UI/GameOver.unity
     guid: 48665714b87c9b242a71284ee5f53507
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Scripts/The Modern City.unity
+=======
+    path: Assets/Scenes/AreaScene/Home.unity
+    guid: ed423e7b8ce11c0489d00904ad4feac8
+  - enabled: 1
+    path: Assets/Scenes/AreaScene/The Modern City.unity
+>>>>>>> Stashed changes
     guid: 554b954ff971f554b814b9a979e1d680
   m_configObjects:
     com.unity.addressableassets: {fileID: 11400000, guid: 4d8a692c91ec1f74ebd0a95819446b85, type: 2}

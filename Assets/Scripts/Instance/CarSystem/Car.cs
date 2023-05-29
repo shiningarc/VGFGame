@@ -26,10 +26,15 @@ public class Car : MonoBehaviour
     private int CurrentTargetIndex;
     private BoxCollider2D coll;
     public bool warning;
+<<<<<<< Updated upstream
     public AudioSource carWhistle;
     public bool playerWarning;
     private float LastWhistle;
 
+=======
+    public bool playerWarning;
+    
+>>>>>>> Stashed changes
     public enum CarDirection
     {
         Left, Right, Up, Down
@@ -84,7 +89,7 @@ public class Car : MonoBehaviour
         fsm.State(CarStates.Running)
         .OnFixedUpdate(() =>
         {
-            if (warning)
+            if (warning || playerWarning)
             {
                 fsm.ChangeState(CarStates.Stoping);
             }
@@ -94,10 +99,14 @@ public class Car : MonoBehaviour
 
         fsm.State(CarStates.Stoping).OnEnter(() =>
         {
+             float rate = 0.6f;
+             if (playerWarning)
+                rate = 0.04f;
+
             if (carDirection == CarDirection.Left || carDirection == CarDirection.Right)
-                StartCoroutine(SpeedDownX(rb));
+                StartCoroutine(SpeedDownX(rb,rate));
             else
-                StartCoroutine(SpeedDownY(rb));
+                StartCoroutine(SpeedDownY(rb,rate));
         })
         .OnFixedUpdate(() =>
         {
@@ -111,7 +120,7 @@ public class Car : MonoBehaviour
         }).OnFixedUpdate(() =>
         {
             timer = timer + Time.deltaTime;
-            if (warning)
+            if (warning || playerWarning)
             {
                 fsm.ChangeState(CarStates.Stoping);
 
@@ -138,7 +147,7 @@ public class Car : MonoBehaviour
         })
         .OnFixedUpdate(() =>
         {
-            if (warning)
+            if (warning || playerWarning)
             {
                 fsm.ChangeState(CarStates.Stoping);
             }
@@ -211,8 +220,9 @@ public class Car : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.gameObject.CompareTag("Player") && rb.velocity.magnitude > 5f)
+        if (collision.collider.gameObject.CompareTag("Player")  )
         {
+<<<<<<< Updated upstream
             var rb_player= collision.collider.GetComponent<Rigidbody2D>();
             var vgf_player = collision.collider.GetComponent<VGF_Player_2D>();
             vgf_player.enabled = false;
@@ -223,16 +233,36 @@ public class Car : MonoBehaviour
             StartCoroutine(SpeedDownPlayer(rb_player));  
             
             collision.collider.enabled = false;
+=======
+            if(rb.velocity.magnitude > 5f)
+            {
+                var rb_player = collision.collider.GetComponent<Rigidbody2D>();
+                var vgf_player = collision.collider.GetComponent<VGF_Player_2D>();
+                vgf_player.enabled = false;
+                rb_player.velocity = rb.velocity * 4f;
+                rb.velocity = Vector2.zero;
+                rb.constraints = RigidbodyConstraints2D.FreezeAll;
+>>>>>>> Stashed changes
 
-            EventHandler.CallDoDamage2Player(1000);
+                StartCoroutine(SpeedDownPlayer(rb_player));
+
+                collision.collider.enabled = false;
+
+                EventHandler.CallDoDamage2Player(1000);
+            }
+            else
+            {
+                EventHandler.CallDoDamage2Player(5);
+            }
+            
         }
     }
     #region ¼Ó¼õËÙ
-    IEnumerator SpeedDownX(Rigidbody2D rb)
+    IEnumerator SpeedDownX(Rigidbody2D rb,float rate)
     {
         while(fsm.CurrentState == CarStates.Stoping)
         {
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, 0.6f),rb.velocity.y); 
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, rate),rb.velocity.y); 
             yield return new WaitForSeconds(0.2f);
         }
         yield break;
@@ -255,11 +285,11 @@ public class Car : MonoBehaviour
         }
         yield break;
     }
-    IEnumerator SpeedDownY(Rigidbody2D rb)
+    IEnumerator SpeedDownY(Rigidbody2D rb,float rate)
     {
         while (fsm.CurrentState == CarStates.Stoping)
         {
-            rb.velocity = new Vector2(rb.velocity.x , Mathf.Lerp(rb.velocity.y, 0, 0.6f));
+            rb.velocity = new Vector2(rb.velocity.x , Mathf.Lerp(rb.velocity.y, 0, rate));
             yield return new WaitForSeconds(0.2f);
         }
         yield break;
@@ -294,7 +324,11 @@ public class Car : MonoBehaviour
         {
             warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f),0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
+<<<<<<< Updated upstream
             playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f), 0)
+=======
+            playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f, 1.7f), 0)
+>>>>>>> Stashed changes
                       .Where((i) => { return i.CompareTag("Player"); }).Count() > 0;
         }
         else

@@ -11,14 +11,14 @@ namespace VGF.Assignment
         private int mItemID;
         private int mItemAmount;
         private bool mIsTaken;
-        public static InventoryAssignment CreatAssignment(int itemID,int itemAmount,bool  isTaken)
+        public static InventoryAssignment CreatAssignment(int itemID,int itemAmount,bool  isTaken,string name,string description)
         {
             var Assignment = CreateInstance<InventoryAssignment>();
             Assignment.mItemID = itemID;
             Assignment.mItemAmount = itemAmount;
             Assignment.mIsTaken = isTaken;
-            Assignment.Name = "hhhh";
-            Assignment.Description = "bbkbdvkks";
+            Assignment.Name = name;
+            Assignment.Description = description;
             return Assignment;
         }
 

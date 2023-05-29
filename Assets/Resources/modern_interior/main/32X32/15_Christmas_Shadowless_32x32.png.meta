@@ -1,0 +1,2587 @@
+fileFormatVersion: 2
+guid: fc6f75a81babe2741961103a18568340
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 456
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf1b1173631d2f4488ecafaed3a9abe
+      internalID: -1390634104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 456
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae533826a4e0bd4db8877cf44538f62
+      internalID: -546903084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 462
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5522a7bb3d2dde9449e0ced15031e815
+      internalID: 1815312179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 462
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 742cd29693c978e43b79f3247549e84a
+      internalID: 747676834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 494
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 216460f9643b654469b5103bcc779e60
+      internalID: -1909036050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 494
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf4722d56828a574497410f0e114d0a0
+      internalID: 762781504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 468
+        width: 160
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee6fd9a8cfe7ed4f87d74c9177549a9
+      internalID: 1412633770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 424
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c7987af05a325f4e8251dec7639b050
+      internalID: 1812795771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 428
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9d92f0642dac248b16b96aa5b22394
+      internalID: 899809394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 424
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95745c1c776686842934921aab36fd00
+      internalID: -90787902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 424
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea11af5e26240b94da9c0d16a11cba54
+      internalID: 484406127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 430
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981ad4e5ea4f86c41b339385f4655794
+      internalID: -432143335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 430
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9e726196f170f40824ee77990b35e4
+      internalID: -278295867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 428
+        width: 96
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f712e3cc774744fb024ee95e83575a
+      internalID: -1390431077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 392
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f494b15ff0260149835ed295d693b38
+      internalID: -376456232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 394
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52e4300b84060e4c9969ad257f581bf
+      internalID: -1919029884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 392
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33258b1c1f78724a87a38cbb42fbd9c
+      internalID: -1065219417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 372
+        width: 80
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f8eb4aa1611c9489d2adc91b646459
+      internalID: -1551948325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 368
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a5a881a7d7b1f4da3ca96fd130f815
+      internalID: 72960902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 368
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef76d3decbae2974b93605646918e0d2
+      internalID: -1541429661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 366
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f32a53bf8930140aef4a75a14e0ab9
+      internalID: -1801104664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 354
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a05ef217b4fe649ab3901194816e3e
+      internalID: -2132590303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 354
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c52000df85a964abaf0e5c9c926b37
+      internalID: 88561633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 354
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd3a077b4462394684deed2e59204da
+      internalID: -1123186160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 354
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 487d05e21e9b84340a3a2e10329589fc
+      internalID: -1275504610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 372
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6bfcd5b2ed1684aa5ee762979e83e9
+      internalID: 51334027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 360
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbbc4e3f53108e4e9f8616fcd99b64c
+      internalID: -325649679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 360
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7596f65ebf26a8e4ab266db98429a445
+      internalID: -119528150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 360
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b86ab8f48fb93a4b855f1f658dad859
+      internalID: 488572582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 368
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29127cbdf99ccbc4da74cd536470db71
+      internalID: -929692694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 314
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c15bf355a9354f8f7d96fc568dcae
+      internalID: -340577427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 316
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32be0e4c471274fb0b0c0d6f0d047e
+      internalID: -245909281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 284
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d106d865fa9e046838f0e816d77ac7
+      internalID: 488122151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 324
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f151528c12b6bb44e8192889b6465b87
+      internalID: 2117535839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 272
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad81faccfa35a7946b1560a7ca9376c1
+      internalID: 582711247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 272
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bd89598026410248b1344645be90c76
+      internalID: -1836089324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 272
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54cd2fa62f1031046b441a44d5b0e101
+      internalID: -614151376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 290
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c543f9dcb5ec0418da53ccd6aac1c7
+      internalID: 1621994173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 296
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2808d8eead642148bc7649238e98bf0
+      internalID: -1214545629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 308
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d569afc314473bc4bbe46050f06b33fa
+      internalID: -1436704568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 308
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c832c99ee43b8ba49babfd5516c139b1
+      internalID: 1840915350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 296
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd5e6f6fc97cf349aee0fd6d17c61f2
+      internalID: 1156923609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 268
+        width: 48
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d530c082441c6a46b1b38f247b5ddff
+      internalID: 1859500885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 284
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c676a5290a4c06f47a054aad9e2001d4
+      internalID: 1272761446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 260
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5739b5eab766d2c4fbb694dc81a7b892
+      internalID: -2048710015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 272
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b38aa9ebf6baa47b9f338128477298
+      internalID: 244995946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 290
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8ae56d2dd63974c819559be0325263
+      internalID: 75777658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 300
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04c9f8fb86121c4f843302b4bc6bd90
+      internalID: -1066300725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 300
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496203773adb3814aa28a29c0c3005b1
+      internalID: -530229283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ca5eafb3095b43aa915d0597396e3
+      internalID: 79035325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 292
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095750eefd49b7a42811014b95600c50
+      internalID: 1486234260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 282
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0136bfc84e63abf41ab03658ca66950a
+      internalID: 476642157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 282
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84c2a9cf2a447d4a9211b7e7b6843e6
+      internalID: -833461607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 282
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac50e4b8e6f0b4db9ff1ed5e677770
+      internalID: -1734488170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 284
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfa9dc69b8b43146a47a3570c282783
+      internalID: 306596035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 284
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0beb97dc06d99014581fa4007c852cbc
+      internalID: -1774295658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 284
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb126b04d8a062c4f8920afb0a3d83e4
+      internalID: 1727154081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 256
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16a92fae46bbf941a0b9ea858b72cab
+      internalID: 567707709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 276
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441e53150d3d731488c577b4b4cd3331
+      internalID: -1993211801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 270
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43dd692df1999a4a9591d575219bbd4
+      internalID: 312067747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 276
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2cee9a26038a2409428029869fe49f
+      internalID: -206556216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 268
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b179855731bd2354fa92391acda69e77
+      internalID: 248462347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 266
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925ac2e662c045c498e9264bb14669c4
+      internalID: -948808291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 268
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdaf75e586c277a48b3557214e900fb0
+      internalID: 2025486591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 268
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3fc477336512de4f9a804f273e256fe
+      internalID: 441288416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 266
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 266d2df7739608140b56c12c876f179f
+      internalID: -2071261059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 268
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee70b19148923c49b09503be88aa2d5
+      internalID: 115567780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 262
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a677cb8169eef9d4fab14991fc3feff5
+      internalID: 1107727616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 262
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d9841e6578f794d9c36c1c22ef3c32
+      internalID: -500927199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 226
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a1f3d6200df694b8feab9ff5dbf4f8
+      internalID: -1909592387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 208
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5714d543cca1d41b66d3203ee50fa6
+      internalID: 466854592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 210
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c08d817102c7f64bb850bc1b5d31be2
+      internalID: -174038748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 208
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44112fa4f3bfca242ae18e8ddc94e4a8
+      internalID: -15749308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 208
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0ef78688d175c48a04b20a623939f6
+      internalID: -847423135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 160
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cf8e35c8e3df04c8e97b394b34063b
+      internalID: -71631639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 162
+        width: 92
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c954dc9990522c4f8aa77971ba23f6e
+      internalID: 1177459616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 226
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325983ed19c074d4aa7bb06c26e4f489
+      internalID: -321179002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3251284a41a25af4d9aee25795cdec9e
+      internalID: -1972923269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a74c491a1ec1ca459820368c07bb89f
+      internalID: -748108882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aaa609a2301b034fb3cceb787e607d5
+      internalID: -209030004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec92f44d05da224498c76b348087ba6
+      internalID: -1418867303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 174
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dec275381e7a640abaea349fff2be4
+      internalID: 1201215943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 142
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e26b6204825ccf429252cf451850ffa
+      internalID: 1083104676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 142
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0d058e732b3964797fa1493b916b38
+      internalID: 1606283388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915547669a1de364c8ca5c939b8092fc
+      internalID: -961293943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5cbcc4ccda5cda43a70292ed92c2cdd
+      internalID: 1354423145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 160
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c07bda0f30ff440bca67f75a52c9bd
+      internalID: 1782679287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a58306e030cfd49bf7d35830b89018
+      internalID: -1144119262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 108
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d609c2b08ce5a44685357a00429ec67
+      internalID: -2127423212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 108
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e05bc199fb50894aa08fa2d2bab045d
+      internalID: -1005675493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935d46af4b666214fbdd3c9d1ade8282
+      internalID: 1092362395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 106
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fde24a9f506e64c8b4d8d3bdf43fab
+      internalID: 1380004767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 100
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fc5469f051e8046868301c0e28e969
+      internalID: 492226837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 100
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29070349500e6ea43a06b9f2f0b78ecf
+      internalID: 841260943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 98
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2484bedbd6649d940a2b1ba022bf16bd
+      internalID: -311028659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdaa62f7c351e446bfc1b5f54e3ca3c
+      internalID: -736972322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 108
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae6b86e4c2c76e489862feda29107d7
+      internalID: -259716640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 104
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bd54e2ed6de88488b2f48644239dda
+      internalID: -986369406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 104
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d896a6b33e5a79a4eab5ea3462acaa98
+      internalID: 1154596954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 100
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b9d62ff03d3c048a25c150d69fff4d
+      internalID: 1408882724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 66
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11a19acf5f24d44ca9db246b5a82004
+      internalID: -110335206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 66
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f104d71118c20641b5b2d47771bf98c
+      internalID: -1888580540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 70
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b73f3d951779c48aa278faab333da8
+      internalID: 1286929880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 68
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a190c285a1cb3b64f8433d9e4c4a7c4b
+      internalID: -597827393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 66
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ff3b9afaff80459670c677e94ff79
+      internalID: 318453293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8480ba6ad251e4481ad7523697860a
+      internalID: -93348294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 38
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577c2af9b57e85a44af91aa38e9aadce
+      internalID: 1344827174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 36
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11028c317fd82574c997f225189442fd
+      internalID: -14596441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 36
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f70d6162cb3cc4448500db3af605960
+      internalID: -955848826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 38
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff9825ae27b7b574f8cf63d08e1b4ce6
+      internalID: 487112434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 36
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ff81e91a6c75f8459b64f38b487b637
+      internalID: -815325687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 15_Christmas_Shadowless_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 38
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2739a4e342a15469e697c0ba133ccf
+      internalID: 1431943443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2d73fbd45709e27448b87c0724f7b354
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      15_Christmas_Shadowless_32x32_97: -986369406
+      15_Christmas_Shadowless_32x32_80: -1418867303
+      15_Christmas_Shadowless_32x32_94: -311028659
+      15_Christmas_Shadowless_32x32_62: -948808291
+      15_Christmas_Shadowless_32x32_108: -955848826
+      15_Christmas_Shadowless_32x32_76: -321179002
+      15_Christmas_Shadowless_32x32_16: -1065219417
+      15_Christmas_Shadowless_32x32_96: -259716640
+      15_Christmas_Shadowless_32x32_83: 1606283388
+      15_Christmas_Shadowless_32x32_87: -1144119262
+      15_Christmas_Shadowless_32x32_57: 567707709
+      15_Christmas_Shadowless_32x32_64: 441288416
+      15_Christmas_Shadowless_32x32_101: -1888580540
+      15_Christmas_Shadowless_32x32_105: -93348294
+      15_Christmas_Shadowless_32x32_46: 75777658
+      15_Christmas_Shadowless_32x32_86: 1782679287
+      15_Christmas_Shadowless_32x32_102: 1286929880
+      15_Christmas_Shadowless_32x32_15: -1919029884
+      15_Christmas_Shadowless_32x32_42: 1859500885
+      15_Christmas_Shadowless_32x32_100: -110335206
+      15_Christmas_Shadowless_32x32_59: 312067747
+      15_Christmas_Shadowless_32x32_60: -206556216
+      15_Christmas_Shadowless_32x32_14: -376456232
+      15_Christmas_Shadowless_32x32_41: 1156923609
+      15_Christmas_Shadowless_32x32_23: -1123186160
+      15_Christmas_Shadowless_32x32_48: -530229283
+      15_Christmas_Shadowless_32x32_12: -278295867
+      15_Christmas_Shadowless_32x32_13: -1390431077
+      15_Christmas_Shadowless_32x32_9: -90787902
+      15_Christmas_Shadowless_32x32_49: 79035325
+      15_Christmas_Shadowless_32x32_51: 476642157
+      15_Christmas_Shadowless_32x32_52: -833461607
+      15_Christmas_Shadowless_32x32_33: 2117535839
+      15_Christmas_Shadowless_32x32_1: -546903084
+      15_Christmas_Shadowless_32x32_75: 1177459616
+      15_Christmas_Shadowless_32x32_17: -1551948325
+      15_Christmas_Shadowless_32x32_22: 88561633
+      15_Christmas_Shadowless_32x32_0: -1390634104
+      15_Christmas_Shadowless_32x32_82: 1083104676
+      15_Christmas_Shadowless_32x32_44: -2048710015
+      15_Christmas_Shadowless_32x32_40: 1840915350
+      15_Christmas_Shadowless_32x32_55: -1774295658
+      15_Christmas_Shadowless_32x32_37: 1621994173
+      15_Christmas_Shadowless_32x32_19: -1541429661
+      15_Christmas_Shadowless_32x32_24: -1275504610
+      15_Christmas_Shadowless_32x32_81: 1201215943
+      15_Christmas_Shadowless_32x32_111: 1431943443
+      15_Christmas_Shadowless_32x32_47: -1066300725
+      15_Christmas_Shadowless_32x32_39: -1436704568
+      15_Christmas_Shadowless_32x32_38: -1214545629
+      15_Christmas_Shadowless_32x32_10: 484406127
+      15_Christmas_Shadowless_32x32_110: -815325687
+      15_Christmas_Shadowless_32x32_84: -961293943
+      15_Christmas_Shadowless_32x32_72: -15749308
+      15_Christmas_Shadowless_32x32_31: -245909281
+      15_Christmas_Shadowless_32x32_69: -1909592387
+      15_Christmas_Shadowless_32x32_93: 841260943
+      15_Christmas_Shadowless_32x32_32: 488122151
+      15_Christmas_Shadowless_32x32_85: 1354423145
+      15_Christmas_Shadowless_32x32_89: -1005675493
+      15_Christmas_Shadowless_32x32_6: 1412633770
+      15_Christmas_Shadowless_32x32_95: -736972322
+      15_Christmas_Shadowless_32x32_77: -1972923269
+      15_Christmas_Shadowless_32x32_29: -929692694
+      15_Christmas_Shadowless_32x32_63: 2025486591
+      15_Christmas_Shadowless_32x32_30: -340577427
+      15_Christmas_Shadowless_32x32_21: -2132590303
+      15_Christmas_Shadowless_32x32_98: 1154596954
+      15_Christmas_Shadowless_32x32_4: -1909036050
+      15_Christmas_Shadowless_32x32_79: -209030004
+      15_Christmas_Shadowless_32x32_50: 1486234260
+      15_Christmas_Shadowless_32x32_73: -847423135
+      15_Christmas_Shadowless_32x32_26: -325649679
+      15_Christmas_Shadowless_32x32_35: -1836089324
+      15_Christmas_Shadowless_32x32_43: 1272761446
+      15_Christmas_Shadowless_32x32_56: 1727154081
+      15_Christmas_Shadowless_32x32_71: -174038748
+      15_Christmas_Shadowless_32x32_90: 1092362395
+      15_Christmas_Shadowless_32x32_74: -71631639
+      15_Christmas_Shadowless_32x32_34: 582711247
+      15_Christmas_Shadowless_32x32_92: 492226837
+      15_Christmas_Shadowless_32x32_3: 747676834
+      15_Christmas_Shadowless_32x32_18: 72960902
+      15_Christmas_Shadowless_32x32_45: 244995946
+      15_Christmas_Shadowless_32x32_2: 1815312179
+      15_Christmas_Shadowless_32x32_54: 306596035
+      15_Christmas_Shadowless_32x32_58: -1993211801
+      15_Christmas_Shadowless_32x32_103: -597827393
+      15_Christmas_Shadowless_32x32_109: 487112434
+      15_Christmas_Shadowless_32x32_104: 318453293
+      15_Christmas_Shadowless_32x32_61: 248462347
+      15_Christmas_Shadowless_32x32_78: -748108882
+      15_Christmas_Shadowless_32x32_107: -14596441
+      15_Christmas_Shadowless_32x32_99: 1408882724
+      15_Christmas_Shadowless_32x32_88: -2127423212
+      15_Christmas_Shadowless_32x32_65: -2071261059
+      15_Christmas_Shadowless_32x32_20: -1801104664
+      15_Christmas_Shadowless_32x32_28: 488572582
+      15_Christmas_Shadowless_32x32_68: -500927199
+      15_Christmas_Shadowless_32x32_106: 1344827174
+      15_Christmas_Shadowless_32x32_91: 1380004767
+      15_Christmas_Shadowless_32x32_53: -1734488170
+      15_Christmas_Shadowless_32x32_36: -614151376
+      15_Christmas_Shadowless_32x32_66: 115567780
+      15_Christmas_Shadowless_32x32_25: 51334027
+      15_Christmas_Shadowless_32x32_5: 762781504
+      15_Christmas_Shadowless_32x32_70: 466854592
+      15_Christmas_Shadowless_32x32_11: -432143335
+      15_Christmas_Shadowless_32x32_27: -119528150
+      15_Christmas_Shadowless_32x32_8: 899809394
+      15_Christmas_Shadowless_32x32_7: 1812795771
+      15_Christmas_Shadowless_32x32_67: 1107727616
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

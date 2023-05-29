@@ -23,7 +23,7 @@ public class PlayerHPBar : HealthBar
         MaxHP = DataCollection.playerMaxHP;
         healthBarUI.fillAmount = (float)HP / MaxHP;
         OnDie.AddListener(OnPlayerDie);
-        EventHandler.PlayerDie += TurnToDeadScene;
+        //EventHandler.PlayerDie += TurnToDeadScene;
         EventHandler.DoDamage2Player += DoDamage;
     }
     private void Update()
@@ -33,6 +33,7 @@ public class PlayerHPBar : HealthBar
     public void OnPlayerDie()
     {
         EventHandler.CallPlayerDie();
+        TurnToDeadScene();
     }
 
     public override void DoDamage(int Damage)

@@ -12,7 +12,7 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     Animator animator;
     public bool isDashing;
 
-    [Header("Dash����")]
+    [Header("Dash参数")]
     public float dashTime;
     private float dashTimeLeft;
     private float lastDash;
@@ -23,8 +23,8 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
 
     private float lastBandage;
     public float BandageCoolDown;
-    [Header("CD��UI���")]
-    public Image CDImage;
+    //[Header("CD��UI���")]
+    //public Image CDImage;
     //��ʼ�����ԣ���ȡRigidbody2D��Animator���
     void Start()
     {
@@ -107,11 +107,11 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
     public void Move()
     {
         rb2D.velocity = new Vector2(InputX, InputY) * speed;
-        var localscale = transform.localScale;
+        //var localscale = transform.localScale;
 
         //����ˮƽ�������ֵ������ҵĳ���
-        localscale.x = Mathf.Sign(animator.GetFloat("InputX"));
-        transform.localScale = localscale;
+        //localscale.x = Mathf.Sign(animator.GetFloat("InputX"));
+        //transform.localScale = localscale;
     }
     void Bandage()
     {

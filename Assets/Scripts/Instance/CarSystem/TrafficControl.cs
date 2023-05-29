@@ -10,7 +10,9 @@ public class TrafficControl : MonoBehaviour
     public float SetTimer;
     float timer;
     public bool flag;
-   
+    public Sprite[] LightSprites;
+    public GameObject HoriLightIns;
+
     void Start()
     {
         timer = 0;
@@ -25,6 +27,7 @@ public class TrafficControl : MonoBehaviour
         }
         else if (timer > 16f)
         {
+            //HoriLightIns.GetComponent<SpriteRenderer>().sprite = LightSprites[0];
             colliders[0].enabled = true;
             colliders[1].enabled = true;
             colliders[2].enabled = true;
@@ -32,6 +35,7 @@ public class TrafficControl : MonoBehaviour
         }
         else if(timer > 10f)
         {
+            HoriLightIns.GetComponent<SpriteRenderer>().sprite = LightSprites[0];
             colliders[0].enabled = true;
             colliders[1].enabled = true;
             colliders[2].enabled = false;
@@ -46,6 +50,7 @@ public class TrafficControl : MonoBehaviour
         }
         else if(timer > 0f)
         {
+            HoriLightIns.GetComponent<SpriteRenderer>().sprite = LightSprites[1];
             colliders[0].enabled = false;
             colliders[1].enabled = false;
             colliders[2].enabled = true;

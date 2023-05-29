@@ -1,0 +1,5205 @@
+fileFormatVersion: 2
+guid: 040e7c6a9ae3ab644bc9ec5a0c1409d7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1772
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743ab905356c4724a94c0bb2a36ddfb8
+      internalID: -29675088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1712
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb960518796b354f9cbdb05859f125f
+      internalID: -116145183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1712
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f9d2fbd2845cd4bad62b4dfeee1380
+      internalID: 599868243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1712
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad2a047902a66140961a60cfc3cee0b
+      internalID: -1769980832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1712
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7535e0aac5f99384da9d8d0b88812e34
+      internalID: 1624875686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1762
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d20cae6440219d46a8eea3c2e077320
+      internalID: -40841121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1712
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c89e87b3c9bf741b459a43e8746398
+      internalID: -2088946983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1740
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e6cf4d93a9cbf478b7b77debfa2f34
+      internalID: 133673011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1712
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7700509a05aaba4780f5b77c29fcf61
+      internalID: 1310348822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1734
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db19b9691cbbc24449b17c655244d95c
+      internalID: -1849037991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1712
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0251734689203f249a7cfe7314edb9b5
+      internalID: -1963584900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1724
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d424070a94ee2941a49208e57082b58
+      internalID: -281724722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1708
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7490bd28461084da6491f1f8e6689a
+      internalID: -1087859481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1702
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be7f7593ccd3fa4cbed1ce78fe8fe75
+      internalID: 1504671186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1584
+        width: 96
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff4b0dc00d0b3bd47a396c390a72d3a8
+      internalID: -1376934080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1664
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43934aa5a88b801448d006928f28e5e4
+      internalID: -646603694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1618
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f66629e8fdad6748bf3d37e544957b8
+      internalID: 320600341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1618
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a81c836fc349f4f9375e4f5d9fcc5e
+      internalID: 606352854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1618
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9679719cdfaa84584d4d740455b4fb
+      internalID: 740383645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1618
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c679ef83a2f108044a7cee0a8428d27c
+      internalID: -485876998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1618
+        width: 28
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb35f1a8dc4a9c458ee3cf116b42e0b
+      internalID: 1433486123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1644
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1105f8e32a0b534ca87baf5577d328c
+      internalID: -1961984996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1634
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7cd32056d742614bb4da7b4b8c419c2
+      internalID: -88997016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1584
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1255d2db94d4564a9b9445b0fd537d8
+      internalID: -1422847213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 1572
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d0a665b59cc9840842735ec3d8c6d6
+      internalID: 789213836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1546
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc31b0dac830684b9a4b1918d43a48c
+      internalID: 72460465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1546
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2422ebb21d6f11499ade534b3fcf965
+      internalID: -764196942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1590
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815e788813731424085c127713eec247
+      internalID: -928410048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1590
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed4d4b1541132df4ab05f265c222dbc2
+      internalID: -2084424324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1482
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90205ea5c5837064f90214e61453f66a
+      internalID: -1177481661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1514
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b665765ec62842b4ca6c1e0fb8d92ee3
+      internalID: -923418620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1526
+        width: 50
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda89c3874d97434ba1e99fa7c9ae0d2
+      internalID: -428500188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1458
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a42b3da121d1484ab0c62fb0d52feb6
+      internalID: 1908648024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1458
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9ecce2881ae45448bcc3d5f84b72a6
+      internalID: -1906914859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1458
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e482b9af09ca74a9686f7fcd8622b6
+      internalID: -143189387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1478
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387609aebfa6f8248831daac6050da57
+      internalID: -909681326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_36
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1490
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f41df22e190434e8b71085753d501b
+      internalID: -538301580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_37
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1490
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21248281b7437974bad5b68aac28cdcf
+      internalID: 901604404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_38
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1418
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d005f76eea35cff40a15290ed1d528d5
+      internalID: 1498280738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_39
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1414
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a402a4affdf2744b3c931b50f00150
+      internalID: 1110531086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_40
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1452
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2150d87fd4519e943a509579cd6c92b2
+      internalID: 117527716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1414
+        width: 60
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992858b509fd2bb4d9af0e0c4bd0c459
+      internalID: 163715560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_42
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1424
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b231722189f81a743ae9712b1da64961
+      internalID: -1893303783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_43
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 1424
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4022eb949ccce9548b4972a6721b474b
+      internalID: -452854326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_44
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1388
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1ef94909f819841b9f1d597191cac3
+      internalID: -206257130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_45
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1420
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b9cc773fb98834fb65510c4875cdf1
+      internalID: 968841395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1354
+        width: 62
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e81ddf3a7aab4948aaf9d4ff0e4050f
+      internalID: -718585667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_47
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1328
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca1249b515f52649913e529f18fd97c
+      internalID: -1053209801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_48
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 1368
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b7f7498472c764d84fe2174af06c55
+      internalID: -2121530455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_49
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1368
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333bea53bffcf8c448db30f37c0574db
+      internalID: -759054881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_50
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1368
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7670bdb24fa01104b9356d23ccdac001
+      internalID: -1518966796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1368
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d70956f3bbcb14db0ae4a606e0fb47
+      internalID: -1401710855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_52
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1350
+        width: 128
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53199e7f10346ab42b72eddddf0afe6a
+      internalID: -1642284761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_53
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1292
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6d0f005b314bc4ba0b0bd3473e47a5
+      internalID: -325157075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_54
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1324
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680e146d203f73a498c1dc5e094bce8c
+      internalID: -738288959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_55
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1218
+        width: 52
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01cf7b161d2ef84db5ff7b685975903
+      internalID: -224112607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_56
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1226
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee5833e3f8852c6488b7333bc83ec7d9
+      internalID: -2016902555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_57
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1226
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87844d736ac2ad24da3d9e2c927010d6
+      internalID: 149361446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_58
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1226
+        width: 48
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46ef0086de1a80439bbbf703b33eda7
+      internalID: -356673939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_59
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1166
+        width: 120
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e26bfe7f33141e40af7c8d22296626c
+      internalID: 972559247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_60
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1232
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb3315c5b393ac47842c592b86b681c
+      internalID: -1720625937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_61
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d53c8e2251d389040b04e2f6b07a48d9
+      internalID: 1034174487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_62
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f0aff0a2e7c5448aec0a1a068754e2
+      internalID: -473620563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_63
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1172
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bc61c0662dd064bb24121834818aaf
+      internalID: -1252018995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_64
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1178
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ef8c45b0173fc488697a5d98142799
+      internalID: 1942065921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_65
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f557d2921d9c54e96622d403e5c1f2
+      internalID: -163457766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_66
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d802e5cae5325748ab81bed9d516667
+      internalID: -608958378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_67
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1158
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca4457b33afefd48ae14a01bf76be77
+      internalID: -1801733982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_68
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1102
+        width: 120
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f75b9fa4e880d847b367a104c94f19e
+      internalID: 662454826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_69
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2657e5952939c9c46b3e8b51b17f6e90
+      internalID: -1991219203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_70
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4938268b6fc25d498ee502fefbaeb12
+      internalID: -458678066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_71
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1092
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b101dcecb83041b70decf92ed43cd
+      internalID: -511051163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_72
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1056
+        width: 152
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111d7a1d30295ff49a15855892a1b755
+      internalID: -1393301238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_73
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 974
+        width: 120
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a2033ae77a4c4499981e832e8747d3
+      internalID: -1415699621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_74
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 988
+        width: 94
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0572a65e37cb34ebc65b687a8c57e2
+      internalID: -644953930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_75
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7c931ebb060db428ff6825e233cce9
+      internalID: -658769254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_76
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770544e282db2094a853726689f9dc42
+      internalID: -1446088463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_77
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451af22674c66d41a1db775f7c7faf9
+      internalID: 1944642898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_78
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907cae4ebde0ace45bc11386db6763a3
+      internalID: 977601466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_79
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32ea252ae085b543838957c1ba742db
+      internalID: 1076410466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_80
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 974
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02545f9cb77854b986f261a480ba1f
+      internalID: 529671597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_81
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1030
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ed438171172bd4cb541a8837d9ba4d
+      internalID: 1822137045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_82
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 1030
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebe99bc107d9cf44961fb9ac2465bde
+      internalID: -1154451658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_83
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 974
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa49bb78b502854690f70e3a2ccf716
+      internalID: -199981552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_84
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 960
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad09adbfcc9a5084799e645ed0ca63ec
+      internalID: -1261775344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_85
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 910
+        width: 94
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4209efdb38780b544914aea466845662
+      internalID: -1594812523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_86
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 956
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27094c72699c284498f1dbc19a7746f
+      internalID: 1464778196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_87
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 974
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba0cb3dd0e3c8944b28777ac0206a93
+      internalID: 2051975458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_88
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 970
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2dae3224829524f8cc26cad5bcf497
+      internalID: -1929918540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_89
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 910
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5ebe4e43921764e9cd4a10aefed411
+      internalID: -2014669754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_90
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 910
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89afd1aa8635894fb655c5f495176dd
+      internalID: 175372438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_91
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1be0b60990a1140b7be9b8140613d1
+      internalID: -1329057644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 896
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f68f8f19ae96547a458f83395cabd1
+      internalID: -1583379955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_93
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847d5a785bff70147b64c38175fc6ca8
+      internalID: -1841067871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_94
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5af9fb0a30405242850828a30719102
+      internalID: -1807019903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_95
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6ebc4115bd54344afed02faf6d8e41
+      internalID: 1681963174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_96
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45868a33144f08242acad8dcec978fec
+      internalID: -1063723191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_97
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ce542a1d312c84e84876e636db8efd
+      internalID: 976395656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_98
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 878
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819d3c3a4ec62164ab56b1abf5500479
+      internalID: -209701951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_99
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 910
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c534b440341e1bf4eb8359a6bd9c3993
+      internalID: -461411550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_100
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 906
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e39b61ebfd53d64c82312d4a75b1ccc
+      internalID: 1708609829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_101
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 846
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd55c940d44adb4a876b7d3577a796d
+      internalID: 78156131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_102
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 852
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5809a7627a7c1e848a900db6b411fc23
+      internalID: 272398341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_103
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 840
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10a9615b948320d42b0e966a3d0e8182
+      internalID: 228405853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_104
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 856
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef5ed8efdd61e6e46be6d1696a5dd889
+      internalID: 606959891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_105
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 832
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf67ee566fd9733498a7ff7ffbdc8926
+      internalID: -1325713997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_106
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 832
+        width: 62
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e458c78de7e15247bd5c1690b80c89e
+      internalID: 979507041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_107
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 832
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac396054213aa244a7f06ee2511ad32
+      internalID: -1093919952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_108
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 832
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cffaad6ffe450824b8ae7c37eb245b8f
+      internalID: -1811128350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_109
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 776
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f1efbf325490f438c8307a164da18a
+      internalID: 610515416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_110
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 792
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f622cec87b61c44a6d3492876f4174
+      internalID: 100841950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_111
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 800
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c71b9924f20f445af7c15bcf9cbb40
+      internalID: -1923324218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_112
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 792
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37edb31355b7946459afb23828a9ab26
+      internalID: 1901066049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_113
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 800
+        width: 128
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d6eefb33c5a364880343ec4094cdb0
+      internalID: -464477806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_114
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 752
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6728312a2152f1647939c754a7189b46
+      internalID: 1572966293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_115
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 752
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65a209fbbb962e4a9b06f4f25fdafd7
+      internalID: 1187329601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_116
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 768
+        width: 52
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e015222a9a8a64f468d2f1ca4b1c83b1
+      internalID: -562394203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_117
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 752
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e9a73784fdeb4dbaaf55c41882cd0
+      internalID: -166747531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_118
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 752
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91409b89f6c3de84196caabce2f6647c
+      internalID: -1529722567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 724
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e5f279b9480284fa0204bb0a164da6
+      internalID: 1111430127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_120
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 712
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49381354bad26554d8788547164a5eed
+      internalID: -963096329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_121
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 672
+        width: 152
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3d41d1c7ad351a449299ca67e66b125
+      internalID: -184658664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 736
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3808589ecc6c1f428333834b5d7b65c
+      internalID: 903242792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_123
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 736
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157bc289ec7e02e4c93505b109d45fc4
+      internalID: -1570144449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_124
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 640
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a999d5481a97c54fbfe8f9bbedd3c74
+      internalID: 1206994611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_125
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 688
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef0f7a9a9e85fc409f87ff1d1682d34
+      internalID: 2108876455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_126
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 688
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41242cdb6fc502428d27f55a41817da
+      internalID: 1145956449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_127
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b9358ce6de1604687e143ae2f2e709
+      internalID: 776590537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_128
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39182b50c8eb95543b4cab0df6bdb75f
+      internalID: 1506548211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_129
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0b6774c7830044896f2300b3ef1a6f
+      internalID: -2046446168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_130
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d203620acb31b44408105a3958cfe911
+      internalID: 1235014456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_131
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 690
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ad4f605c506504db77ed22610ca27a
+      internalID: -1066213023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 64
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be9b143d87826e46ae77d402ff55a91
+      internalID: 2075057253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_133
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2ba42fbc998694b937ea442641eab9
+      internalID: 1227823952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_134
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 640
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91553eb16de142f44988c6879c02177b
+      internalID: -1437781298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_135
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 640
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc8fe8b5a042aa4eb0cc89ded761548
+      internalID: 1635706283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_136
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 656
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2e3eeb325668243b4d0bdfea798230
+      internalID: -684991667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_137
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 656
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f694e269244d4681c3a335313a6fa
+      internalID: -597985202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_138
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 624
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd75d9a330655843a015f85318d2d25
+      internalID: -867458122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_139
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 634
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75196099665add545bf167ee96e8df88
+      internalID: -1636583419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_140
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff8e6fd4010a4d47b975a233d571ebb
+      internalID: -1584660763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_141
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6275f6d9914fac348a86ec22be942d94
+      internalID: 1379412268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_142
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d4506cb13a6c2a4bb80adc8361a3110
+      internalID: 193572408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_143
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d710973a43eeedd46a6766af605104bb
+      internalID: 945453285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_144
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 626
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4afae1efd01e34489e05d02dada48ac
+      internalID: 1734441225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_145
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 608
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e934d68e8920508429263bf6d06bd11d
+      internalID: -1663214455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_146
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 608
+        width: 50
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8772f62a7e42e514bb2b8210790cba0f
+      internalID: -976615233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_147
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 514
+        width: 140
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8cca9d15d367c428bee7c36173ef21
+      internalID: 1234037348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 514
+        width: 64
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703a2682ddcbbff41b85d1ad1e72188d
+      internalID: -1829344622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_149
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d5481667b5bde40a1c5363edd5e018
+      internalID: -1346563864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_150
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639265470d5d09b4d8512a2b2371c954
+      internalID: -935620371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_151
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c889be6ef36cb4cb6631a997884b65
+      internalID: -1750419948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_152
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf3217ac8fc226498039fea0a6f37ea
+      internalID: -1024171553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_153
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e514ba035be1ab4086278ce981728fd
+      internalID: -1518661889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_154
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 488
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26e1b9811dfecc42a35405428f14e62
+      internalID: 201352499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_155
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 450
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec35c995e089ff84d90c19e9f18305f8
+      internalID: 985933406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_156
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 486
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1a25a668a51484382acd4e4d79887e
+      internalID: 1245265748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_157
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 486
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b4c1307585db044a5b92d0cdf599ed
+      internalID: 2108134438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 454
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a616d2c73a01d45aafd2ee8a759185
+      internalID: -1410987348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_159
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 496
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d617b47ceaae384d95ebc26b9af5cf4
+      internalID: -333487999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 472
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3250891ce194bb0479843b9cbb841c03
+      internalID: 1984148177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_161
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 456
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb8d2a0f17ac4347a9a117215e80927
+      internalID: -2071784411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_162
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 454
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b17a1d023e9bc468e0e071a843d567
+      internalID: -1804999648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_163
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 464
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381af87bbd911de4a9237db629b87605
+      internalID: 1232624076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_164
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 458
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4139dbeebf1cc9743bb040e75db86cb8
+      internalID: 695863573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_165
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 416
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4e0fde159d30d42be8b0ee1d322d7a
+      internalID: -577546811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_166
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 440
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af723d54e85d124e86288f30017c4a6
+      internalID: 246896424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_167
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 440
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed29d55c3e2554e409b64b2df7ebc8c9
+      internalID: -1923531454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_168
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 384
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a21a001fba62469b0e3fbe31a38d1
+      internalID: 1558655133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_169
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 432
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abe8c43126b5c744ac3a43de4488322
+      internalID: -1464814736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_170
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df7c7914e15faa4da0a54a0fd76440a
+      internalID: -62871373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_171
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9335f09cca1134a42a00228a552ce11d
+      internalID: -2118910210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_172
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 422
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6432018d7244bfb42b208946e1845b1c
+      internalID: -1772211739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_173
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e664d811cca9a2c40824a126976c87a2
+      internalID: -407719789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_174
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c253d80ec6f5c944a70ee7a6f6f552b
+      internalID: 1547203240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_175
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 360
+        width: 28
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3515d3665953b48b55aea4766485dd
+      internalID: 1315142709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_176
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 434
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98a8c0b261c44d44960325a3fa62098
+      internalID: -439121988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_177
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 344
+        width: 48
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d9a7460ba733d47a984d24003dccd9
+      internalID: 822253459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 346
+        width: 96
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a33f6b7a38226459b911846eb0299a
+      internalID: -579711200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_179
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 366
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb22e562d3b4c4f4c9c55b9399323c8c
+      internalID: -1903544578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_180
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 392
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e7da14f9853f244baee6b8854e6230a
+      internalID: 1171119215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_181
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 392
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912509afa597c64193abd005e1e696d
+      internalID: -1569715790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_182
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 390
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5211b61f0bd6e74f886466f5d9ae8d0
+      internalID: -1793948757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_183
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 372
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d92a3276621c142bd244ed4e24a270
+      internalID: 1172734661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_184
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 378
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c5c9e53374a454dacd7f83399c087e
+      internalID: 1081505368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_185
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16faf0cd00601974397273b4f22b9087
+      internalID: -782639107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_186
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 378
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9024b5c0cbdfc144f87abdeae86e8be7
+      internalID: 129848060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_187
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 380
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b58d6c2d705403742a824d2718e8de13
+      internalID: -285124269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_188
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 362
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3264332d2e5fb5445b0504c61504532b
+      internalID: -1995801067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_189
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 362
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce06530524ebc9146ba78a0c436d4e3c
+      internalID: 530949604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_190
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 362
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5556b6181f1b2be4ba29423ab753db8e
+      internalID: -311782284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_191
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 362
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e857681ae71eb104dafa029690e21728
+      internalID: -838625848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_192
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 358
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66d08e3bd1a6e49bc956859a5fc0ec
+      internalID: -1757824074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_193
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 340
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e6944e05f9b84428617545090cef9f
+      internalID: -324686952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_194
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 296
+        width: 24
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8add2489515e3934c8dd9b75fabc0793
+      internalID: -71470498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_195
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 302
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88c1a3033e1f8141ba5f1df86533697
+      internalID: 839803352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_196
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ae1323261e01d42b9cc126042cc7bb
+      internalID: 890528850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_197
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c11714a02991242a7b92c53fa8bec0
+      internalID: 1702497297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_198
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f57da84aca5d3ce4181559dccda7df25
+      internalID: 358947990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_199
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab2cbf937ed1754fb469666fead4024
+      internalID: -1180653690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_200
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77226bee69d8de4aab87bec0bbb3d85
+      internalID: -1780491555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_201
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4bf88f23d9d4148b2aac498359deab
+      internalID: -1227203503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_202
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 238
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950bd60d211cbc749929893244dcc586
+      internalID: -179244850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_203
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 228
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ac4b2cc361f2844a99b94d42fbaeec
+      internalID: 1728700736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_204
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 294
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb13d57cbc7d0d47b7889d76202aaac
+      internalID: 1098376479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_205
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 272
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f73593e366aeeb48987330519afc1ac
+      internalID: -845540389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_206
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 272
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e947d3705656d1742a32ba3a847ea90f
+      internalID: 386293801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_207
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 274
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1bc24b17fb94594ca026505810c596f
+      internalID: 1811003722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_208
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 238
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9df03d96529c64fb2e525f10e03f94
+      internalID: 143937772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_209
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 238
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19a01c92fbfccd4facee2635452bc16
+      internalID: 557357702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_210
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 210
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94dde980740fa19468b24d9f3cbb2507
+      internalID: 1461481759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_211
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 224
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebaf308d96d5ac4c923468b989bb6c6
+      internalID: 528649696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_212
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 228
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8bf0f54cee239c4a96fbbb862cd3bdd
+      internalID: -381752199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_213
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ece8eef3992c1f489263b8271457d44
+      internalID: 423811057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_214
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22ab784cd9d6dd49846fa3833c7bc05
+      internalID: 1728352705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_215
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea58b12f252f5c8498b7fc9299d4185e
+      internalID: -1025251328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_216
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256042e415a287d4c94731c317ed4d4c
+      internalID: -120979146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_217
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea308b44ab4dc440903d60afc8d5548
+      internalID: -1590430336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_218
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec6ee0dbbf1fbd40b7350a677b4e9b8
+      internalID: 899517587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_219
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 142
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f401f3ee834aa74a9c1b68827937dd7
+      internalID: 377461467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_220
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 206
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a391ce8b09e926948a2366da9e59aae4
+      internalID: -165055037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_221
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 206
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d655e9638013c6b41928d2aae2211b60
+      internalID: 87672642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_222
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 174
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcb32e1ad9f478419ffeb821b98fc35
+      internalID: 1514174419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_223
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 150
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636eeb1f855baea4ca0615cf15df35fb
+      internalID: -1544014261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_224
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97c3b0a0a773764987766126924abdd
+      internalID: -1023674451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_225
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ecdfb927ad114aa15866b04e83f94
+      internalID: 1525670360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_226
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ffec0cbf7631444b7dc9ce3dc538d3
+      internalID: 1460440862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_227
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d978db6b7fe6c4bb5a92453f409455
+      internalID: 1861203172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_228
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9a4a35aaa925642b0f51336b8923c6
+      internalID: -313318452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_229
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5493a5810b3fd734a90d2b64610c622e
+      internalID: -1656546515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_Bathroom_Shadowless_32x32_230
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 46
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9feda998c1efb4689e5e05eba7f67c
+      internalID: 1630105417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 599cb280519760d49b4a2becbd2f246f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      3_Bathroom_Shadowless_32x32_121: -184658664
+      3_Bathroom_Shadowless_32x32_129: -2046446168
+      3_Bathroom_Shadowless_32x32_203: 1728700736
+      3_Bathroom_Shadowless_32x32_217: -1590430336
+      3_Bathroom_Shadowless_32x32_189: 530949604
+      3_Bathroom_Shadowless_32x32_142: 193572408
+      3_Bathroom_Shadowless_32x32_53: -325157075
+      3_Bathroom_Shadowless_32x32_75: -658769254
+      3_Bathroom_Shadowless_32x32_4: 1624875686
+      3_Bathroom_Shadowless_32x32_89: -2014669754
+      3_Bathroom_Shadowless_32x32_97: 976395656
+      3_Bathroom_Shadowless_32x32_150: -935620371
+      3_Bathroom_Shadowless_32x32_204: 1098376479
+      3_Bathroom_Shadowless_32x32_2: 599868243
+      3_Bathroom_Shadowless_32x32_218: 899517587
+      3_Bathroom_Shadowless_32x32_54: -738288959
+      3_Bathroom_Shadowless_32x32_57: 149361446
+      3_Bathroom_Shadowless_32x32_107: -1093919952
+      3_Bathroom_Shadowless_32x32_184: 1081505368
+      3_Bathroom_Shadowless_32x32_178: -579711200
+      3_Bathroom_Shadowless_32x32_30: -923418620
+      3_Bathroom_Shadowless_32x32_74: -644953930
+      3_Bathroom_Shadowless_32x32_144: 1734441225
+      3_Bathroom_Shadowless_32x32_161: -2071784411
+      3_Bathroom_Shadowless_32x32_98: -209701951
+      3_Bathroom_Shadowless_32x32_176: -439121988
+      3_Bathroom_Shadowless_32x32_48: -2121530455
+      3_Bathroom_Shadowless_32x32_1: -116145183
+      3_Bathroom_Shadowless_32x32_164: 695863573
+      3_Bathroom_Shadowless_32x32_99: -461411550
+      3_Bathroom_Shadowless_32x32_147: 1234037348
+      3_Bathroom_Shadowless_32x32_76: -1446088463
+      3_Bathroom_Shadowless_32x32_13: 1504671186
+      3_Bathroom_Shadowless_32x32_134: -1437781298
+      3_Bathroom_Shadowless_32x32_83: -199981552
+      3_Bathroom_Shadowless_32x32_86: 1464778196
+      3_Bathroom_Shadowless_32x32_151: -1750419948
+      3_Bathroom_Shadowless_32x32_43: -452854326
+      3_Bathroom_Shadowless_32x32_87: 2051975458
+      3_Bathroom_Shadowless_32x32_197: 1702497297
+      3_Bathroom_Shadowless_32x32_126: 1145956449
+      3_Bathroom_Shadowless_32x32_92: -1583379955
+      3_Bathroom_Shadowless_32x32_67: -1801733982
+      3_Bathroom_Shadowless_32x32_223: -1544014261
+      3_Bathroom_Shadowless_32x32_21: -1961984996
+      3_Bathroom_Shadowless_32x32_208: 143937772
+      3_Bathroom_Shadowless_32x32_6: -2088946983
+      3_Bathroom_Shadowless_32x32_0: -29675088
+      3_Bathroom_Shadowless_32x32_27: -928410048
+      3_Bathroom_Shadowless_32x32_114: 1572966293
+      3_Bathroom_Shadowless_32x32_15: -646603694
+      3_Bathroom_Shadowless_32x32_71: -511051163
+      3_Bathroom_Shadowless_32x32_207: 1811003722
+      3_Bathroom_Shadowless_32x32_154: 201352499
+      3_Bathroom_Shadowless_32x32_41: 163715560
+      3_Bathroom_Shadowless_32x32_60: -1720625937
+      3_Bathroom_Shadowless_32x32_130: 1235014456
+      3_Bathroom_Shadowless_32x32_148: -1829344622
+      3_Bathroom_Shadowless_32x32_201: -1227203503
+      3_Bathroom_Shadowless_32x32_36: -538301580
+      3_Bathroom_Shadowless_32x32_171: -2118910210
+      3_Bathroom_Shadowless_32x32_81: 1822137045
+      3_Bathroom_Shadowless_32x32_160: 1984148177
+      3_Bathroom_Shadowless_32x32_80: 529671597
+      3_Bathroom_Shadowless_32x32_88: -1929918540
+      3_Bathroom_Shadowless_32x32_169: -1464814736
+      3_Bathroom_Shadowless_32x32_173: -407719789
+      3_Bathroom_Shadowless_32x32_139: -1636583419
+      3_Bathroom_Shadowless_32x32_190: -311782284
+      3_Bathroom_Shadowless_32x32_199: -1180653690
+      3_Bathroom_Shadowless_32x32_102: 272398341
+      3_Bathroom_Shadowless_32x32_175: 1315142709
+      3_Bathroom_Shadowless_32x32_228: -313318452
+      3_Bathroom_Shadowless_32x32_133: 1227823952
+      3_Bathroom_Shadowless_32x32_193: -324686952
+      3_Bathroom_Shadowless_32x32_7: 133673011
+      3_Bathroom_Shadowless_32x32_186: 129848060
+      3_Bathroom_Shadowless_32x32_180: 1171119215
+      3_Bathroom_Shadowless_32x32_50: -1518966796
+      3_Bathroom_Shadowless_32x32_58: -356673939
+      3_Bathroom_Shadowless_32x32_120: -963096329
+      3_Bathroom_Shadowless_32x32_131: -1066213023
+      3_Bathroom_Shadowless_32x32_182: -1793948757
+      3_Bathroom_Shadowless_32x32_221: 87672642
+      3_Bathroom_Shadowless_32x32_116: -562394203
+      3_Bathroom_Shadowless_32x32_132: 2075057253
+      3_Bathroom_Shadowless_32x32_49: -759054881
+      3_Bathroom_Shadowless_32x32_166: 246896424
+      3_Bathroom_Shadowless_32x32_18: 740383645
+      3_Bathroom_Shadowless_32x32_110: 100841950
+      3_Bathroom_Shadowless_32x32_162: -1804999648
+      3_Bathroom_Shadowless_32x32_206: 386293801
+      3_Bathroom_Shadowless_32x32_118: -1529722567
+      3_Bathroom_Shadowless_32x32_230: 1630105417
+      3_Bathroom_Shadowless_32x32_101: 78156131
+      3_Bathroom_Shadowless_32x32_220: -165055037
+      3_Bathroom_Shadowless_32x32_214: 1728352705
+      3_Bathroom_Shadowless_32x32_63: -1252018995
+      3_Bathroom_Shadowless_32x32_8: 1310348822
+      3_Bathroom_Shadowless_32x32_33: -1906914859
+      3_Bathroom_Shadowless_32x32_192: -1757824074
+      3_Bathroom_Shadowless_32x32_45: 968841395
+      3_Bathroom_Shadowless_32x32_212: -381752199
+      3_Bathroom_Shadowless_32x32_211: 528649696
+      3_Bathroom_Shadowless_32x32_117: -166747531
+      3_Bathroom_Shadowless_32x32_96: -1063723191
+      3_Bathroom_Shadowless_32x32_122: 903242792
+      3_Bathroom_Shadowless_32x32_78: 977601466
+      3_Bathroom_Shadowless_32x32_174: 1547203240
+      3_Bathroom_Shadowless_32x32_158: -1410987348
+      3_Bathroom_Shadowless_32x32_51: -1401710855
+      3_Bathroom_Shadowless_32x32_28: -2084424324
+      3_Bathroom_Shadowless_32x32_84: -1261775344
+      3_Bathroom_Shadowless_32x32_82: -1154451658
+      3_Bathroom_Shadowless_32x32_20: 1433486123
+      3_Bathroom_Shadowless_32x32_163: 1232624076
+      3_Bathroom_Shadowless_32x32_128: 1506548211
+      3_Bathroom_Shadowless_32x32_226: 1460440862
+      3_Bathroom_Shadowless_32x32_25: 72460465
+      3_Bathroom_Shadowless_32x32_165: -577546811
+      3_Bathroom_Shadowless_32x32_140: -1584660763
+      3_Bathroom_Shadowless_32x32_172: -1772211739
+      3_Bathroom_Shadowless_32x32_194: -71470498
+      3_Bathroom_Shadowless_32x32_213: 423811057
+      3_Bathroom_Shadowless_32x32_104: 606959891
+      3_Bathroom_Shadowless_32x32_125: 2108876455
+      3_Bathroom_Shadowless_32x32_152: -1024171553
+      3_Bathroom_Shadowless_32x32_156: 1245265748
+      3_Bathroom_Shadowless_32x32_196: 890528850
+      3_Bathroom_Shadowless_32x32_185: -782639107
+      3_Bathroom_Shadowless_32x32_32: 1908648024
+      3_Bathroom_Shadowless_32x32_16: 320600341
+      3_Bathroom_Shadowless_32x32_23: -1422847213
+      3_Bathroom_Shadowless_32x32_93: -1841067871
+      3_Bathroom_Shadowless_32x32_119: 1111430127
+      3_Bathroom_Shadowless_32x32_141: 1379412268
+      3_Bathroom_Shadowless_32x32_34: -143189387
+      3_Bathroom_Shadowless_32x32_112: 1901066049
+      3_Bathroom_Shadowless_32x32_200: -1780491555
+      3_Bathroom_Shadowless_32x32_111: -1923324218
+      3_Bathroom_Shadowless_32x32_94: -1807019903
+      3_Bathroom_Shadowless_32x32_138: -867458122
+      3_Bathroom_Shadowless_32x32_157: 2108134438
+      3_Bathroom_Shadowless_32x32_146: -976615233
+      3_Bathroom_Shadowless_32x32_52: -1642284761
+      3_Bathroom_Shadowless_32x32_9: -1849037991
+      3_Bathroom_Shadowless_32x32_14: -1376934080
+      3_Bathroom_Shadowless_32x32_179: -1903544578
+      3_Bathroom_Shadowless_32x32_3: -1769980832
+      3_Bathroom_Shadowless_32x32_10: -1963584900
+      3_Bathroom_Shadowless_32x32_11: -281724722
+      3_Bathroom_Shadowless_32x32_187: -285124269
+      3_Bathroom_Shadowless_32x32_195: 839803352
+      3_Bathroom_Shadowless_32x32_103: 228405853
+      3_Bathroom_Shadowless_32x32_31: -428500188
+      3_Bathroom_Shadowless_32x32_170: -62871373
+      3_Bathroom_Shadowless_32x32_224: -1023674451
+      3_Bathroom_Shadowless_32x32_47: -1053209801
+      3_Bathroom_Shadowless_32x32_209: 557357702
+      3_Bathroom_Shadowless_32x32_24: 789213836
+      3_Bathroom_Shadowless_32x32_55: -224112607
+      3_Bathroom_Shadowless_32x32_73: -1415699621
+      3_Bathroom_Shadowless_32x32_167: -1923531454
+      3_Bathroom_Shadowless_32x32_85: -1594812523
+      3_Bathroom_Shadowless_32x32_210: 1461481759
+      3_Bathroom_Shadowless_32x32_5: -40841121
+      3_Bathroom_Shadowless_32x32_62: -473620563
+      3_Bathroom_Shadowless_32x32_79: 1076410466
+      3_Bathroom_Shadowless_32x32_216: -120979146
+      3_Bathroom_Shadowless_32x32_222: 1514174419
+      3_Bathroom_Shadowless_32x32_35: -909681326
+      3_Bathroom_Shadowless_32x32_127: 776590537
+      3_Bathroom_Shadowless_32x32_181: -1569715790
+      3_Bathroom_Shadowless_32x32_225: 1525670360
+      3_Bathroom_Shadowless_32x32_56: -2016902555
+      3_Bathroom_Shadowless_32x32_17: 606352854
+      3_Bathroom_Shadowless_32x32_59: 972559247
+      3_Bathroom_Shadowless_32x32_46: -718585667
+      3_Bathroom_Shadowless_32x32_109: 610515416
+      3_Bathroom_Shadowless_32x32_44: -206257130
+      3_Bathroom_Shadowless_32x32_12: -1087859481
+      3_Bathroom_Shadowless_32x32_77: 1944642898
+      3_Bathroom_Shadowless_32x32_123: -1570144449
+      3_Bathroom_Shadowless_32x32_191: -838625848
+      3_Bathroom_Shadowless_32x32_135: 1635706283
+      3_Bathroom_Shadowless_32x32_229: -1656546515
+      3_Bathroom_Shadowless_32x32_38: 1498280738
+      3_Bathroom_Shadowless_32x32_90: 175372438
+      3_Bathroom_Shadowless_32x32_159: -333487999
+      3_Bathroom_Shadowless_32x32_115: 1187329601
+      3_Bathroom_Shadowless_32x32_66: -608958378
+      3_Bathroom_Shadowless_32x32_227: 1861203172
+      3_Bathroom_Shadowless_32x32_37: 901604404
+      3_Bathroom_Shadowless_32x32_136: -684991667
+      3_Bathroom_Shadowless_32x32_26: -764196942
+      3_Bathroom_Shadowless_32x32_40: 117527716
+      3_Bathroom_Shadowless_32x32_95: 1681963174
+      3_Bathroom_Shadowless_32x32_61: 1034174487
+      3_Bathroom_Shadowless_32x32_145: -1663214455
+      3_Bathroom_Shadowless_32x32_65: -163457766
+      3_Bathroom_Shadowless_32x32_22: -88997016
+      3_Bathroom_Shadowless_32x32_68: 662454826
+      3_Bathroom_Shadowless_32x32_106: 979507041
+      3_Bathroom_Shadowless_32x32_219: 377461467
+      3_Bathroom_Shadowless_32x32_29: -1177481661
+      3_Bathroom_Shadowless_32x32_42: -1893303783
+      3_Bathroom_Shadowless_32x32_168: 1558655133
+      3_Bathroom_Shadowless_32x32_39: 1110531086
+      3_Bathroom_Shadowless_32x32_72: -1393301238
+      3_Bathroom_Shadowless_32x32_198: 358947990
+      3_Bathroom_Shadowless_32x32_205: -845540389
+      3_Bathroom_Shadowless_32x32_153: -1518661889
+      3_Bathroom_Shadowless_32x32_155: 985933406
+      3_Bathroom_Shadowless_32x32_108: -1811128350
+      3_Bathroom_Shadowless_32x32_124: 1206994611
+      3_Bathroom_Shadowless_32x32_149: -1346563864
+      3_Bathroom_Shadowless_32x32_202: -179244850
+      3_Bathroom_Shadowless_32x32_91: -1329057644
+      3_Bathroom_Shadowless_32x32_177: 822253459
+      3_Bathroom_Shadowless_32x32_183: 1172734661
+      3_Bathroom_Shadowless_32x32_100: 1708609829
+      3_Bathroom_Shadowless_32x32_143: 945453285
+      3_Bathroom_Shadowless_32x32_19: -485876998
+      3_Bathroom_Shadowless_32x32_64: 1942065921
+      3_Bathroom_Shadowless_32x32_70: -458678066
+      3_Bathroom_Shadowless_32x32_69: -1991219203
+      3_Bathroom_Shadowless_32x32_137: -597985202
+      3_Bathroom_Shadowless_32x32_105: -1325713997
+      3_Bathroom_Shadowless_32x32_113: -464477806
+      3_Bathroom_Shadowless_32x32_188: -1995801067
+      3_Bathroom_Shadowless_32x32_215: -1025251328
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
