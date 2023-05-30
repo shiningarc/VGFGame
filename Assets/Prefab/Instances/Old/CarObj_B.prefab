@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5326884266505281181}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.13, y: 0, z: 0.07797307}
+  m_LocalPosition: {x: 5.46, y: 0, z: 0.07797307}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -193,15 +193,12 @@ MonoBehaviour:
   InitDirection: 0
   InitPoint: {fileID: 0}
   sprites:
-  - {fileID: 1526350071, guid: b805d3b28380084489062f3d288becbc, type: 3}
-  - {fileID: -1529646431, guid: b805d3b28380084489062f3d288becbc, type: 3}
-  - {fileID: -1989268544, guid: b805d3b28380084489062f3d288becbc, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   speed: 5
-  warning: 0
-<<<<<<< Updated upstream
+  warning: 1
   carWhistle: {fileID: 6846546952122077323}
-=======
->>>>>>> Stashed changes
   playerWarning: 0
 --- !u!61 &4021871707514257987
 BoxCollider2D:

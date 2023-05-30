@@ -26,15 +26,10 @@ public class Car : MonoBehaviour
     private int CurrentTargetIndex;
     private BoxCollider2D coll;
     public bool warning;
-<<<<<<< Updated upstream
     public AudioSource carWhistle;
     public bool playerWarning;
     private float LastWhistle;
 
-=======
-    public bool playerWarning;
-    
->>>>>>> Stashed changes
     public enum CarDirection
     {
         Left, Right, Up, Down
@@ -222,32 +217,19 @@ public class Car : MonoBehaviour
     {
         if (collision.collider.gameObject.CompareTag("Player")  )
         {
-<<<<<<< Updated upstream
-            var rb_player= collision.collider.GetComponent<Rigidbody2D>();
-            var vgf_player = collision.collider.GetComponent<VGF_Player_2D>();
-            vgf_player.enabled = false;
-            rb_player.velocity = rb.velocity * 4f;
-            rb.velocity = Vector2.zero;
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
-            SoundManager.Instance.PlaySound(Globals.Crash);
-            StartCoroutine(SpeedDownPlayer(rb_player));  
-            
-            collision.collider.enabled = false;
-=======
             if(rb.velocity.magnitude > 5f)
             {
-                var rb_player = collision.collider.GetComponent<Rigidbody2D>();
+                var rb_player= collision.collider.GetComponent<Rigidbody2D>();
                 var vgf_player = collision.collider.GetComponent<VGF_Player_2D>();
                 vgf_player.enabled = false;
                 rb_player.velocity = rb.velocity * 4f;
                 rb.velocity = Vector2.zero;
                 rb.constraints = RigidbodyConstraints2D.FreezeAll;
->>>>>>> Stashed changes
-
-                StartCoroutine(SpeedDownPlayer(rb_player));
-
+                SoundManager.Instance.PlaySound(Globals.Crash);
+                StartCoroutine(SpeedDownPlayer(rb_player));  
                 collision.collider.enabled = false;
-
+                StartCoroutine(SpeedDownPlayer(rb_player));
+                collision.collider.enabled = false;
                 EventHandler.CallDoDamage2Player(1000);
             }
             else
@@ -257,7 +239,7 @@ public class Car : MonoBehaviour
             
         }
     }
-    #region ¼Ó¼õËÙ
+    #region ï¿½Ó¼ï¿½ï¿½ï¿½
     IEnumerator SpeedDownX(Rigidbody2D rb,float rate)
     {
         while(fsm.CurrentState == CarStates.Stoping)
@@ -324,11 +306,7 @@ public class Car : MonoBehaviour
         {
             warning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f),0)
                       .Where((i) => { return i.CompareTag("Car");  }).Count() > 0;
-<<<<<<< Updated upstream
             playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f,1.7f), 0)
-=======
-            playerWarning = Physics2D.OverlapBoxAll(CurrentWarning.position, new Vector2(4.8f, 1.7f), 0)
->>>>>>> Stashed changes
                       .Where((i) => { return i.CompareTag("Player"); }).Count() > 0;
         }
         else
