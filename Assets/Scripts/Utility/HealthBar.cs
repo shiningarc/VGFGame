@@ -12,6 +12,7 @@ public class HealthBar : MonoBehaviour
     public int MaxHP = 100;
     public Image healthBarUI;
     public UnityEvent OnDie;
+    public UnityEvent AfterDie;
     
     void Start()
     {
@@ -64,8 +65,9 @@ public class HealthBar : MonoBehaviour
         }
         if (HP == 0)
         {
-            yield return new WaitForSeconds(1f);
             OnDie?.Invoke();
+            yield return new WaitForSeconds(1f);
+            AfterDie?.Invoke();
         }
             
 

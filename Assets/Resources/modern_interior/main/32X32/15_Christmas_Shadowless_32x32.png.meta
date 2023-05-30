@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2514,16 +2514,16 @@ TextureImporter:
       15_Christmas_Shadowless_32x32_24: -1275504610
       15_Christmas_Shadowless_32x32_81: 1201215943
       15_Christmas_Shadowless_32x32_111: 1431943443
+      15_Christmas_Shadowless_32x32_98: 1154596954
       15_Christmas_Shadowless_32x32_47: -1066300725
-      15_Christmas_Shadowless_32x32_39: -1436704568
-      15_Christmas_Shadowless_32x32_38: -1214545629
-      15_Christmas_Shadowless_32x32_10: 484406127
       15_Christmas_Shadowless_32x32_110: -815325687
+      15_Christmas_Shadowless_32x32_10: 484406127
       15_Christmas_Shadowless_32x32_84: -961293943
       15_Christmas_Shadowless_32x32_72: -15749308
       15_Christmas_Shadowless_32x32_31: -245909281
       15_Christmas_Shadowless_32x32_69: -1909592387
       15_Christmas_Shadowless_32x32_93: 841260943
+      15_Christmas_Shadowless_32x32_38: -1214545629
       15_Christmas_Shadowless_32x32_32: 488122151
       15_Christmas_Shadowless_32x32_85: 1354423145
       15_Christmas_Shadowless_32x32_89: -1005675493
@@ -2534,7 +2534,7 @@ TextureImporter:
       15_Christmas_Shadowless_32x32_63: 2025486591
       15_Christmas_Shadowless_32x32_30: -340577427
       15_Christmas_Shadowless_32x32_21: -2132590303
-      15_Christmas_Shadowless_32x32_98: 1154596954
+      15_Christmas_Shadowless_32x32_39: -1436704568
       15_Christmas_Shadowless_32x32_4: -1909036050
       15_Christmas_Shadowless_32x32_79: -209030004
       15_Christmas_Shadowless_32x32_50: 1486234260
@@ -2542,8 +2542,8 @@ TextureImporter:
       15_Christmas_Shadowless_32x32_26: -325649679
       15_Christmas_Shadowless_32x32_35: -1836089324
       15_Christmas_Shadowless_32x32_43: 1272761446
-      15_Christmas_Shadowless_32x32_56: 1727154081
       15_Christmas_Shadowless_32x32_71: -174038748
+      15_Christmas_Shadowless_32x32_56: 1727154081
       15_Christmas_Shadowless_32x32_90: 1092362395
       15_Christmas_Shadowless_32x32_74: -71631639
       15_Christmas_Shadowless_32x32_34: 582711247

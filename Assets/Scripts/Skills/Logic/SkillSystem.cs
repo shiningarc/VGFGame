@@ -20,12 +20,14 @@ public class SkillSystem : MonoBehaviour
     public void Start()
     {
         EventHandler.NewGame += Init;
+        EventHandler.LoadGame+= Init;
         OnSkillRelease += CoolSkill;
         OnSkillChangeAvalibility += SetAvaliable;
     }
     private void OnDestroy()
     {
         EventHandler.NewGame -= Init;
+        EventHandler.LoadGame -= Init;
         OnSkillRelease -= CoolSkill;
         OnSkillChangeAvalibility -= SetAvaliable;
     }

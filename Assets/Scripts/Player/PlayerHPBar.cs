@@ -10,10 +10,12 @@ public class PlayerHPBar : HealthBar
     private void Awake()
     {
         EventHandler.NewGame += Init;
+        EventHandler.LoadGame += Init;  
     }
     private void OnDestroy()
     {
         EventHandler.NewGame -= Init;
+        EventHandler.LoadGame -= Init;
         EventHandler.DoDamage2Player -= DoDamage;
         //EventHandler.PlayerDie -= TurnToDeadScene;
     }
@@ -23,6 +25,7 @@ public class PlayerHPBar : HealthBar
         MaxHP = DataCollection.playerMaxHP;
         healthBarUI.fillAmount = (float)HP / MaxHP;
         OnDie.AddListener(OnPlayerDie);
+        AfterDie.AddListener(AfterPlayerDie);
         //EventHandler.PlayerDie += TurnToDeadScene;
         EventHandler.DoDamage2Player += DoDamage;
     }
@@ -33,6 +36,9 @@ public class PlayerHPBar : HealthBar
     public void OnPlayerDie()
     {
         EventHandler.CallPlayerDie();
+    }
+    public void AfterPlayerDie()
+    {
         TurnToDeadScene();
     }
 

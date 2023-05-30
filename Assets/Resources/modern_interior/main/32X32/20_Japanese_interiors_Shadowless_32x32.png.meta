@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -2299,13 +2299,13 @@ TextureImporter:
       20_Japanese_interiors_Shadowless_32x32_12: -401438699
       20_Japanese_interiors_Shadowless_32x32_17: 590903781
       20_Japanese_interiors_Shadowless_32x32_24: 1867433639
-      20_Japanese_interiors_Shadowless_32x32_47: 1319355368
+      20_Japanese_interiors_Shadowless_32x32_73: -1678014223
       20_Japanese_interiors_Shadowless_32x32_26: 1510457825
       20_Japanese_interiors_Shadowless_32x32_53: -478434930
       20_Japanese_interiors_Shadowless_32x32_32: 1313147992
+      20_Japanese_interiors_Shadowless_32x32_47: 1319355368
       20_Japanese_interiors_Shadowless_32x32_62: -1833734351
       20_Japanese_interiors_Shadowless_32x32_91: 1476943296
-      20_Japanese_interiors_Shadowless_32x32_73: -1678014223
       20_Japanese_interiors_Shadowless_32x32_65: 753980218
       20_Japanese_interiors_Shadowless_32x32_1: -1909718070
       20_Japanese_interiors_Shadowless_32x32_10: -1992369407

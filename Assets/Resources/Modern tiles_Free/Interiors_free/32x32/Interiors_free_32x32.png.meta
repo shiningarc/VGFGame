@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -192,9 +192,9 @@ TextureImporter:
       name: Interiors_free_32x32_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 2556
-        width: 31
+        x: 32
+        y: 2560
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -213,8 +213,8 @@ TextureImporter:
       name: Interiors_free_32x32_5
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2556
+        x: 0
+        y: 2560
         width: 32
         height: 32
       alignment: 0
@@ -319,8 +319,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 2556
-        width: 31
+        y: 2560
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -402,8 +402,8 @@ TextureImporter:
       name: Interiors_free_32x32_14
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2588
+        x: 0
+        y: 2592
         width: 32
         height: 32
       alignment: 0
@@ -1326,9 +1326,9 @@ TextureImporter:
       name: Interiors_free_32x32_58
       rect:
         serializedVersion: 2
-        x: 33
-        y: 2588
-        width: 31
+        x: 31
+        y: 2668
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3847,8 +3847,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 2588
-        width: 31
+        y: 2592
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}

@@ -23,6 +23,9 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
 
     private float lastBandage;
     public float BandageCoolDown;
+    private float LastChaosStorm;
+    public float ChaosCoolDown;
+
     //[Header("CD��UI���")]
     //public Image CDImage;
     //��ʼ�����ԣ���ȡRigidbody2D��Animator���
@@ -32,14 +35,20 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
         animator = GetComponent<Animator>();
         SkillSystem.AddActionToSkillDic(ReadyToDash, "Dash");
         SkillSystem.AddActionToSkillDic(Bandage, "Heal");
+        SkillSystem.AddActionToSkillDic(ChaosStorm, "Chaos Storm");
+        EventHandler.PlayerDie += PlayerDie;
+        animator.SetBool("Die", false);
         lastBandage = Time.time;
         lastDash = Time.time;
+        LastChaosStorm = Time.time;
     }
     protected override void OnDestroy()
     {
         base.OnDestroy();
         SkillSystem.AddActionToSkillDic(ReadyToDash,"Dash",false);
         SkillSystem.AddActionToSkillDic(Bandage, "Heal",false);
+        SkillSystem.AddActionToSkillDic(ChaosStorm, "Chaos Storm",false);
+        EventHandler.PlayerDie -= PlayerDie;
     }
     private bool _mute = false;
 
@@ -76,12 +85,17 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
                 SkillSystem.ReleaseSkill("Dash");
             }
         }
-        if(Input.GetKeyDown(KeyCode.R))
+        if(Input.GetKeyDown(KeyCode.H))
         {
             if(Time.time >= lastBandage + BandageCoolDown)
                 SkillSystem.ReleaseSkill("Heal");
         }
-        
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            if (Time.time >= LastChaosStorm + ChaosCoolDown)
+                SkillSystem.ReleaseSkill("Chaos Storm");
+        }
+
     }
     private void FixedUpdate()
     {
@@ -118,6 +132,11 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
         lastBandage = Time.time;
         EventHandler.CallDoDamage2Player(-10);
     }
+    void ChaosStorm()
+    {
+        LastChaosStorm = Time.time;
+        animator.SetTrigger("Skill1");
+    }
     void ReadyToDash()
     {
         isDashing = true;
@@ -146,5 +165,13 @@ public class VGF_Player_2D : Singleton<VGF_Player_2D>
                 dashFrameCnt = 0;
             }
         }
+    }
+    public void AfterPlayerDie()
+    {
+        animator.speed = 0;
+    }
+    public void PlayerDie()
+    {
+        animator.SetBool("Die",true);
     }
 }
