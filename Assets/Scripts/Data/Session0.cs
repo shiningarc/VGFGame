@@ -75,7 +75,7 @@ namespace VGF.Plot
                {
                    Debug.Log("Say");
                    at("Alex").Say("“迎面走来的你让我如此蠢蠢欲动~”——“你在做什么”");
-               
+                
                })
                .Interactive(() =>
                {
@@ -110,7 +110,7 @@ namespace VGF.Plot
                Arrival("人行道前", (msg) =>
                {
                    Debug.Log("2333");
-                   Word("咻————[halt 1 v 10]一辆辆汽车疾驰而过。让你感到有些紧张");
+                   Word("咻————[halt 1 v 10]一辆辆汽车疾驰而过。让你感到有些紧张","NULL");
                },"到人行道前","尝试一下穿马路吧");
                 Arrival("BankDoor", (msg) =>
                 {
